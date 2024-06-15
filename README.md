@@ -1,2 +1,2 @@
-# betbot
+# Betbot
 Betbot for matches predictions
