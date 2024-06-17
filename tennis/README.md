@@ -13,6 +13,9 @@ This folder contains components related to the Betbot project focused on tennis 
 
 Update the `ROOT_PATH` variable to reflect the directory where your project is located. This ensures that all file paths are correctly referenced and the project operates as expected.
 
+Pour les zgegs : **Comment connaître le `ROOT_PATH` ??** 
+- Ouvrir un nouveau terminal directement depuis VSC (faire `control + £`) et taper `pwd` cela donne le path qu'il faut mettre dans le `ROOT_PATH` ...
+
 ### Basics 
 
 If missing data, run : 
