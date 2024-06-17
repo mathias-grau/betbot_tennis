@@ -33,7 +33,7 @@ class TennisMatch:
         self.player2fullname = match_data["players"]["player2"]["fullname"]
         # if match_data["result"]["status"] == "FINISHED" or match_data["result"]["status"] == "INPROGRESS" or match_data["result"]["status"].split("-")[0] == "FINISHED / RETIRED ":
         if match_data["result"] != {} :
-            if match_data["result"]["status"] == "FINISHED" :
+            if match_data["result"]["status"] == "Finished" :
                 self.setsplayer1 = int(match_data["result"]["player1"])
                 self.setsplayer2 = int(match_data["result"]["player2"])
                 self.winner = 1 if self.setsplayer1 > self.setsplayer2 else -1
