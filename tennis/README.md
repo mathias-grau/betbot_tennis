@@ -52,7 +52,7 @@ To understand the model used in Betbot and its implementation details, follow th
 3. Launch Jupyter Notebook directly from root path
 
 ## Future Improvements (TODO)
-s
+
 - **Improve Model Stability**: Refine the model in `model.ipynb` to mitigate volatility in training and validation curves.
 - **Implement Feature Engineering**: Introduce advanced feature engineering techniques to enhance predictive accuracy.
 - **Explore Ensemble Methods**: Investigate ensemble learning methods to combine diverse models for improved predictions.
