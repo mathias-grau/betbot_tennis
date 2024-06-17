@@ -178,11 +178,11 @@ async def main():
         tournament = '-'.join(tournament_league.split('-')[:-2])
         league = '-'.join(tournament_league.split('-')[-2:])
         print(f"Fetching data for {tournament} - {league}")
-        matches = await get_match_id_list("french-open", "atp-singles")
+        matches = await get_match_id_list(tournament, league)
         match_dict = {}
         for i,match in tqdm(enumerate(matches)):
             match_id = match.get("id").replace("g_2_", "")
-            match_data = await get_match_data("french-open", "atp-singles", match_id)
+            match_data = await get_match_data(tournament, league, match_id)
             if match_data:
                 match_dict[match_id] = match_data
         with open(f"{c.REPO_PATH}/tennis/data/files/matches/past-{tournament}-{league}.json", "w") as f:

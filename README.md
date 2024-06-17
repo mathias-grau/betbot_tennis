@@ -22,16 +22,15 @@ requirements.txt
 tennis/
     model.ipynb
     tennis_analysis.ipynb
-    test.ipynb
-    test.py
     data/
-        tennis_matches.ipynb
         tennis_matches.py
         tennis_player_data.py
         tennis_player_ids.py
         files/
             players_data.json
             players_ids.json
+            matches/
+                ...
         utils/
             constants.py
     models/
@@ -44,6 +43,8 @@ tennis/
         classes.py
         constants.py
         functions.py
+other/
+    project_structure.py
 ```
 
 ## Installation
