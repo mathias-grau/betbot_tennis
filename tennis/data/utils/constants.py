@@ -7,6 +7,7 @@ curr_dir = os.getcwd()
 if curr_dir.endswith("betbot_tennis"):
     REPO_PATH = curr_dir
 else:
+    REPO_PATH = ''
     raise Exception("Please run this script from the root of the repository")
 
 TOURNAMENTS = [   

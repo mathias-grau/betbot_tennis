@@ -185,9 +185,7 @@ async def main():
             match_data = await get_match_data("french-open", "atp-singles", match_id)
             if match_data:
                 match_dict[match_id] = match_data
-            if i == 3 : 
-                break
-        with open(f"/users/eleves-b/2021/mathias.grau/betbot_tennis/tennis/data/files/matches/past-{tournament}-{league}.json", "w") as f:
+        with open(f"{c.REPO_PATH}/tennis/data/files/matches/past-{tournament}-{league}.json", "w") as f:
             json.dump(match_dict, f, indent=4)
 
 if __name__ == "__main__":
