@@ -327,10 +327,10 @@ async def get_player_data(playerId, fullname):
     
 
 # Path to player IDs file
-player_ids_file = "/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_ids.json"
+player_ids_file = "/users/eleves-b/2021/mathias.grau/betbot_tennis/tennis/data/files/players_ids.json"
 
 # Path to player data file
-player_data_file = "/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_data.json"
+player_data_file = "/users/eleves-b/2021/mathias.grau/betbot_tennis/tennis/data/files/players_data.json"
 
 # Load player IDs
 with open(player_ids_file, "r") as f:

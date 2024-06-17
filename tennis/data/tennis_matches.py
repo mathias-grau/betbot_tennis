@@ -6,12 +6,13 @@ import json
 from tqdm import tqdm
 import re
 import time
+import utils.constants as c
 
-BASE_URL = "https://www.flashscore.com"
+
 
 # Adjusted scrolling mechanism to scroll until no more matches are loaded
 async def get_match_id_list(tournament, league):
-    url = f"{BASE_URL}/tennis/{league}/{tournament}/results/"
+    url = f"{c.BASE_URL}/tennis/{league}/{tournament}/results/"
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -49,8 +50,7 @@ async def get_match_id_list(tournament, league):
         await browser.close()
 
 async def get_match_data(tournament, league, match_id):
-    base_url = 'https://www.flashscore.com/match/'
-    url_statistics = f'{base_url}{match_id}/#/match-summary/match-statistics/0'
+    url_statistics = f'{c.BASE_URL}/{match_id}/#/match-summary/match-statistics/0'
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -106,7 +106,7 @@ async def get_match_data(tournament, league, match_id):
         }
         
         # Fetch score data
-        url_score = f'{base_url}{match_id}/#/match-summary'
+        url_score = f'{c.BASE_URL}/{match_id}/#/match-summary'
         await page.goto(url_score, {"waitUntil": "networkidle2"})
         await asyncio.sleep(1)
         content = await page.content()
@@ -114,15 +114,15 @@ async def get_match_data(tournament, league, match_id):
         
         score_element = soup.select_one(".smh__part")
         if score_element:
-            player1_sets = [int(set_.text) for set_ in soup.select(".smh__part.smh__home.smh__part:not(.smh__home.smh__part--current)") if set_.text.isdigit()]
-            player2_sets = [int(set_.text) for set_ in soup.select(".smh__part.smh__away.smh__part:not(.smh__away.smh__part--current)") if set_.text.isdigit()]
+            player1_sets = [int(set_.text[0]) for set_ in soup.select(".smh__part.smh__home.smh__part:not(.smh__home.smh__part--current)") if set_.text.isdigit()]
+            player2_sets = [int(set_.text[0]) for set_ in soup.select(".smh__part.smh__away.smh__part:not(.smh__away.smh__part--current)") if set_.text.isdigit()]
             data["score"] = {"player1Sets": player1_sets, "player2Sets": player2_sets}
         else:
             data["score"] = None
         
         # Fetch head-to-head data
         for surface, suffix in [("h2h_overall", "overall"), ("h2h_clay", "home"), ("h2h_grass", "away"), ("h2h_hard", "3")]:
-            url_h2h = f'{base_url}{match_id}/#/h2h/{suffix}'
+            url_h2h = f'{c.BASE_URL}/{match_id}/#/h2h/{suffix}'
             await page.goto(url_h2h, {"waitUntil": "networkidle2"})
             await asyncio.sleep(1)
             content = await page.content()
@@ -151,7 +151,7 @@ async def get_match_data(tournament, league, match_id):
             data[surface] = h2h_data
         
         # Fetch odds data
-        url_odds = f'{base_url}{match_id}/#/odds-comparison/1x2-odds/full-time'
+        url_odds = f'{c.BASE_URL}/{match_id}/#/odds-comparison/1x2-odds/full-time'
         await page.goto(url_odds, {"waitUntil": "networkidle2"})
         await asyncio.sleep(1)
         content = await page.content()
@@ -174,15 +174,21 @@ async def get_match_data(tournament, league, match_id):
 
 # Example usage
 async def main():
-    matches = await get_match_id_list("french-open", "atp-singles")
-    match_dict = {}
-    for match in tqdm(matches):
-        match_id = match.get("id").replace("g_2_", "")
-        match_data = await get_match_data("french-open", "atp-singles", match_id)
-        if match_data:
-            match_dict[match_id] = match_data
-    with open("matches.json", "w") as f:
-        json.dump(match_dict, f, indent=4)
+    for tournament_league in c.TOURNAMENTS :
+        tournament = '-'.join(tournament_league.split('-')[:-2])
+        league = '-'.join(tournament_league.split('-')[-2:])
+        print(f"Fetching data for {tournament} - {league}")
+        matches = await get_match_id_list("french-open", "atp-singles")
+        match_dict = {}
+        for i,match in tqdm(enumerate(matches)):
+            match_id = match.get("id").replace("g_2_", "")
+            match_data = await get_match_data("french-open", "atp-singles", match_id)
+            if match_data:
+                match_dict[match_id] = match_data
+            if i == 3 : 
+                break
+        with open(f"/users/eleves-b/2021/mathias.grau/betbot_tennis/tennis/data/files/past-{tournament}-{league}.json", "w") as f:
+            json.dump(match_dict, f, indent=4)
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(main())
