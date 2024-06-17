@@ -1,12 +1,4 @@
-import os 
-
-curr_dir = os.getcwd()
-# if curr_dir.endswith("betbot_tennis") it is ok
-if curr_dir.endswith("betbot_tennis"):
-    REPO_PATH = curr_dir
-else:
-    REPO_PATH = ''
-    raise Exception("Please run this script from the root of the repository")
+REPO_PATH = "/users/eleves-b/2021/mathias.grau/betbot_tennis"
 
 # 1 for gran slams 2 for master 1000 3 for ATP 500 4 for ATP 250
 TOURNAMENTS_TYPE = {'french-open': 1, 
@@ -108,7 +100,7 @@ SURFACE_TYPE = {'clay': 1, 'hard': 2, 'grass': 3}
 TENNIS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/matches"
 PLAYERS_IDS_AND_NAMES_PATH = f"{REPO_PATH}/tennis/data/files/players_ids.json"
 CORRESPONDANCE_FR_IDS_ATP_IDS_PATH = f"{REPO_PATH}/tennis/data/files/fr_to_atp_ids.json"
-PLAYERS_DATA_PATH = '/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_data.json'
+PLAYERS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/players_data.json"
 TYPE_PLAY = {'Right-Handed, One-Handed Backhand': 0,
  'Right-Handed, Two-Handed Backhand': 1,
  'Left-Handed, Two-Handed Backhand': 2,

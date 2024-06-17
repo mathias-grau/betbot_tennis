@@ -529,7 +529,7 @@ class TennisMatchDataset(Dataset):
                                     ]
                     features_vectors.append(features_vector)
                     if match_data["result"] != {} :
-                        if match_data["result"]["status"] == "FINISHED" :
+                        if match_data["result"]["status"] == "Finished" :
                             sets_player1 = int(match_data["result"]["player1"])
                             sets_player2 = int(match_data["result"]["player2"])
                             if sets_player1 > sets_player2 :
