@@ -40,24 +40,25 @@ async def get_match_id_list(tournament, league):
         content = await page.content()
         soup = BeautifulSoup(content, "html.parser")
         all_matches = soup.select(".event__match.event__match--static.event__match--twoLine")
+        matches_ids = []
         for match in all_matches:
             # map(element => element?.id?.replace("g_2_", ""))
             match_id = match.get("id").replace("g_2_", "")
-        print(f"Found {len(all_matches)} matches.")
-        return all_matches
+            matches_ids.append( match_id)
+        return matches_ids
     
     finally:
         await browser.close()
 
 async def get_match_data(tournament, league, match_id):
-    url_statistics = f'{c.BASE_URL}/{match_id}/#/match-summary/match-statistics/0'
+    url_statistics = f'{c.BASE_URL}/match/{match_id}/#/match-summary/match-statistics/0'
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     
     try:
         await page.goto(url_statistics, {"waitUntil": "networkidle2"})
-        await page.waitForSelector(".duelParticipant__home")
+        await page.waitForSelector(".duelParticipant")
         content = await page.content()
         soup = BeautifulSoup(content, "html.parser")
         
@@ -106,7 +107,7 @@ async def get_match_data(tournament, league, match_id):
         }
         
         # Fetch score data
-        url_score = f'{c.BASE_URL}/{match_id}/#/match-summary'
+        url_score = f'{c.BASE_URL}/match/{match_id}/#/match-summary'
         await page.goto(url_score, {"waitUntil": "networkidle2"})
         await asyncio.sleep(1)
         content = await page.content()
@@ -122,7 +123,7 @@ async def get_match_data(tournament, league, match_id):
         
         # Fetch head-to-head data
         for surface, suffix in [("h2h_overall", "overall"), ("h2h_clay", "home"), ("h2h_grass", "away"), ("h2h_hard", "3")]:
-            url_h2h = f'{c.BASE_URL}/{match_id}/#/h2h/{suffix}'
+            url_h2h = f'{c.BASE_URL}/match/{match_id}/#/h2h/{suffix}'
             await page.goto(url_h2h, {"waitUntil": "networkidle2"})
             await asyncio.sleep(1)
             content = await page.content()
@@ -151,7 +152,7 @@ async def get_match_data(tournament, league, match_id):
             data[surface] = h2h_data
         
         # Fetch odds data
-        url_odds = f'{c.BASE_URL}/{match_id}/#/odds-comparison/1x2-odds/full-time'
+        url_odds = f'{c.BASE_URL}/match/{match_id}/#/odds-comparison/1x2-odds/full-time'
         await page.goto(url_odds, {"waitUntil": "networkidle2"})
         await asyncio.sleep(1)
         content = await page.content()
@@ -168,20 +169,26 @@ async def get_match_data(tournament, league, match_id):
         data["odds"] = odds
         
         return data
-
+    except Exception as e:
+        tqdm.write(f"Error fetching data for {tournament} - {league} - {match_id}: {e}")
     finally:
         await browser.close()
 
 # Example usage
 async def main():
     for tournament_league in c.TOURNAMENTS :
+        # check if the tournament already downloaded
+        if os.path.exists(f"{c.REPO_PATH}/tennis/data/files/matches/past-{tournament_league}.json"):
+            print(f"Data for {tournament_league} already downloaded")
+            continue
         tournament = '-'.join(tournament_league.split('-')[:-2])
         league = '-'.join(tournament_league.split('-')[-2:])
         print(f"Fetching data for {tournament} - {league}")
-        matches = await get_match_id_list(tournament, league)
+        match_ids = await get_match_id_list(tournament, league)
+        print(f"Found {len(match_ids)} matches")
         match_dict = {}
-        for i,match in tqdm(enumerate(matches)):
-            match_id = match.get("id").replace("g_2_", "")
+        for i,match_id in tqdm(enumerate(match_ids)):
+            tqdm.write(f"Fetching data for match {match_id}")
             match_data = await get_match_data(tournament, league, match_id)
             if match_data:
                 match_dict[match_id] = match_data
