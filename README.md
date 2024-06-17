@@ -59,3 +59,12 @@ To install the required dependencies, run the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Important!
+
+**ATTENTION**: Before running any scripts or notebooks, ensure to set the `ROOT_PATH` variable in the following files to the base root of your project:
+
+- `tennis/utils/constants.py`
+- `tennis/data/utils/constants.py`
+
+Update the `ROOT_PATH` variable to reflect the directory where your project is located. This ensures that all file paths are correctly referenced and the project operates as expected.

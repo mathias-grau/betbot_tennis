@@ -2,6 +2,26 @@
 
 This folder contains components related to the Betbot project focused on tennis match predictions.
 
+## Set Up 
+
+### Important!
+
+**ATTENTION**: Before running any scripts or notebooks, ensure to set the `ROOT_PATH` variable in the following files to the base root of your project:
+
+- `tennis/utils/constants.py`
+- `tennis/data/utils/constants.py`
+
+Update the `ROOT_PATH` variable to reflect the directory where your project is located. This ensures that all file paths are correctly referenced and the project operates as expected.
+
+### Basics 
+
+If missing data, run : 
+
+- `data/tennis_matches.py`
+- `data/tennis_player_ids.py`
+- `data/tennis_player_data.py`
+
+
 ## Contents
 
 - `model.ipynb`: Jupyter notebook containing the model implementation and analysis. Run this notebook to understand the model architecture, data preprocessing steps, and insights derived from the analysis.
