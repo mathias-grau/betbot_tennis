@@ -7,7 +7,7 @@ from tqdm import tqdm
 import re
 import time
 import utils.constants as c
-
+import time 
 
 
 # Adjusted scrolling mechanism to scroll until no more matches are loaded
@@ -171,6 +171,9 @@ async def get_match_data(tournament, league, match_id):
         return data
     except Exception as e:
         tqdm.write(f"Error fetching data for {tournament} - {league} - {match_id}: {e}")
+        # write in error file
+        with open(f"{c.REPO_PATH}/tennis/data/files/errors.txt", "a") as f:
+            f.write(f"Error fetching data ({time.strftime('%Y-%m-%d %H:%M:%S')}) for {tournament} - {league} - {match_id}: {e}\n")
     finally:
         await browser.close()
 
