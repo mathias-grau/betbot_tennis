@@ -484,7 +484,7 @@ class TennisMatchDataset(Dataset):
                             match_date = time.mktime(time.strptime(previous_match["date"], "%d.%m.%y"))
                             if match_date < true_match_date - 60*60*24:
                                 i+=1
-                                if previous_match["resultPlayer1"] == "-":
+                                if previous_match["resultPlayer1"] == "-" or previous_match["resultPlayer1"] == None:
                                     continue
                                 specific_match_winner = "player1" if int(previous_match["resultPlayer1"]) > int(previous_match["resultPlayer2"]) else "player2"
                                 if previous_match[specific_match_winner] == player1name:
@@ -507,7 +507,7 @@ class TennisMatchDataset(Dataset):
                             match_date = time.mktime(time.strptime(previous_match["date"], "%d.%m.%y"))
                             if match_date < true_match_date - 60*60*24:
                                 i+=1
-                                if previous_match["resultPlayer1"] == "-":
+                                if previous_match["resultPlayer1"] == "-" or previous_match["resultPlayer1"] == None:
                                     continue
                                 specific_match_winner = "player1" if int(previous_match["resultPlayer1"]) > int(previous_match["resultPlayer2"]) else "player2"
                                 if previous_match[specific_match_winner] == player1name:
