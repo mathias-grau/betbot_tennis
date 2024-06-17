@@ -61,5 +61,5 @@ async def get_player_ids():
 players_ids = asyncio.run(get_player_ids())
 
 # save it to a json file in /users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_ids.json
-with open('/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_ids.json', 'w') as f:
+with open('/users/eleves-b/2021/mathias.grau/betbot_tennis/tennis/data/files/players_ids.json', 'w') as f:
     json.dump(players_ids, f, indent=4)

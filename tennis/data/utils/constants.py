@@ -1,19 +1,28 @@
+import os 
+
 BASE_URL = "https://www.flashscore.com"
 
+curr_dir = os.getcwd()
+# if curr_dir.endswith("betbot_tennis") it is ok
+if curr_dir.endswith("betbot_tennis"):
+    REPO_PATH = curr_dir
+else:
+    raise Exception("Please run this script from the root of the repository")
+
 TOURNAMENTS = [   
-"french-open-atp-singles",
-"australian-open-atp-singles",
 "rome-atp-singles",
 "madrid-atp-singles",
 "monte-carlo-atp-singles",
 "lyon-atp-singles",
 "barcelona-atp-singles",
+"french-open-atp-singles",
 "munich-atp-singles",
 "geneva-atp-singles",
 "estoril-atp-singles",
 "houston-atp-singles",
 "marrakech-atp-singles",
 "bucharest-atp-singles",
+"australian-open-atp-singles",
 "doha-atp-singles",
 "dubai-atp-singles",
 "indian-wells-atp-singles",
