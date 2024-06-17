@@ -13,15 +13,12 @@ Betbot is a tool designed to predict outcomes of tennis matches by analyzing dat
 - Provides predictions based on historical and current data.
 - User-friendly command-line interface for easy interaction.
 
-## Installation
-
-To install the required dependencies, run the following command:
+## Organisation
 
 ```bash
 LICENSE
 README.md
 requirements.txt
-project_structure.py
 tennis/
     model.ipynb
     tennis_analysis.ipynb
@@ -48,6 +45,11 @@ tennis/
         constants.py
         functions.py
 ```
+
+## Installation
+
+To install the required dependencies, run the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
