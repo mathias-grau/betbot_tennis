@@ -1,6 +1,6 @@
 # Betbot
 
-Betbot for tennis match predictions based on FlashResultat statistics and ATP statistics.
+Betbot for tennis match predictions based on `FlashResultat` statistics and `ATPtour` statistics.
 
 ## Description
 
