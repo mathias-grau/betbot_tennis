@@ -23,9 +23,9 @@ tennis/
     model.ipynb
     tennis_analysis.ipynb
     data/
-        tennis_matches.py
-        tennis_player_data.py
-        tennis_player_ids.py
+        tennis_matches.py        # Fetches match data from FlashResultat
+        tennis_player_data.py    # Fetches player data from ATPtour
+        tennis_player_ids.py     # Fetches player IDs from ATPtour
         files/
             players_data.json
             players_ids.json
@@ -46,6 +46,11 @@ tennis/
 other/
     project_structure.py
 ```
+
+- `tennis_matches.py`: Fetches real-time tennis match data including scores, player matchups, and match details from FlashResultat.
+- `tennis_player_data.py`: Retrieves ATP player statistics such as rankings, performance metrics, and historical data from ATPtour.
+- `tennis_player_ids.py`: Manages the retrieval of ATP player IDs and associated metadata required for player data lookup and analysis.
+
 
 ## Installation
 
