@@ -104,12 +104,13 @@ TENNIS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/matches"
 PLAYERS_IDS_AND_NAMES_PATH = f"{REPO_PATH}/tennis/data/files/players_ids.json"
 CORRESPONDANCE_FR_IDS_ATP_IDS_PATH = f"{REPO_PATH}/tennis/data/files/fr_to_atp_ids.json"
 PLAYERS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/players_data.json"
-TYPE_PLAY = {'Right-Handed, One-Handed Backhand': 0,
- 'Right-Handed, Two-Handed Backhand': 1,
- 'Left-Handed, Two-Handed Backhand': 2,
- 'Left-Handed, One-Handed Backhand': 3,
- 'Right-Handed, Unknown Backhand': 4,
- 'Left-Handed, Unknown Backhand': 5,}
+MAX_TYPE_PLAY_VALUE = 3
+TYPE_PLAY = {'Right-Handed, One-Handed Backhand': 3,
+ 'Right-Handed, Two-Handed Backhand': 2,
+ 'Left-Handed, Two-Handed Backhand': -2,
+ 'Left-Handed, One-Handed Backhand': -3,
+ 'Right-Handed, Unknown Backhand': 1,
+ 'Left-Handed, Unknown Backhand': -1,}
 
 TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'us-open': 'hard',

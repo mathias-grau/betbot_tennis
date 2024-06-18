@@ -392,7 +392,7 @@ class TennisMatchDataset(Dataset):
                         else:
                             player_features_vector.append(c.PADDING)
                         # player_features_vector.append(float(playerdata["data"]["weight"].split("(")[-1].split("kg")[0]) if playerdata["data"]["weight"] != "" else c.PADDING)
-                        player_features_vector.append(float(c.TYPE_PLAY[playerdata["data"]["typePlays"]])/len(c.TYPE_PLAY) if playerdata["data"]["typePlays"] != "" else c.PADDING)
+                        player_features_vector.append(float(c.TYPE_PLAY[playerdata["data"]["typePlays"]])/c.MAX_TYPE_PLAY_VALUE if playerdata["data"]["typePlays"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["1st Serve"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["1st Serve"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["1st Serve Points Won"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["1st Serve Points Won"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["2nd Serve Points Won"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["2nd Serve Points Won"] != "" else c.PADDING)
