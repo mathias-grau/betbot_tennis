@@ -116,8 +116,8 @@ class TennisMatch:
         match_data = self.get_match_data()
         # features about tournament 
         tournament_features_vector = []
-        tournament_features_vector.append(float(c.TOURNAMENTS_TYPE[self.tournament]) if self.tournament in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
-        tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[self.tournament]]) if self.tournament in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
+        tournament_features_vector.append(c.MAX_TOURNAMENTS_TYPE_VALUE - float(c.TOURNAMENTS_TYPE[self.tournament])/(c.MAX_TOURNAMENTS_TYPE_VALUE - 1) if self.tournament in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
+        tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[self.tournament]])/c.MAX_SURFACE_TYPE_VALUE if self.tournament in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
 
         def create_player_feature_vector(playerdata) : 
             player_features_vector = []
@@ -379,8 +379,8 @@ class TennisMatchDataset(Dataset):
                     player1name = match_data["players"]["player1"]["name"]
                     player2data = self.get_players_atp_data(correspondance_frid_to_atpid, players_data, match_data["players"]["player2"]["id"])
                     tournament_features_vector = []
-                    tournament_features_vector.append(float(c.TOURNAMENTS_TYPE[tournament_name]) if tournament_name in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
-                    tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[tournament_name]]) if tournament_name in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
+                    tournament_features_vector.append((c.MAX_TOURNAMENTS_TYPE_VALUE - float(c.TOURNAMENTS_TYPE[tournament_name]) )/(c.MAX_TOURNAMENTS_TYPE_VALUE -1) if tournament_name in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
+                    tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[tournament_name]])/c.MAX_SURFACE_TYPE_VALUE if tournament_name in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
 
                     def create_player_feature_vector(playerdata) : 
                         player_features_vector = []

@@ -1,5 +1,7 @@
 REPO_PATH = "/users/eleves-b/2021/mathias.grau/betbot_tennis"
 
+MAX_TOURNAMENTS_TYPE_VALUE = 4
+
 # 1 for gran slams 2 for master 1000 3 for ATP 500 4 for ATP 250
 TOURNAMENTS_TYPE = {'french-open': 1, 
                     'us-open': 1,
@@ -96,7 +98,8 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'stuttgart': 3,
                     'hertogenbosch': 3,
 }
-SURFACE_TYPE = {'clay': 1, 'hard': 2, 'grass': 3}
+MAX_SURFACE_TYPE_VALUE = 3
+SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
 TENNIS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/matches"
 PLAYERS_IDS_AND_NAMES_PATH = f"{REPO_PATH}/tennis/data/files/players_ids.json"
 CORRESPONDANCE_FR_IDS_ATP_IDS_PATH = f"{REPO_PATH}/tennis/data/files/fr_to_atp_ids.json"
