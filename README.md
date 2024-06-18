@@ -34,17 +34,11 @@ tennis/
         utils/
             constants.py
     models/
-        best_model_fold_1.pth
-        best_model_fold_2.pth
-        best_model_fold_3.pth
-        best_model_fold_4.pth
-        best_model_fold_5.pth
+        ...
     utils/
         classes.py
         constants.py
         functions.py
-other/
-    project_structure.py
 ```
 
 - `tennis_matches.py`: Fetches real-time tennis match data including scores, player matchups, and match details from FlashResultat.
