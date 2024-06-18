@@ -34,17 +34,11 @@ tennis/
         utils/
             constants.py
     models/
-        best_model_fold_1.pth
-        best_model_fold_2.pth
-        best_model_fold_3.pth
-        best_model_fold_4.pth
-        best_model_fold_5.pth
+        ...
     utils/
         classes.py
         constants.py
         functions.py
-other/
-    project_structure.py
 ```
 
 - `tennis_matches.py`: Fetches real-time tennis match data including scores, player matchups, and match details from FlashResultat.
@@ -59,3 +53,12 @@ To install the required dependencies, run the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Important!
+
+**ATTENTION**: Before running any scripts or notebooks, ensure to set the `ROOT_PATH` variable in the following files to the base root of your project:
+
+- `tennis/utils/constants.py`
+- `tennis/data/utils/constants.py`
+
+Update the `ROOT_PATH` variable to reflect the directory where your project is located. This ensures that all file paths are correctly referenced and the project operates as expected.

@@ -33,7 +33,7 @@ class TennisMatch:
         self.player2fullname = match_data["players"]["player2"]["fullname"]
         # if match_data["result"]["status"] == "FINISHED" or match_data["result"]["status"] == "INPROGRESS" or match_data["result"]["status"].split("-")[0] == "FINISHED / RETIRED ":
         if match_data["result"] != {} :
-            if match_data["result"]["status"] == "FINISHED" :
+            if match_data["result"]["status"] == "Finished" :
                 self.setsplayer1 = int(match_data["result"]["player1"])
                 self.setsplayer2 = int(match_data["result"]["player2"])
                 self.winner = 1 if self.setsplayer1 > self.setsplayer2 else -1
@@ -116,8 +116,8 @@ class TennisMatch:
         match_data = self.get_match_data()
         # features about tournament 
         tournament_features_vector = []
-        tournament_features_vector.append(float(c.TOURNAMENTS_TYPE[self.tournament]) if self.tournament in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
-        tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[self.tournament]]) if self.tournament in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
+        tournament_features_vector.append(c.MAX_TOURNAMENTS_TYPE_VALUE - float(c.TOURNAMENTS_TYPE[self.tournament])/(c.MAX_TOURNAMENTS_TYPE_VALUE - 1) if self.tournament in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
+        tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[self.tournament]])/c.MAX_SURFACE_TYPE_VALUE if self.tournament in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
 
         def create_player_feature_vector(playerdata) : 
             player_features_vector = []
@@ -379,8 +379,8 @@ class TennisMatchDataset(Dataset):
                     player1name = match_data["players"]["player1"]["name"]
                     player2data = self.get_players_atp_data(correspondance_frid_to_atpid, players_data, match_data["players"]["player2"]["id"])
                     tournament_features_vector = []
-                    tournament_features_vector.append(float(c.TOURNAMENTS_TYPE[tournament_name]) if tournament_name in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
-                    tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[tournament_name]]) if tournament_name in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
+                    tournament_features_vector.append((c.MAX_TOURNAMENTS_TYPE_VALUE - float(c.TOURNAMENTS_TYPE[tournament_name]) )/(c.MAX_TOURNAMENTS_TYPE_VALUE -1) if tournament_name in c.TOURNAMENTS_TYPE.keys() else c.PADDING)
+                    tournament_features_vector.append(float(c.SURFACE_TYPE[c.TOURNAMENTS_SURFACE[tournament_name]])/c.MAX_SURFACE_TYPE_VALUE if tournament_name in c.TOURNAMENTS_SURFACE.keys() else c.PADDING)
 
                     def create_player_feature_vector(playerdata) : 
                         player_features_vector = []
@@ -392,7 +392,7 @@ class TennisMatchDataset(Dataset):
                         else:
                             player_features_vector.append(c.PADDING)
                         # player_features_vector.append(float(playerdata["data"]["weight"].split("(")[-1].split("kg")[0]) if playerdata["data"]["weight"] != "" else c.PADDING)
-                        player_features_vector.append(float(c.TYPE_PLAY[playerdata["data"]["typePlays"]])/len(c.TYPE_PLAY) if playerdata["data"]["typePlays"] != "" else c.PADDING)
+                        player_features_vector.append(float(c.TYPE_PLAY[playerdata["data"]["typePlays"]])/c.MAX_TYPE_PLAY_VALUE if playerdata["data"]["typePlays"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["1st Serve"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["1st Serve"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["1st Serve Points Won"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["1st Serve Points Won"] != "" else c.PADDING)
                         # player_features_vector.append(float(playerdata["statistics"]["all"]["serve"]["2nd Serve Points Won"].split("%")[0])/100 if playerdata["statistics"]["all"]["serve"]["2nd Serve Points Won"] != "" else c.PADDING)
@@ -484,7 +484,7 @@ class TennisMatchDataset(Dataset):
                             match_date = time.mktime(time.strptime(previous_match["date"], "%d.%m.%y"))
                             if match_date < true_match_date - 60*60*24:
                                 i+=1
-                                if previous_match["resultPlayer1"] == "-":
+                                if previous_match["resultPlayer1"] == "-" or previous_match["resultPlayer1"] == None:
                                     continue
                                 specific_match_winner = "player1" if int(previous_match["resultPlayer1"]) > int(previous_match["resultPlayer2"]) else "player2"
                                 if previous_match[specific_match_winner] == player1name:
@@ -507,7 +507,7 @@ class TennisMatchDataset(Dataset):
                             match_date = time.mktime(time.strptime(previous_match["date"], "%d.%m.%y"))
                             if match_date < true_match_date - 60*60*24:
                                 i+=1
-                                if previous_match["resultPlayer1"] == "-":
+                                if previous_match["resultPlayer1"] == "-" or previous_match["resultPlayer1"] == None:
                                     continue
                                 specific_match_winner = "player1" if int(previous_match["resultPlayer1"]) > int(previous_match["resultPlayer2"]) else "player2"
                                 if previous_match[specific_match_winner] == player1name:
@@ -529,7 +529,7 @@ class TennisMatchDataset(Dataset):
                                     ]
                     features_vectors.append(features_vector)
                     if match_data["result"] != {} :
-                        if match_data["result"]["status"] == "FINISHED" :
+                        if match_data["result"]["status"] == "Finished" :
                             sets_player1 = int(match_data["result"]["player1"])
                             sets_player2 = int(match_data["result"]["player2"])
                             if sets_player1 > sets_player2 :

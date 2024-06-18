@@ -2,6 +2,7 @@ from Levenshtein import distance
 import numpy as np
 import json
 import os 
+import utils.constants as c
 
 def find_ATP_name(name : str, ATP_players_names : list):
     # use levenstein distance to find the closest name
@@ -15,14 +16,14 @@ def find_ATP_name(name : str, ATP_players_names : list):
     return closest_name, min_distance
 
 def update_id_table(tennis_dataset) :
-    players_ids_and_names_file = '/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/players_ids.json'
+    players_ids_and_names_file = f'{c.REPO_PATH}/tennis/data/files/players_ids.json'
     with open(players_ids_and_names_file, 'r') as f:
         players_ids_and_names = json.load(f)
 
     atp_names_to_id = players_ids_and_names['players_names']
     atp_names = list(atp_names_to_id.keys())
 
-    fr_to_atp_ids_dict_path = '/users/eleves-b/2021/mathias.grau/betbot/FlashscoreScraping/src/data/tennis/fr_to_atp_ids.json'
+    fr_to_atp_ids_dict_path = f'{c.REPO_PATH}/tennis/data/files/fr_to_atp_ids.json'
     if os.path.getsize(fr_to_atp_ids_dict_path) == 0:
         correspondance_dict = {}
     else:

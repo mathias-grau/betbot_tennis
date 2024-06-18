@@ -13,7 +13,7 @@ import time
 # Adjusted scrolling mechanism to scroll until no more matches are loaded
 async def get_match_id_list(tournament, league):
     url = f"{c.BASE_URL}/tennis/{league}/{tournament}/results/"
-    browser = await launch(headless=True)
+    browser = await launch(headless=True, args=['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--disable-software-rasterizer', '--disable-setuid-sandbox'])    
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     
@@ -52,7 +52,7 @@ async def get_match_id_list(tournament, league):
 
 async def get_match_data(tournament, league, match_id):
     url_statistics = f'{c.BASE_URL}/match/{match_id}/#/match-summary/match-statistics/0'
-    browser = await launch(headless=True)
+    browser = await launch(headless=True, args=['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--disable-software-rasterizer', '--disable-setuid-sandbox'])    
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
     

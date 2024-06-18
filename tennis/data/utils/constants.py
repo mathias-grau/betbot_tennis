@@ -2,13 +2,7 @@ import os
 
 BASE_URL = "https://www.flashscore.com"
 
-curr_dir = os.getcwd()
-# if curr_dir.endswith("betbot_tennis") it is ok
-if curr_dir.endswith("betbot_tennis"):
-    REPO_PATH = curr_dir
-else:
-    REPO_PATH = ''
-    raise Exception("Please run this script from the root of the repository")
+REPO_PATH = "/users/eleves-b/2021/mathias.grau/betbot_tennis"
 
 TOURNAMENTS = [   
 "rome-atp-singles",
