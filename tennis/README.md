@@ -58,6 +58,7 @@ To understand the model used in Betbot and its implementation details, follow th
 - **Explore Ensemble Methods**: Investigate ensemble learning methods to combine diverse models for improved predictions.
 - **Optimize Hyperparameters**: Fine-tune model hyperparameters systematically to enhance performance and generalization.
 - **Enhance Data Preprocessing**: Improve data preprocessing methods to ensure higher quality input for the model, because there are a lot of missing data in the datasets.
+- **Enhance players data fetching**: Differentiate between the different surfaces when fetching the players' statistics. 
 
 These tasks outline areas for future development and enhancement of Betbot's predictive capabilities.
 
