@@ -87,4 +87,10 @@ TOURNAMENTS = [
 "paris-2023-atp-singles",
 "metz-2023-atp-singles",
 "finals-turin-2023-atp-singles",
+"stuttgart-atp-singles",
+"hertogenbosch-atp-singles",
+"halle-atp-singles",
+"london-atp-singles",
+"mallorca-atp-singles",
+"eastbourne-atp-singles",
 ]

@@ -97,6 +97,10 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'finals-turin-2023': 2,
                     'stuttgart': 3,
                     'hertogenbosch': 3,
+                    'halle': 3,
+                    'london': 3,
+                    'mallorca': 3,
+                    'eastbourne': 3,
 }
 MAX_SURFACE_TYPE_VALUE = 3
 SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
@@ -206,6 +210,10 @@ TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'finals-turin-2023': 'hard',
                     'stuttgart': 'grass',
                     'hertogenbosch': 'grass',
+                    'halle': 'grass',
+                    'london': 'grass',
+                    'mallorca': 'grass',
+                    'eastbourne': 'grass',
 }
 
 PADDING = 0
