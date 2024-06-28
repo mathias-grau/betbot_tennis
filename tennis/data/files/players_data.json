@@ -70474,5 +70474,3942 @@
                 }
             }
         }
+    },
+    "d994": {
+        "playerId": "d994",
+        "fullname": "james-duckworth",
+        "data": {
+            "playerName": "James Duckworth",
+            "age": "32 (1992.01.21)",
+            "weight": "181 lbs (82kg)",
+            "height": "6'0\" (183cm)",
+            "turnedPro": "2010",
+            "socialMediaLinks": [
+                {
+                    "platform": "instagram",
+                    "url": "https://www.instagram.com/jamesduckworth21/"
+                },
+                {
+                    "platform": "x",
+                    "url": "https://twitter.com/jamesduck21"
+                }
+            ],
+            "country": "Australia",
+            "birthplace": "Sydney, Australia",
+            "typePlays": "Right-Handed, Two-Handed Backhand",
+            "coach": "Wayne Arthurs"
+        },
+        "href": "https://www.atptour.com/en/players/james-duckworth/d994/overview",
+        "statistics": {
+            "all": {
+                "serve": {
+                    "Aces": "1399",
+                    "Double Faults": "477",
+                    "1st Serve": "57%",
+                    "1st Serve Points Won": "73%",
+                    "2nd Serve Points Won": "51%",
+                    "Break Points Faced": "1253",
+                    "Break Points Saved": "63%",
+                    "Service Games Played": "2214",
+                    "Service Games Won": "79%",
+                    "Total Service Points Won": "63%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "24%",
+                    "2nd Serve Return Points Won": "48%",
+                    "Break Points Opportunities": "920",
+                    "Break Points Converted": "37%",
+                    "Return Games Played": "2199",
+                    "Return Games Won": "15%",
+                    "Return Points Won": "33%",
+                    "Total Points Won": "49%"
+                }
+            },
+            "hard": {
+                "serve": {
+                    "Aces": "1056",
+                    "Double Faults": "346",
+                    "1st Serve": "57%",
+                    "1st Serve Points Won": "73%",
+                    "2nd Serve Points Won": "51%",
+                    "Break Points Faced": "878",
+                    "Break Points Saved": "63%",
+                    "Service Games Played": "1581",
+                    "Service Games Won": "80%",
+                    "Total Service Points Won": "63%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "25%",
+                    "2nd Serve Return Points Won": "47%",
+                    "Break Points Opportunities": "661",
+                    "Break Points Converted": "37%",
+                    "Return Games Played": "1572",
+                    "Return Games Won": "16%",
+                    "Return Points Won": "33%",
+                    "Total Points Won": "49%"
+                }
+            },
+            "clay": {
+                "serve": {
+                    "Aces": "111",
+                    "Double Faults": "48",
+                    "1st Serve": "55%",
+                    "1st Serve Points Won": "72%",
+                    "2nd Serve Points Won": "49%",
+                    "Break Points Faced": "163",
+                    "Break Points Saved": "67%",
+                    "Service Games Played": "217",
+                    "Service Games Won": "75%",
+                    "Total Service Points Won": "61%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "24%",
+                    "2nd Serve Return Points Won": "43%",
+                    "Break Points Opportunities": "89",
+                    "Break Points Converted": "33%",
+                    "Return Games Played": "215",
+                    "Return Games Won": "13%",
+                    "Return Points Won": "31%",
+                    "Total Points Won": "47%"
+                }
+            },
+            "grass": {
+                "serve": {
+                    "Aces": "232",
+                    "Double Faults": "83",
+                    "1st Serve": "58%",
+                    "1st Serve Points Won": "72%",
+                    "2nd Serve Points Won": "52%",
+                    "Break Points Faced": "212",
+                    "Break Points Saved": "61%",
+                    "Service Games Played": "416",
+                    "Service Games Won": "80%",
+                    "Total Service Points Won": "64%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "23%",
+                    "2nd Serve Return Points Won": "51%",
+                    "Break Points Opportunities": "170",
+                    "Break Points Converted": "38%",
+                    "Return Games Played": "412",
+                    "Return Games Won": "16%",
+                    "Return Points Won": "33%",
+                    "Total Points Won": "49%"
+                }
+            }
+        },
+        "match_records": {
+            "Overall": {
+                "ytd_wl": "8 \u2013 6",
+                "ytd_index": "0.571",
+                "career_wl": "64 \u2013 99",
+                "career_index": "0.393",
+                "career_titles": "0"
+            },
+            "Grand Slams": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "10 \u2013 32",
+                "career_index": "0.238",
+                "career_titles": "0"
+            },
+            "ATP Masters 1000": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "9 \u2013 7",
+                "career_index": "0.563",
+                "career_titles": "0"
+            },
+            "Pressure points": {},
+            "Tie breaks": {
+                "ytd_wl": "7 \u2013 2",
+                "ytd_index": "0.778",
+                "career_wl": "47 \u2013 50",
+                "career_index": "0.485",
+                "career_titles": ""
+            },
+            "Versus Top 10": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 12",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Finals": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 1",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Deciding set": {
+                "ytd_wl": "2 \u2013 2",
+                "ytd_index": "0.500",
+                "career_wl": "24 \u2013 35",
+                "career_index": "0.407",
+                "career_titles": ""
+            },
+            "5th Set Record": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "4 \u2013 8",
+                "career_index": "0.333",
+                "career_titles": ""
+            },
+            "Environment": {},
+            "Clay": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "4 \u2013 10",
+                "career_index": "0.286",
+                "career_titles": "0"
+            },
+            "Grass": {
+                "ytd_wl": "3 \u2013 2",
+                "ytd_index": "0.600",
+                "career_wl": "11 \u2013 17",
+                "career_index": "0.393",
+                "career_titles": "0"
+            },
+            "Hard": {
+                "ytd_wl": "4 \u2013 3",
+                "ytd_index": "0.571",
+                "career_wl": "49 \u2013 72",
+                "career_index": "0.405",
+                "career_titles": "0"
+            },
+            "Carpet**": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Indoor": {
+                "ytd_wl": "2 \u2013 1",
+                "ytd_index": "0.667",
+                "career_wl": "12 \u2013 10",
+                "career_index": "0.545",
+                "career_titles": "0"
+            },
+            "Outdoor": {
+                "ytd_wl": "6 \u2013 5",
+                "ytd_index": "0.545",
+                "career_wl": "52 \u2013 89",
+                "career_index": "0.369",
+                "career_titles": "0"
+            },
+            "Other": {},
+            "After Winning 1st Set": {
+                "ytd_wl": "7 \u2013 1",
+                "ytd_index": "0.875",
+                "career_wl": "50 \u2013 25",
+                "career_index": "0.667",
+                "career_titles": ""
+            },
+            "After Losing 1st Set": {
+                "ytd_wl": "1 \u2013 5",
+                "ytd_index": "0.167",
+                "career_wl": "14 \u2013 74",
+                "career_index": "0.159",
+                "career_titles": ""
+            },
+            "vs. Right Handers*": {
+                "ytd_wl": "6 \u2013 5",
+                "ytd_index": "0.545",
+                "career_wl": "54 \u2013 85",
+                "career_index": "0.388",
+                "career_titles": ""
+            },
+            "vs. Left Handers*": {
+                "ytd_wl": "2 \u2013 1",
+                "ytd_index": "0.667",
+                "career_wl": "10 \u2013 14",
+                "career_index": "0.417",
+                "career_titles": ""
+            }
+        },
+        "results": {
+            "2023": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Hurkacz",
+                            "opponent_rank": 9,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Fonseca",
+                            "opponent_rank": 217,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "C. Moutet",
+                            "opponent_rank": 55,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Karatsev",
+                            "opponent_rank": 97,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Stuttgart": {
+                    "location": "Stuttgart, Germany",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Berrettini",
+                            "opponent_rank": 95,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Shelton",
+                            "opponent_rank": 14,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Herbert",
+                            "opponent_rank": 139,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Molleker",
+                            "opponent_rank": 196,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "K. Sultanov",
+                            "opponent_rank": 330,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Surbiton": {
+                    "location": "Surbiton, Great Britain",
+                    "date": "3 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Zhukayev",
+                            "opponent_rank": 171,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "O. Jasika",
+                            "opponent_rank": 206,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Janvier",
+                            "opponent_rank": 217,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Taipei": {
+                    "location": "Taipei, Chinese Taipei",
+                    "date": "13 May, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 111,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Fery",
+                            "opponent_rank": 249,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Ramanathan",
+                            "opponent_rank": 358,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "M. Sasikumar",
+                            "opponent_rank": 471,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Guangzhou": {
+                    "location": "Guangzhou, China",
+                    "date": "29 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Bu",
+                            "opponent_rank": 167,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Berankis",
+                            "opponent_rank": 329,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "D. Sweeny",
+                            "opponent_rank": 224,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Shenzhen (Luohu)": {
+                    "location": "Shenzhen, China",
+                    "date": "22 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Harris",
+                            "opponent_rank": 149,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Bertola",
+                            "opponent_rank": 392,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "M. Bellucci",
+                            "opponent_rank": 181,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Escoffier",
+                            "opponent_rank": 236,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Te",
+                            "opponent_rank": 485,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Gwangju": {
+                    "location": "Gwangju, South Korea",
+                    "date": "15 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Hsu",
+                            "opponent_rank": 256,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Busan": {
+                    "location": "Busan, South Korea",
+                    "date": "8 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Uchiyama",
+                            "opponent_rank": 241,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "I. Marchenko",
+                            "opponent_rank": 256,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Fery",
+                            "opponent_rank": 271,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Roh",
+                            "opponent_rank": 0,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Houston": {
+                    "location": "Houston, United States",
+                    "date": "1 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 21,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "G. Brouwer",
+                            "opponent_rank": 199,
+                            "result": 1
+                        }
+                    ]
+                },
+                "San Luis Potosi": {
+                    "location": "San Luis Potosi, Mexico",
+                    "date": "25 Mar, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Galarneau",
+                            "opponent_rank": 221,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Zhukayev",
+                            "opponent_rank": 191,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Acapulco": {
+                    "location": "Acapulco, Mexico",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Z. Svajda",
+                            "opponent_rank": 149,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Dallas": {
+                    "location": "Dallas, United States",
+                    "date": "5 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Mannarino",
+                            "opponent_rank": 17,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "C. Eubanks",
+                            "opponent_rank": 33,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "Z. Svajda",
+                            "opponent_rank": 145,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Cleveland": {
+                    "location": "Cleveland, United States",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 185,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "Q. Vandecasteele",
+                            "opponent_rank": 636,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Maloney",
+                            "opponent_rank": 1023,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "T. Kodat",
+                            "opponent_rank": 323,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Van Assche",
+                            "opponent_rank": 79,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Brisbane": {
+                    "location": "Brisbane, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 8,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "Y. Hanfmann",
+                            "opponent_rank": 51,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Wolf",
+                            "opponent_rank": 53,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "G. Barrere",
+                            "opponent_rank": 84,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Sekulic",
+                            "opponent_rank": 277,
+                            "result": 1
+                        }
+                    ]
+                }
+            },
+            "2024": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Hurkacz",
+                            "opponent_rank": 9,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Fonseca",
+                            "opponent_rank": 217,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "C. Moutet",
+                            "opponent_rank": 55,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Karatsev",
+                            "opponent_rank": 97,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Stuttgart": {
+                    "location": "Stuttgart, Germany",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Berrettini",
+                            "opponent_rank": 95,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Shelton",
+                            "opponent_rank": 14,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Herbert",
+                            "opponent_rank": 139,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Molleker",
+                            "opponent_rank": 196,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "K. Sultanov",
+                            "opponent_rank": 330,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Surbiton": {
+                    "location": "Surbiton, Great Britain",
+                    "date": "3 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Zhukayev",
+                            "opponent_rank": 171,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "O. Jasika",
+                            "opponent_rank": 206,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Janvier",
+                            "opponent_rank": 217,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Taipei": {
+                    "location": "Taipei, Chinese Taipei",
+                    "date": "13 May, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 111,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Fery",
+                            "opponent_rank": 249,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Ramanathan",
+                            "opponent_rank": 358,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "M. Sasikumar",
+                            "opponent_rank": 471,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Guangzhou": {
+                    "location": "Guangzhou, China",
+                    "date": "29 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Bu",
+                            "opponent_rank": 167,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Berankis",
+                            "opponent_rank": 329,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "D. Sweeny",
+                            "opponent_rank": 224,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Shenzhen (Luohu)": {
+                    "location": "Shenzhen, China",
+                    "date": "22 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Harris",
+                            "opponent_rank": 149,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Bertola",
+                            "opponent_rank": 392,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "M. Bellucci",
+                            "opponent_rank": 181,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Escoffier",
+                            "opponent_rank": 236,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "R. Te",
+                            "opponent_rank": 485,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Gwangju": {
+                    "location": "Gwangju, South Korea",
+                    "date": "15 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Hsu",
+                            "opponent_rank": 256,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Busan": {
+                    "location": "Busan, South Korea",
+                    "date": "8 Apr, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Y. Uchiyama",
+                            "opponent_rank": 241,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "I. Marchenko",
+                            "opponent_rank": 256,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Fery",
+                            "opponent_rank": 271,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Roh",
+                            "opponent_rank": 0,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Houston": {
+                    "location": "Houston, United States",
+                    "date": "1 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 21,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "G. Brouwer",
+                            "opponent_rank": 199,
+                            "result": 1
+                        }
+                    ]
+                },
+                "San Luis Potosi": {
+                    "location": "San Luis Potosi, Mexico",
+                    "date": "25 Mar, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Galarneau",
+                            "opponent_rank": 221,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Zhukayev",
+                            "opponent_rank": 191,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Acapulco": {
+                    "location": "Acapulco, Mexico",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "Z. Svajda",
+                            "opponent_rank": 149,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Dallas": {
+                    "location": "Dallas, United States",
+                    "date": "5 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Mannarino",
+                            "opponent_rank": 17,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "C. Eubanks",
+                            "opponent_rank": 33,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "Z. Svajda",
+                            "opponent_rank": 145,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Cleveland": {
+                    "location": "Cleveland, United States",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 185,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "Q. Vandecasteele",
+                            "opponent_rank": 636,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Maloney",
+                            "opponent_rank": 1023,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "T. Kodat",
+                            "opponent_rank": 323,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Van Assche",
+                            "opponent_rank": 79,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Brisbane": {
+                    "location": "Brisbane, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 8,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "Y. Hanfmann",
+                            "opponent_rank": 51,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Wolf",
+                            "opponent_rank": 53,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "G. Barrere",
+                            "opponent_rank": 84,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Sekulic",
+                            "opponent_rank": 277,
+                            "result": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "cg80": {
+        "playerId": "cg80",
+        "fullname": "borna-coric",
+        "data": {
+            "playerName": "Borna Coric",
+            "age": "27 (1996.11.14)",
+            "weight": "187 lbs (85kg)",
+            "height": "6'2\" (188cm)",
+            "turnedPro": "2013",
+            "socialMediaLinks": [
+                {
+                    "platform": "facebook",
+                    "url": "https://www.facebook.com/officialbornacoric"
+                },
+                {
+                    "platform": "instagram",
+                    "url": "https://www.instagram.com/bornacoric/"
+                },
+                {
+                    "platform": "x",
+                    "url": "https://www.twitter.com/borna_coric"
+                }
+            ],
+            "country": "Croatia",
+            "birthplace": "Zagreb, Croatia",
+            "typePlays": "Right-Handed, Two-Handed Backhand",
+            "coach": "Liam Smith"
+        },
+        "href": "https://www.atptour.com/en/players/borna-coric/cg80/overview",
+        "statistics": {
+            "all": {
+                "serve": {
+                    "Aces": "2186",
+                    "Double Faults": "818",
+                    "1st Serve": "62%",
+                    "1st Serve Points Won": "72%",
+                    "2nd Serve Points Won": "52%",
+                    "Break Points Faced": "2313",
+                    "Break Points Saved": "62%",
+                    "Service Games Played": "4600",
+                    "Service Games Won": "81%",
+                    "Total Service Points Won": "65%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "27%",
+                    "2nd Serve Return Points Won": "49%",
+                    "Break Points Opportunities": "2429",
+                    "Break Points Converted": "38%",
+                    "Return Games Played": "4634",
+                    "Return Games Won": "20%",
+                    "Return Points Won": "36%",
+                    "Total Points Won": "50%"
+                }
+            },
+            "hard": {
+                "serve": {
+                    "Aces": "1460",
+                    "Double Faults": "525",
+                    "1st Serve": "62%",
+                    "1st Serve Points Won": "72%",
+                    "2nd Serve Points Won": "53%",
+                    "Break Points Faced": "1431",
+                    "Break Points Saved": "61%",
+                    "Service Games Played": "2862",
+                    "Service Games Won": "81%",
+                    "Total Service Points Won": "65%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "27%",
+                    "2nd Serve Return Points Won": "50%",
+                    "Break Points Opportunities": "1461",
+                    "Break Points Converted": "39%",
+                    "Return Games Played": "2884",
+                    "Return Games Won": "20%",
+                    "Return Points Won": "36%",
+                    "Total Points Won": "50%"
+                }
+            },
+            "clay": {
+                "serve": {
+                    "Aces": "560",
+                    "Double Faults": "241",
+                    "1st Serve": "61%",
+                    "1st Serve Points Won": "72%",
+                    "2nd Serve Points Won": "53%",
+                    "Break Points Faced": "727",
+                    "Break Points Saved": "62%",
+                    "Service Games Played": "1419",
+                    "Service Games Won": "81%",
+                    "Total Service Points Won": "64%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "29%",
+                    "2nd Serve Return Points Won": "49%",
+                    "Break Points Opportunities": "844",
+                    "Break Points Converted": "36%",
+                    "Return Games Played": "1425",
+                    "Return Games Won": "21%",
+                    "Return Points Won": "37%",
+                    "Total Points Won": "50%"
+                }
+            },
+            "grass": {
+                "serve": {
+                    "Aces": "166",
+                    "Double Faults": "52",
+                    "1st Serve": "64%",
+                    "1st Serve Points Won": "73%",
+                    "2nd Serve Points Won": "51%",
+                    "Break Points Faced": "155",
+                    "Break Points Saved": "61%",
+                    "Service Games Played": "319",
+                    "Service Games Won": "81%",
+                    "Total Service Points Won": "65%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "23%",
+                    "2nd Serve Return Points Won": "46%",
+                    "Break Points Opportunities": "124",
+                    "Break Points Converted": "35%",
+                    "Return Games Played": "325",
+                    "Return Games Won": "14%",
+                    "Return Points Won": "32%",
+                    "Total Points Won": "48%"
+                }
+            }
+        },
+        "match_records": {
+            "Overall": {
+                "ytd_wl": "7 \u2013 11",
+                "ytd_index": "0.389",
+                "career_wl": "217 \u2013 186",
+                "career_index": "0.538",
+                "career_titles": "3"
+            },
+            "Grand Slams": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "29 \u2013 31",
+                "career_index": "0.483",
+                "career_titles": "0"
+            },
+            "ATP Masters 1000": {
+                "ytd_wl": "3 \u2013 4",
+                "ytd_index": "0.429",
+                "career_wl": "68 \u2013 60",
+                "career_index": "0.531",
+                "career_titles": "1"
+            },
+            "Pressure points": {},
+            "Tie breaks": {
+                "ytd_wl": "2 \u2013 7",
+                "ytd_index": "0.222",
+                "career_wl": "103 \u2013 86",
+                "career_index": "0.545",
+                "career_titles": ""
+            },
+            "Versus Top 10": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "19 \u2013 41",
+                "career_index": "0.317",
+                "career_titles": ""
+            },
+            "Finals": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "3 \u2013 6",
+                "career_index": "0.333",
+                "career_titles": ""
+            },
+            "Deciding set": {
+                "ytd_wl": "2 \u2013 3",
+                "ytd_index": "0.400",
+                "career_wl": "74 \u2013 62",
+                "career_index": "0.544",
+                "career_titles": ""
+            },
+            "5th Set Record": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "8 \u2013 5",
+                "career_index": "0.615",
+                "career_titles": ""
+            },
+            "Environment": {},
+            "Clay": {
+                "ytd_wl": "2 \u2013 5",
+                "ytd_index": "0.286",
+                "career_wl": "67 \u2013 56",
+                "career_index": "0.545",
+                "career_titles": "1"
+            },
+            "Grass": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "11 \u2013 13",
+                "career_index": "0.458",
+                "career_titles": "1"
+            },
+            "Hard": {
+                "ytd_wl": "5 \u2013 6",
+                "ytd_index": "0.455",
+                "career_wl": "139 \u2013 117",
+                "career_index": "0.543",
+                "career_titles": "1"
+            },
+            "Carpet**": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Indoor": {
+                "ytd_wl": "3 \u2013 2",
+                "ytd_index": "0.600",
+                "career_wl": "45 \u2013 38",
+                "career_index": "0.542",
+                "career_titles": "0"
+            },
+            "Outdoor": {
+                "ytd_wl": "4 \u2013 9",
+                "ytd_index": "0.308",
+                "career_wl": "172 \u2013 148",
+                "career_index": "0.538",
+                "career_titles": "3"
+            },
+            "Other": {},
+            "After Winning 1st Set": {
+                "ytd_wl": "6 \u2013 3",
+                "ytd_index": "0.667",
+                "career_wl": "167 \u2013 38",
+                "career_index": "0.815",
+                "career_titles": ""
+            },
+            "After Losing 1st Set": {
+                "ytd_wl": "1 \u2013 8",
+                "ytd_index": "0.111",
+                "career_wl": "50 \u2013 148",
+                "career_index": "0.253",
+                "career_titles": ""
+            },
+            "vs. Right Handers*": {
+                "ytd_wl": "7 \u2013 9",
+                "ytd_index": "0.438",
+                "career_wl": "184 \u2013 158",
+                "career_index": "0.538",
+                "career_titles": ""
+            },
+            "vs. Left Handers*": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "33 \u2013 28",
+                "career_index": "0.541",
+                "career_titles": ""
+            }
+        },
+        "results": {
+            "2023": {
+                "Sassuolo": {
+                    "location": "Sassuolo, Italy",
+                    "date": "17 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Ficovich",
+                            "opponent_rank": 233,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Perugia": {
+                    "location": "Perugia, Italy",
+                    "date": "10 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Kasnikowski",
+                            "opponent_rank": 243,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "G. Zeppieri",
+                            "opponent_rank": 140,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "R. Gasquet",
+                            "opponent_rank": 124,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Rome": {
+                    "location": "Rome, Italy",
+                    "date": "6 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Draper",
+                            "opponent_rank": 40,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Madrid": {
+                    "location": "Madrid, Spain",
+                    "date": "22 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Zverev",
+                            "opponent_rank": 5,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Hassan",
+                            "opponent_rank": 159,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Barcelona": {
+                    "location": "Barcelona, Spain",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Diaz Acosta",
+                            "opponent_rank": 53,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Monte-Carlo": {
+                    "location": "Monte-Carlo, Monaco",
+                    "date": "8 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Struff",
+                            "opponent_rank": 25,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 18,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Struff",
+                            "opponent_rank": 25,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "S. Ofner",
+                            "opponent_rank": 38,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Dubai": {
+                    "location": "Dubai, United Arab Emirates",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 87,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Rotterdam": {
+                    "location": "Rotterdam, Netherlands",
+                    "date": "12 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 23,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 27,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 7,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 76,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Martinez",
+                            "opponent_rank": 99,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Ottignies-Louvain-la-Neuve": {
+                    "location": "Ottignies-Louvain-La-Neuve , Belgium",
+                    "date": "22 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Riedi",
+                            "opponent_rank": 250,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "D. Dzumhur",
+                            "opponent_rank": 158,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Shelbayh",
+                            "opponent_rank": 191,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "K. Majchrzak",
+                            "opponent_rank": 944,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "F. Meligeni Alves",
+                            "opponent_rank": 150,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 17,
+                            "result": -1
+                        }
+                    ]
+                },
+                "United Cup": {
+                    "location": "Perth-Sydney, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 23,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "C. Ruud",
+                            "opponent_rank": 11,
+                            "result": -1
+                        }
+                    ]
+                }
+            },
+            "2024": {
+                "Sassuolo": {
+                    "location": "Sassuolo, Italy",
+                    "date": "17 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Ficovich",
+                            "opponent_rank": 233,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Perugia": {
+                    "location": "Perugia, Italy",
+                    "date": "10 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Kasnikowski",
+                            "opponent_rank": 243,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "G. Zeppieri",
+                            "opponent_rank": 140,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "R. Gasquet",
+                            "opponent_rank": 124,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Rome": {
+                    "location": "Rome, Italy",
+                    "date": "6 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Draper",
+                            "opponent_rank": 40,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Madrid": {
+                    "location": "Madrid, Spain",
+                    "date": "22 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Zverev",
+                            "opponent_rank": 5,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Hassan",
+                            "opponent_rank": 159,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Barcelona": {
+                    "location": "Barcelona, Spain",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Diaz Acosta",
+                            "opponent_rank": 53,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Monte-Carlo": {
+                    "location": "Monte-Carlo, Monaco",
+                    "date": "8 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Struff",
+                            "opponent_rank": 25,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 18,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Struff",
+                            "opponent_rank": 25,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "S. Ofner",
+                            "opponent_rank": 38,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Dubai": {
+                    "location": "Dubai, United Arab Emirates",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 87,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Rotterdam": {
+                    "location": "Rotterdam, Netherlands",
+                    "date": "12 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 23,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Bublik",
+                            "opponent_rank": 27,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 7,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 76,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Martinez",
+                            "opponent_rank": 99,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Ottignies-Louvain-la-Neuve": {
+                    "location": "Ottignies-Louvain-La-Neuve , Belgium",
+                    "date": "22 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Riedi",
+                            "opponent_rank": 250,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "D. Dzumhur",
+                            "opponent_rank": 158,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "A. Shelbayh",
+                            "opponent_rank": 191,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "K. Majchrzak",
+                            "opponent_rank": 944,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "F. Meligeni Alves",
+                            "opponent_rank": 150,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 17,
+                            "result": -1
+                        }
+                    ]
+                },
+                "United Cup": {
+                    "location": "Perth-Sydney, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 23,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "C. Ruud",
+                            "opponent_rank": 11,
+                            "result": -1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "c0h0": {
+        "playerId": "c0h0",
+        "fullname": "arthur-cazaux",
+        "data": {
+            "playerName": "Arthur Cazaux",
+            "age": "21 (2002.08.23)",
+            "weight": "162 lbs (73kg)",
+            "height": "6'0\" (183cm)",
+            "turnedPro": "2020",
+            "socialMediaLinks": [
+                {
+                    "platform": "instagram",
+                    "url": "https://www.instagram.com/arthurcazauxoff/"
+                },
+                {
+                    "platform": "x",
+                    "url": "https://twitter.com/arthurcazaux"
+                }
+            ],
+            "country": "France",
+            "birthplace": "Montpellier, France",
+            "typePlays": "Right-Handed, Two-Handed Backhand",
+            "coach": "Stephane Huet"
+        },
+        "href": "https://www.atptour.com/en/players/arthur-cazaux/c0h0/overview",
+        "statistics": {
+            "all": {
+                "serve": {
+                    "Aces": "169",
+                    "Double Faults": "39",
+                    "1st Serve": "59%",
+                    "1st Serve Points Won": "74%",
+                    "2nd Serve Points Won": "49%",
+                    "Break Points Faced": "124",
+                    "Break Points Saved": "66%",
+                    "Service Games Played": "236",
+                    "Service Games Won": "82%",
+                    "Total Service Points Won": "64%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "26%",
+                    "2nd Serve Return Points Won": "47%",
+                    "Break Points Opportunities": "110",
+                    "Break Points Converted": "37%",
+                    "Return Games Played": "236",
+                    "Return Games Won": "17%",
+                    "Return Points Won": "34%",
+                    "Total Points Won": "49%"
+                }
+            },
+            "hard": {
+                "serve": {
+                    "Aces": "126",
+                    "Double Faults": "19",
+                    "1st Serve": "60%",
+                    "1st Serve Points Won": "78%",
+                    "2nd Serve Points Won": "51%",
+                    "Break Points Faced": "54",
+                    "Break Points Saved": "69%",
+                    "Service Games Played": "142",
+                    "Service Games Won": "88%",
+                    "Total Service Points Won": "67%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "27%",
+                    "2nd Serve Return Points Won": "48%",
+                    "Break Points Opportunities": "65",
+                    "Break Points Converted": "43%",
+                    "Return Games Played": "144",
+                    "Return Games Won": "19%",
+                    "Return Points Won": "35%",
+                    "Total Points Won": "51%"
+                }
+            },
+            "clay": {
+                "serve": {
+                    "Aces": "36",
+                    "Double Faults": "11",
+                    "1st Serve": "58%",
+                    "1st Serve Points Won": "67%",
+                    "2nd Serve Points Won": "47%",
+                    "Break Points Faced": "66",
+                    "Break Points Saved": "65%",
+                    "Service Games Played": "84",
+                    "Service Games Won": "73%",
+                    "Total Service Points Won": "59%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "26%",
+                    "2nd Serve Return Points Won": "46%",
+                    "Break Points Opportunities": "45",
+                    "Break Points Converted": "29%",
+                    "Return Games Played": "82",
+                    "Return Games Won": "16%",
+                    "Return Points Won": "34%",
+                    "Total Points Won": "47%"
+                }
+            },
+            "grass": {
+                "serve": {
+                    "Aces": "7",
+                    "Double Faults": "9",
+                    "1st Serve": "51%",
+                    "1st Serve Points Won": "76%",
+                    "2nd Serve Points Won": "40%",
+                    "Break Points Faced": "4",
+                    "Break Points Saved": "50%",
+                    "Service Games Played": "10",
+                    "Service Games Won": "80%",
+                    "Total Service Points Won": "58%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "21%",
+                    "2nd Serve Return Points Won": "45%",
+                    "Break Points Opportunities": "0",
+                    "Break Points Converted": "0%",
+                    "Return Games Played": "10",
+                    "Return Games Won": "0%",
+                    "Return Points Won": "30%",
+                    "Total Points Won": "45%"
+                }
+            }
+        },
+        "match_records": {
+            "Overall": {
+                "ytd_wl": "5 \u2013 6",
+                "ytd_index": "0.455",
+                "career_wl": "6 \u2013 11",
+                "career_index": "0.353",
+                "career_titles": "0"
+            },
+            "Grand Slams": {
+                "ytd_wl": "3 \u2013 2",
+                "ytd_index": "0.600",
+                "career_wl": "3 \u2013 5",
+                "career_index": "0.375",
+                "career_titles": "0"
+            },
+            "ATP Masters 1000": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Pressure points": {},
+            "Tie breaks": {
+                "ytd_wl": "2 \u2013 4",
+                "ytd_index": "0.333",
+                "career_wl": "2 \u2013 7",
+                "career_index": "0.222",
+                "career_titles": ""
+            },
+            "Versus Top 10": {
+                "ytd_wl": "1 \u2013 2",
+                "ytd_index": "0.333",
+                "career_wl": "1 \u2013 3",
+                "career_index": "0.250",
+                "career_titles": ""
+            },
+            "Finals": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Deciding set": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "2 \u2013 1",
+                "career_index": "0.667",
+                "career_titles": ""
+            },
+            "5th Set Record": {
+                "ytd_wl": "1 \u2013 0",
+                "ytd_index": "1.000",
+                "career_wl": "1 \u2013 0",
+                "career_index": "1.000",
+                "career_titles": ""
+            },
+            "Environment": {},
+            "Clay": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "1 \u2013 5",
+                "career_index": "0.167",
+                "career_titles": "0"
+            },
+            "Grass": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 1",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Hard": {
+                "ytd_wl": "5 \u2013 3",
+                "ytd_index": "0.625",
+                "career_wl": "5 \u2013 5",
+                "career_index": "0.500",
+                "career_titles": "0"
+            },
+            "Carpet**": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Indoor": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "1 \u2013 2",
+                "career_index": "0.333",
+                "career_titles": "0"
+            },
+            "Outdoor": {
+                "ytd_wl": "4 \u2013 5",
+                "ytd_index": "0.444",
+                "career_wl": "5 \u2013 9",
+                "career_index": "0.357",
+                "career_titles": "0"
+            },
+            "Other": {},
+            "After Winning 1st Set": {
+                "ytd_wl": "5 \u2013 2",
+                "ytd_index": "0.714",
+                "career_wl": "6 \u2013 2",
+                "career_index": "0.750",
+                "career_titles": ""
+            },
+            "After Losing 1st Set": {
+                "ytd_wl": "0 \u2013 4",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 9",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "vs. Right Handers*": {
+                "ytd_wl": "4 \u2013 6",
+                "ytd_index": "0.400",
+                "career_wl": "4 \u2013 10",
+                "career_index": "0.286",
+                "career_titles": ""
+            },
+            "vs. Left Handers*": {
+                "ytd_wl": "1 \u2013 0",
+                "ytd_index": "1.000",
+                "career_wl": "2 \u2013 1",
+                "career_index": "0.667",
+                "career_titles": ""
+            }
+        },
+        "results": {
+            "2023": {
+                "London / Queen's Club": {
+                    "location": "London, Great Britain",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Daniel",
+                            "opponent_rank": 85,
+                            "result": -1
+                        }
+                    ]
+                },
+                "'s-Hertogenbosch": {
+                    "location": "'s-Hertogenbosch, Netherlands",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Fils",
+                            "opponent_rank": 38,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Etcheverry",
+                            "opponent_rank": 29,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Barcelona": {
+                    "location": "Barcelona, Spain",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Arnaldi",
+                            "opponent_rank": 40,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Miami": {
+                    "location": "Miami, United States",
+                    "date": "18 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 141,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Berrettini",
+                            "opponent_rank": 154,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 150,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Hassan",
+                            "opponent_rank": 156,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Dubai": {
+                    "location": "Dubai, United Arab Emirates",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Rublev",
+                            "opponent_rank": 5,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Musetti",
+                            "opponent_rank": 26,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "G. Zeppieri",
+                            "opponent_rank": 141,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "D. Dzumhur",
+                            "opponent_rank": 153,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Auger-Aliassime",
+                            "opponent_rank": 30,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "M. Marterer",
+                            "opponent_rank": 92,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Hurkacz",
+                            "opponent_rank": 9,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 31,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 8,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "L. Djere",
+                            "opponent_rank": 33,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Noumea": {
+                    "location": "Noumea, New Caledonia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "E. Couacaud",
+                            "opponent_rank": 210,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 166,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "B. Paire",
+                            "opponent_rank": 117,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 191,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Marie",
+                            "opponent_rank": 226,
+                            "result": 1
+                        }
+                    ]
+                }
+            },
+            "2024": {
+                "London / Queen's Club": {
+                    "location": "London, Great Britain",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Daniel",
+                            "opponent_rank": 85,
+                            "result": -1
+                        }
+                    ]
+                },
+                "'s-Hertogenbosch": {
+                    "location": "'s-Hertogenbosch, Netherlands",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Fils",
+                            "opponent_rank": 38,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Etcheverry",
+                            "opponent_rank": 29,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Barcelona": {
+                    "location": "Barcelona, Spain",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Arnaldi",
+                            "opponent_rank": 40,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Miami": {
+                    "location": "Miami, United States",
+                    "date": "18 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 141,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Berrettini",
+                            "opponent_rank": 154,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 150,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Hassan",
+                            "opponent_rank": 156,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Dubai": {
+                    "location": "Dubai, United Arab Emirates",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Rublev",
+                            "opponent_rank": 5,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Musetti",
+                            "opponent_rank": 26,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "G. Zeppieri",
+                            "opponent_rank": 141,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "D. Dzumhur",
+                            "opponent_rank": 153,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Auger-Aliassime",
+                            "opponent_rank": 30,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "M. Marterer",
+                            "opponent_rank": 92,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Hurkacz",
+                            "opponent_rank": 9,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 31,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Rune",
+                            "opponent_rank": 8,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "L. Djere",
+                            "opponent_rank": 33,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Noumea": {
+                    "location": "Noumea, New Caledonia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "E. Couacaud",
+                            "opponent_rank": 210,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 166,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "B. Paire",
+                            "opponent_rank": 117,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 191,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Marie",
+                            "opponent_rank": 226,
+                            "result": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "lb66": {
+        "playerId": "lb66",
+        "fullname": "constant-lestienne",
+        "data": {
+            "playerName": "Constant Lestienne",
+            "age": "32 (1992.05.23)",
+            "weight": "170 lbs (77kg)",
+            "height": "5'11\" (180cm)",
+            "turnedPro": "2012",
+            "socialMediaLinks": [
+                {
+                    "platform": "facebook",
+                    "url": "https://www.facebook.com/constantlestienne/"
+                },
+                {
+                    "platform": "instagram",
+                    "url": "https://www.instagram.com/constantlestienne/"
+                },
+                {
+                    "platform": "x",
+                    "url": "https://twitter.com/constlalest"
+                }
+            ],
+            "country": "France",
+            "birthplace": "Amiens, France",
+            "typePlays": "Right-Handed, Two-Handed Backhand",
+            "coach": ""
+        },
+        "href": "https://www.atptour.com/en/players/constant-lestienne/lb66/overview",
+        "statistics": {
+            "all": {
+                "serve": {
+                    "Aces": "212",
+                    "Double Faults": "168",
+                    "1st Serve": "62%",
+                    "1st Serve Points Won": "65%",
+                    "2nd Serve Points Won": "45%",
+                    "Break Points Faced": "469",
+                    "Break Points Saved": "56%",
+                    "Service Games Played": "617",
+                    "Service Games Won": "67%",
+                    "Total Service Points Won": "57%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "29%",
+                    "2nd Serve Return Points Won": "50%",
+                    "Break Points Opportunities": "321",
+                    "Break Points Converted": "42%",
+                    "Return Games Played": "604",
+                    "Return Games Won": "23%",
+                    "Return Points Won": "37%",
+                    "Total Points Won": "48%"
+                }
+            },
+            "hard": {
+                "serve": {
+                    "Aces": "184",
+                    "Double Faults": "116",
+                    "1st Serve": "62%",
+                    "1st Serve Points Won": "67%",
+                    "2nd Serve Points Won": "46%",
+                    "Break Points Faced": "342",
+                    "Break Points Saved": "58%",
+                    "Service Games Played": "483",
+                    "Service Games Won": "70%",
+                    "Total Service Points Won": "59%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "29%",
+                    "2nd Serve Return Points Won": "50%",
+                    "Break Points Opportunities": "255",
+                    "Break Points Converted": "41%",
+                    "Return Games Played": "475",
+                    "Return Games Won": "22%",
+                    "Return Points Won": "37%",
+                    "Total Points Won": "48%"
+                }
+            },
+            "clay": {
+                "serve": {
+                    "Aces": "12",
+                    "Double Faults": "25",
+                    "1st Serve": "63%",
+                    "1st Serve Points Won": "56%",
+                    "2nd Serve Points Won": "41%",
+                    "Break Points Faced": "79",
+                    "Break Points Saved": "51%",
+                    "Service Games Played": "79",
+                    "Service Games Won": "51%",
+                    "Total Service Points Won": "50%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "31%",
+                    "2nd Serve Return Points Won": "49%",
+                    "Break Points Opportunities": "39",
+                    "Break Points Converted": "46%",
+                    "Return Games Played": "75",
+                    "Return Games Won": "24%",
+                    "Return Points Won": "38%",
+                    "Total Points Won": "44%"
+                }
+            },
+            "grass": {
+                "serve": {
+                    "Aces": "16",
+                    "Double Faults": "27",
+                    "1st Serve": "63%",
+                    "1st Serve Points Won": "60%",
+                    "2nd Serve Points Won": "40%",
+                    "Break Points Faced": "48",
+                    "Break Points Saved": "52%",
+                    "Service Games Played": "55",
+                    "Service Games Won": "58%",
+                    "Total Service Points Won": "53%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "25%",
+                    "2nd Serve Return Points Won": "53%",
+                    "Break Points Opportunities": "27",
+                    "Break Points Converted": "52%",
+                    "Return Games Played": "54",
+                    "Return Games Won": "26%",
+                    "Return Points Won": "38%",
+                    "Total Points Won": "46%"
+                }
+            }
+        },
+        "match_records": {
+            "Overall": {
+                "ytd_wl": "3 \u2013 7",
+                "ytd_index": "0.300",
+                "career_wl": "17 \u2013 36",
+                "career_index": "0.321",
+                "career_titles": "0"
+            },
+            "Grand Slams": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "1 \u2013 6",
+                "career_index": "0.143",
+                "career_titles": "0"
+            },
+            "ATP Masters 1000": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "1 \u2013 3",
+                "career_index": "0.250",
+                "career_titles": "0"
+            },
+            "Pressure points": {},
+            "Tie breaks": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "10 \u2013 6",
+                "career_index": "0.625",
+                "career_titles": ""
+            },
+            "Versus Top 10": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 2",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Finals": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Deciding set": {
+                "ytd_wl": "2 \u2013 1",
+                "ytd_index": "0.667",
+                "career_wl": "7 \u2013 8",
+                "career_index": "0.467",
+                "career_titles": ""
+            },
+            "5th Set Record": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 1",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Environment": {},
+            "Clay": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 7",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Grass": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "1 \u2013 3",
+                "career_index": "0.250",
+                "career_titles": "0"
+            },
+            "Hard": {
+                "ytd_wl": "3 \u2013 6",
+                "ytd_index": "0.333",
+                "career_wl": "16 \u2013 26",
+                "career_index": "0.381",
+                "career_titles": "0"
+            },
+            "Carpet**": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Indoor": {
+                "ytd_wl": "1 \u2013 2",
+                "ytd_index": "0.333",
+                "career_wl": "8 \u2013 12",
+                "career_index": "0.400",
+                "career_titles": "0"
+            },
+            "Outdoor": {
+                "ytd_wl": "2 \u2013 5",
+                "ytd_index": "0.286",
+                "career_wl": "9 \u2013 24",
+                "career_index": "0.273",
+                "career_titles": "0"
+            },
+            "Other": {},
+            "After Winning 1st Set": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "11 \u2013 6",
+                "career_index": "0.647",
+                "career_titles": ""
+            },
+            "After Losing 1st Set": {
+                "ytd_wl": "2 \u2013 6",
+                "ytd_index": "0.250",
+                "career_wl": "6 \u2013 30",
+                "career_index": "0.167",
+                "career_titles": ""
+            },
+            "vs. Right Handers*": {
+                "ytd_wl": "3 \u2013 7",
+                "ytd_index": "0.300",
+                "career_wl": "14 \u2013 29",
+                "career_index": "0.326",
+                "career_titles": ""
+            },
+            "vs. Left Handers*": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "3 \u2013 7",
+                "career_index": "0.300",
+                "career_titles": ""
+            }
+        },
+        "results": {
+            "2023": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "O. Otte",
+                            "opponent_rank": 474,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Wessels",
+                            "opponent_rank": 385,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "R. Carballes Baena",
+                            "opponent_rank": 63,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Lyon": {
+                    "location": "Lyon, France",
+                    "date": "20 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "N. Sanchez Izquierdo",
+                            "opponent_rank": 260,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Bordeaux": {
+                    "location": "Bordeaux, France",
+                    "date": "13 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Mpetshi Perricard",
+                            "opponent_rank": 123,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Van Assche",
+                            "opponent_rank": 86,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Carballes Baena",
+                            "opponent_rank": 64,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Auger-Aliassime",
+                            "opponent_rank": 31,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "D. Kudla",
+                            "opponent_rank": 179,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "V. Kopriva",
+                            "opponent_rank": 116,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "E. Ymer",
+                            "opponent_rank": 178,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Acapulco": {
+                    "location": "Acapulco, Mexico",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 69,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Broady",
+                            "opponent_rank": 128,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Los Cabos": {
+                    "location": "Los Cabos, Mexico",
+                    "date": "19 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Michelsen",
+                            "opponent_rank": 74,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Delray Beach": {
+                    "location": "Delray Beach, United States",
+                    "date": "12 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 155,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Vukic",
+                            "opponent_rank": 69,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Dallas": {
+                    "location": "Dallas, United States",
+                    "date": "5 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Daniel",
+                            "opponent_rank": 62,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 76,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Zapata Miralles",
+                            "opponent_rank": 80,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Quimper": {
+                    "location": "Quimper, France",
+                    "date": "22 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Harris",
+                            "opponent_rank": 199,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Davidovich Fokina",
+                            "opponent_rank": 24,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Auckland": {
+                    "location": "Auckland, New Zealand",
+                    "date": "8 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Muller",
+                            "opponent_rank": 79,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Klintcharov",
+                            "opponent_rank": 1118,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Noumea": {
+                    "location": "Noumea, New Caledonia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 166,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Moriya",
+                            "opponent_rank": 406,
+                            "result": 1
+                        }
+                    ]
+                }
+            },
+            "2024": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "O. Otte",
+                            "opponent_rank": 474,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Wessels",
+                            "opponent_rank": 385,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "R. Carballes Baena",
+                            "opponent_rank": 63,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Lyon": {
+                    "location": "Lyon, France",
+                    "date": "20 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "N. Sanchez Izquierdo",
+                            "opponent_rank": 260,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Bordeaux": {
+                    "location": "Bordeaux, France",
+                    "date": "13 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Mpetshi Perricard",
+                            "opponent_rank": 123,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Van Assche",
+                            "opponent_rank": 86,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Carballes Baena",
+                            "opponent_rank": 64,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Auger-Aliassime",
+                            "opponent_rank": 31,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "D. Kudla",
+                            "opponent_rank": 179,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "V. Kopriva",
+                            "opponent_rank": 116,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "E. Ymer",
+                            "opponent_rank": 178,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Acapulco": {
+                    "location": "Acapulco, Mexico",
+                    "date": "26 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 69,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "L. Broady",
+                            "opponent_rank": 128,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Los Cabos": {
+                    "location": "Los Cabos, Mexico",
+                    "date": "19 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Michelsen",
+                            "opponent_rank": 74,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Delray Beach": {
+                    "location": "Delray Beach, United States",
+                    "date": "12 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "P. Kypson",
+                            "opponent_rank": 155,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Vukic",
+                            "opponent_rank": 69,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Dallas": {
+                    "location": "Dallas, United States",
+                    "date": "5 Feb, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Daniel",
+                            "opponent_rank": 62,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Montpellier": {
+                    "location": "Montpellier, France",
+                    "date": "29 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cobolli",
+                            "opponent_rank": 76,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "B. Zapata Miralles",
+                            "opponent_rank": 80,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Quimper": {
+                    "location": "Quimper, France",
+                    "date": "22 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "B. Harris",
+                            "opponent_rank": 199,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Davidovich Fokina",
+                            "opponent_rank": 24,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Auckland": {
+                    "location": "Auckland, New Zealand",
+                    "date": "8 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Muller",
+                            "opponent_rank": 79,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Klintcharov",
+                            "opponent_rank": 1118,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Noumea": {
+                    "location": "Noumea, New Caledonia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "H. Mayot",
+                            "opponent_rank": 166,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Moriya",
+                            "opponent_rank": 406,
+                            "result": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "h997": {
+        "playerId": "h997",
+        "fullname": "yannick-hanfmann",
+        "data": {
+            "playerName": "Yannick Hanfmann",
+            "age": "32 (1991.11.13)",
+            "weight": "190 lbs (86kg)",
+            "height": "6'4\" (193cm)",
+            "turnedPro": "2015",
+            "socialMediaLinks": [
+                {
+                    "platform": "instagram",
+                    "url": "https://www.instagram.com/yannick_hanfmann/"
+                },
+                {
+                    "platform": "x",
+                    "url": "https://twitter.com/yannickhanfmann"
+                }
+            ],
+            "country": "Germany",
+            "birthplace": "Karlsruhe, Germany",
+            "typePlays": "Right-Handed, Two-Handed Backhand",
+            "coach": "Juan Pablo Brzezicki"
+        },
+        "href": "https://www.atptour.com/en/players/yannick-hanfmann/h997/overview",
+        "statistics": {
+            "all": {
+                "serve": {
+                    "Aces": "608",
+                    "Double Faults": "252",
+                    "1st Serve": "65%",
+                    "1st Serve Points Won": "68%",
+                    "2nd Serve Points Won": "51%",
+                    "Break Points Faced": "905",
+                    "Break Points Saved": "60%",
+                    "Service Games Played": "1609",
+                    "Service Games Won": "78%",
+                    "Total Service Points Won": "62%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "30%",
+                    "2nd Serve Return Points Won": "48%",
+                    "Break Points Opportunities": "902",
+                    "Break Points Converted": "36%",
+                    "Return Games Played": "1626",
+                    "Return Games Won": "20%",
+                    "Return Points Won": "37%",
+                    "Total Points Won": "49%"
+                }
+            },
+            "hard": {
+                "serve": {
+                    "Aces": "179",
+                    "Double Faults": "65",
+                    "1st Serve": "64%",
+                    "1st Serve Points Won": "68%",
+                    "2nd Serve Points Won": "49%",
+                    "Break Points Faced": "285",
+                    "Break Points Saved": "64%",
+                    "Service Games Played": "418",
+                    "Service Games Won": "75%",
+                    "Total Service Points Won": "61%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "26%",
+                    "2nd Serve Return Points Won": "47%",
+                    "Break Points Opportunities": "186",
+                    "Break Points Converted": "32%",
+                    "Return Games Played": "426",
+                    "Return Games Won": "14%",
+                    "Return Points Won": "34%",
+                    "Total Points Won": "48%"
+                }
+            },
+            "clay": {
+                "serve": {
+                    "Aces": "331",
+                    "Double Faults": "155",
+                    "1st Serve": "65%",
+                    "1st Serve Points Won": "68%",
+                    "2nd Serve Points Won": "52%",
+                    "Break Points Faced": "561",
+                    "Break Points Saved": "59%",
+                    "Service Games Played": "1017",
+                    "Service Games Won": "77%",
+                    "Total Service Points Won": "62%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "32%",
+                    "2nd Serve Return Points Won": "49%",
+                    "Break Points Opportunities": "621",
+                    "Break Points Converted": "38%",
+                    "Return Games Played": "1019",
+                    "Return Games Won": "23%",
+                    "Return Points Won": "38%",
+                    "Total Points Won": "50%"
+                }
+            },
+            "grass": {
+                "serve": {
+                    "Aces": "98",
+                    "Double Faults": "32",
+                    "1st Serve": "68%",
+                    "1st Serve Points Won": "73%",
+                    "2nd Serve Points Won": "54%",
+                    "Break Points Faced": "59",
+                    "Break Points Saved": "56%",
+                    "Service Games Played": "174",
+                    "Service Games Won": "85%",
+                    "Total Service Points Won": "67%"
+                },
+                "return": {
+                    "1st Serve Return Points Won": "26%",
+                    "2nd Serve Return Points Won": "49%",
+                    "Break Points Opportunities": "95",
+                    "Break Points Converted": "35%",
+                    "Return Games Played": "181",
+                    "Return Games Won": "18%",
+                    "Return Points Won": "35%",
+                    "Total Points Won": "50%"
+                }
+            }
+        },
+        "match_records": {
+            "Overall": {
+                "ytd_wl": "11 \u2013 16",
+                "ytd_index": "0.407",
+                "career_wl": "65 \u2013 73",
+                "career_index": "0.471",
+                "career_titles": "0"
+            },
+            "Grand Slams": {
+                "ytd_wl": "0 \u2013 2",
+                "ytd_index": "0.000",
+                "career_wl": "2 \u2013 13",
+                "career_index": "0.133",
+                "career_titles": "0"
+            },
+            "ATP Masters 1000": {
+                "ytd_wl": "4 \u2013 5",
+                "ytd_index": "0.444",
+                "career_wl": "12 \u2013 10",
+                "career_index": "0.545",
+                "career_titles": "0"
+            },
+            "Pressure points": {},
+            "Tie breaks": {
+                "ytd_wl": "2 \u2013 8",
+                "ytd_index": "0.200",
+                "career_wl": "18 \u2013 39",
+                "career_index": "0.316",
+                "career_titles": ""
+            },
+            "Versus Top 10": {
+                "ytd_wl": "0 \u2013 1",
+                "ytd_index": "0.000",
+                "career_wl": "4 \u2013 12",
+                "career_index": "0.250",
+                "career_titles": ""
+            },
+            "Finals": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 2",
+                "career_index": "0.000",
+                "career_titles": ""
+            },
+            "Deciding set": {
+                "ytd_wl": "7 \u2013 3",
+                "ytd_index": "0.700",
+                "career_wl": "31 \u2013 17",
+                "career_index": "0.646",
+                "career_titles": ""
+            },
+            "5th Set Record": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "1 \u2013 2",
+                "career_index": "0.333",
+                "career_titles": ""
+            },
+            "Environment": {},
+            "Clay": {
+                "ytd_wl": "6 \u2013 10",
+                "ytd_index": "0.375",
+                "career_wl": "48 \u2013 41",
+                "career_index": "0.539",
+                "career_titles": "0"
+            },
+            "Grass": {
+                "ytd_wl": "1 \u2013 1",
+                "ytd_index": "0.500",
+                "career_wl": "7 \u2013 8",
+                "career_index": "0.467",
+                "career_titles": "0"
+            },
+            "Hard": {
+                "ytd_wl": "4 \u2013 5",
+                "ytd_index": "0.444",
+                "career_wl": "10 \u2013 24",
+                "career_index": "0.294",
+                "career_titles": "0"
+            },
+            "Carpet**": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "0 \u2013 0",
+                "career_index": "0.000",
+                "career_titles": "0"
+            },
+            "Indoor": {
+                "ytd_wl": "0 \u2013 0",
+                "ytd_index": "0.000",
+                "career_wl": "4 \u2013 5",
+                "career_index": "0.444",
+                "career_titles": "0"
+            },
+            "Outdoor": {
+                "ytd_wl": "11 \u2013 16",
+                "ytd_index": "0.407",
+                "career_wl": "61 \u2013 68",
+                "career_index": "0.473",
+                "career_titles": "0"
+            },
+            "Other": {},
+            "After Winning 1st Set": {
+                "ytd_wl": "6 \u2013 2",
+                "ytd_index": "0.750",
+                "career_wl": "52 \u2013 12",
+                "career_index": "0.813",
+                "career_titles": ""
+            },
+            "After Losing 1st Set": {
+                "ytd_wl": "5 \u2013 14",
+                "ytd_index": "0.263",
+                "career_wl": "13 \u2013 61",
+                "career_index": "0.176",
+                "career_titles": ""
+            },
+            "vs. Right Handers*": {
+                "ytd_wl": "10 \u2013 12",
+                "ytd_index": "0.455",
+                "career_wl": "52 \u2013 60",
+                "career_index": "0.464",
+                "career_titles": ""
+            },
+            "vs. Left Handers*": {
+                "ytd_wl": "1 \u2013 4",
+                "ytd_index": "0.200",
+                "career_wl": "13 \u2013 13",
+                "career_index": "0.500",
+                "career_titles": ""
+            }
+        },
+        "results": {
+            "2023": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Michelsen",
+                            "opponent_rank": 61,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 107,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Stuttgart": {
+                    "location": "Stuttgart, Germany",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 28,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Squire",
+                            "opponent_rank": 178,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Heilbronn": {
+                    "location": "Heilbronn, Germany",
+                    "date": "3 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Choinski",
+                            "opponent_rank": 180,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cerundolo",
+                            "opponent_rank": 27,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Geneva": {
+                    "location": "Geneva, Switzerland",
+                    "date": "20 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "N. Djokovic",
+                            "opponent_rank": 1,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Murray",
+                            "opponent_rank": 75,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Turin": {
+                    "location": "Turin, Italy",
+                    "date": "13 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Wolf",
+                            "opponent_rank": 101,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "M. Marterer",
+                            "opponent_rank": 98,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Rome": {
+                    "location": "Rome, Italy",
+                    "date": "6 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Tabilo",
+                            "opponent_rank": 32,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 65,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Madrid": {
+                    "location": "Madrid, Spain",
+                    "date": "22 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 74,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Munich": {
+                    "location": "Munich, Germany",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Huesler",
+                            "opponent_rank": 223,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Shevchenko",
+                            "opponent_rank": 63,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Monte-Carlo": {
+                    "location": "Monte-Carlo, Monaco",
+                    "date": "8 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Fils",
+                            "opponent_rank": 36,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Munar",
+                            "opponent_rank": 72,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Gaston",
+                            "opponent_rank": 95,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Miami": {
+                    "location": "Miami, United States",
+                    "date": "18 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Dimitrov",
+                            "opponent_rank": 12,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Mannarino",
+                            "opponent_rank": 20,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "E. Ruusuvuori",
+                            "opponent_rank": 48,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "E. Nava",
+                            "opponent_rank": 134,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 27,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "P. Cachin",
+                            "opponent_rank": 79,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Santiago": {
+                    "location": "Santiago, Chile",
+                    "date": "26 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Cerundolo",
+                            "opponent_rank": 161,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Rio de Janeiro": {
+                    "location": "Rio de Janeiro, Brazil",
+                    "date": "19 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Navone",
+                            "opponent_rank": 113,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "N. Jarry",
+                            "opponent_rank": 19,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Buenos Aires": {
+                    "location": "Buenos Aires, Argentina",
+                    "date": "12 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Tabilo",
+                            "opponent_rank": 54,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Cordoba": {
+                    "location": "Cordoba, Argentina",
+                    "date": "5 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Darderi",
+                            "opponent_rank": 136,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Burruchaga",
+                            "opponent_rank": 170,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Varillas",
+                            "opponent_rank": 85,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Monfils",
+                            "opponent_rank": 76,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Adelaide": {
+                    "location": "Adelaide, Australia",
+                    "date": "8 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Sonego",
+                            "opponent_rank": 46,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Brisbane": {
+                    "location": "Brisbane, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Duckworth",
+                            "opponent_rank": 116,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "S. Korda",
+                            "opponent_rank": 24,
+                            "result": 1
+                        }
+                    ]
+                }
+            },
+            "2024": {
+                "Halle": {
+                    "location": "Halle, Germany",
+                    "date": "17 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Michelsen",
+                            "opponent_rank": 61,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Walton",
+                            "opponent_rank": 107,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Stuttgart": {
+                    "location": "Stuttgart, Germany",
+                    "date": "10 Jun, 24",
+                    "surface": "Grass",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Tiafoe",
+                            "opponent_rank": 28,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Squire",
+                            "opponent_rank": 178,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Heilbronn": {
+                    "location": "Heilbronn, Germany",
+                    "date": "3 Jun, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Choinski",
+                            "opponent_rank": 180,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Roland Garros": {
+                    "location": "Paris, France",
+                    "date": "27 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "F. Cerundolo",
+                            "opponent_rank": 27,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Geneva": {
+                    "location": "Geneva, Switzerland",
+                    "date": "20 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "N. Djokovic",
+                            "opponent_rank": 1,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Murray",
+                            "opponent_rank": 75,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Turin": {
+                    "location": "Turin, Italy",
+                    "date": "13 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Wolf",
+                            "opponent_rank": 101,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "M. Marterer",
+                            "opponent_rank": 98,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Rome": {
+                    "location": "Rome, Italy",
+                    "date": "6 May, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Tabilo",
+                            "opponent_rank": 32,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 65,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Madrid": {
+                    "location": "Madrid, Spain",
+                    "date": "22 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Mensik",
+                            "opponent_rank": 74,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Munich": {
+                    "location": "Munich, Germany",
+                    "date": "15 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Huesler",
+                            "opponent_rank": 223,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Shevchenko",
+                            "opponent_rank": 63,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Monte-Carlo": {
+                    "location": "Monte-Carlo, Monaco",
+                    "date": "8 Apr, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Fils",
+                            "opponent_rank": 36,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "J. Munar",
+                            "opponent_rank": 72,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "H. Gaston",
+                            "opponent_rank": 95,
+                            "result": 1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Miami": {
+                    "location": "Miami, United States",
+                    "date": "18 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Dimitrov",
+                            "opponent_rank": 12,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "A. Mannarino",
+                            "opponent_rank": 20,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "E. Ruusuvuori",
+                            "opponent_rank": 48,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Phoenix": {
+                    "location": "Phoenix, United States",
+                    "date": "11 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "E. Nava",
+                            "opponent_rank": 134,
+                            "result": -1
+                        }
+                    ]
+                },
+                "ATP Masters 1000 Indian Wells": {
+                    "location": "Indian Wells, United States",
+                    "date": "4 Mar, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "T. Griekspoor",
+                            "opponent_rank": 27,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "P. Cachin",
+                            "opponent_rank": 79,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Santiago": {
+                    "location": "Santiago, Chile",
+                    "date": "26 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Cerundolo",
+                            "opponent_rank": 161,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Rio de Janeiro": {
+                    "location": "Rio de Janeiro, Brazil",
+                    "date": "19 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "M. Navone",
+                            "opponent_rank": 113,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "N. Jarry",
+                            "opponent_rank": 19,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Buenos Aires": {
+                    "location": "Buenos Aires, Argentina",
+                    "date": "12 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "A. Tabilo",
+                            "opponent_rank": 54,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Cordoba": {
+                    "location": "Cordoba, Argentina",
+                    "date": "5 Feb, 24",
+                    "surface": "Clay",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Darderi",
+                            "opponent_rank": 136,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "R. Burruchaga",
+                            "opponent_rank": 170,
+                            "result": 1
+                        },
+                        {
+                            "opponent_name": "J. Varillas",
+                            "opponent_rank": 85,
+                            "result": 1
+                        }
+                    ]
+                },
+                "Australian Open": {
+                    "location": "Melbourne, Australia",
+                    "date": "15 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "G. Monfils",
+                            "opponent_rank": 76,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Adelaide": {
+                    "location": "Adelaide, Australia",
+                    "date": "8 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "L. Sonego",
+                            "opponent_rank": 46,
+                            "result": -1
+                        }
+                    ]
+                },
+                "Brisbane": {
+                    "location": "Brisbane, Australia",
+                    "date": "1 Jan, 24",
+                    "surface": "Hard",
+                    "matches": [
+                        {
+                            "opponent_name": "J. Duckworth",
+                            "opponent_rank": 116,
+                            "result": -1
+                        },
+                        {
+                            "opponent_name": "S. Korda",
+                            "opponent_rank": 24,
+                            "result": 1
+                        }
+                    ]
+                }
+            }
+        }
     }
 }
