@@ -93,4 +93,5 @@ TOURNAMENTS = [
 "london-atp-singles",
 "mallorca-atp-singles",
 "eastbourne-atp-singles",
+"wimbledon-atp-singles",
 ]

@@ -83,7 +83,7 @@ async def get_player_data(playerId, fullname):
     else:
         tqdm.write("statistics_content for all surfaces not found")
     # statistics on hard surface
-    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=hard"
+    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=Hard"
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -115,7 +115,7 @@ async def get_player_data(playerId, fullname):
     else:
         tqdm.write("statistics_content for hard surface not found")
     # statistics on clay surface
-    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=clay"
+    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=Clay"
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -147,7 +147,7 @@ async def get_player_data(playerId, fullname):
     else:
         tqdm.write("statistics_content for clay surface not found")
     # statistics on grass surface
-    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=grass"
+    url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-stats?year=all&surface=Grass"
     browser = await launch(headless=True)
     page = await browser.newPage()
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64 x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
