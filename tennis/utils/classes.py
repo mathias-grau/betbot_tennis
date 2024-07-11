@@ -585,3 +585,10 @@ class TennisMatchDataset(Dataset):
                     tqdm.write(f"Error {e} for match {match_id} in tournament {tournament}")
         return features_vectors, label_vector, lst_match_id, num_errors
     
+    def get_matches_player(self, player_id_fr):
+        matches = []
+        for match_id, match in self.matches.items():
+            if match.player1idFR == player_id_fr or match.player2idFR == player_id_fr:
+                matches.append(match)
+        return matches
+    
