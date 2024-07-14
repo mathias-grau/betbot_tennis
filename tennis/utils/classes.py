@@ -304,9 +304,10 @@ class TennisMatch:
         return features_vector
 
 class TennisMatchDataset(Dataset):
-    def __init__(self, tournaments : list):
+    def __init__(self, tournaments : list, verbose : bool = True):
         self.tournaments = set(tournaments)
-        print(f"Loading data for tournaments {self.tournaments} ...")
+        if verbose:
+            print(f"Loading data for tournaments {self.tournaments} ...")
         self.matches = {}
         for tournament in tournaments:
             # read .json file
@@ -316,10 +317,12 @@ class TennisMatchDataset(Dataset):
             # update matches to self.matches
             for match_id, match_data in tournament_data.items():
                 self.matches[match_id] = TennisMatch(match_id, match_data)
-        print(f"... loaded {len(self.matches)} matches")
-        print(f"Updating id table ...")
+        if verbose:
+            print(f"... loaded {len(self.matches)} matches")
+            print(f"Updating id table ...")
         update_id_table(self)
-        print(f"... id table updated")
+        if verbose:
+            print(f"... id table updated")
     
     def __len__(self):
         return len(list(self.matches.keys()))
@@ -348,7 +351,7 @@ class TennisMatchDataset(Dataset):
         return playerdata
         
     
-    def get_past_vectors(self):
+    def get_past_vectors(self, verbose = True):
         if os.path.exists(c.PLAYERS_DATA_PATH):
             with open(c.PLAYERS_DATA_PATH, "r") as f:
                 players_data = json.load(f)
@@ -582,7 +585,8 @@ class TennisMatchDataset(Dataset):
                     lst_match_id.append(match_id)
                 except Exception as e:
                     num_errors += 1
-                    tqdm.write(f"Error {e} for match {match_id} in tournament {tournament}")
+                    if verbose:
+                        tqdm.write(f"Error {e} for match {match_id} in tournament {tournament}")
         return features_vectors, label_vector, lst_match_id, num_errors
     
     def get_matches_player(self, player_id_fr):

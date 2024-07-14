@@ -218,7 +218,7 @@ async def get_player_data(playerId, fullname):
         for year in YEARS:
             all_results[year] = {}
             results_year = {}
-            url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-activity?matchType=Singles&={year}4&tournament=all"
+            url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-activity?matchType=Singles&year={year}&tournament=all"
             browser = await launch(headless=True)
             page = await browser.newPage()
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64 x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
@@ -274,7 +274,7 @@ async def get_player_data(playerId, fullname):
         for year in YEARS:
             all_results[year] = {}
             results_year = {}
-            url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-activity?matchType=Singles&={year}4&tournament=all"
+            url = f"https://www.atptour.com/en/players/{fullname}/{playerId}/player-activity?matchType=Singles&year={year}&tournament=all"
             browser = await launch(headless=True)
             page = await browser.newPage()
             await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64 x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
