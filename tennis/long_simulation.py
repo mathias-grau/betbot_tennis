@@ -247,6 +247,7 @@ total_amount = INIT_AMOUNT
 account_values.append(total_amount)
 
 for i in tqdm(range(len(tournaments_ordered_2024))):
+    print("\n\n\n")
     print(15*'-')
     print(f'{BLUE}Tournament : {tournaments_ordered_2024[i]}{RESET}')
     if i == 0 :
@@ -654,7 +655,7 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
             total_amount -= amout_to_bet
             print(f"{RED}Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}{RESET}")
         account_values.append(total_amount)
-    print("\n\n\n")
+    
 
 print(f"\nTotal amount after betting : {total_amount:.2f}")
 if total_amount >= INIT_AMOUNT:
