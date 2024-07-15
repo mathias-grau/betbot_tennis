@@ -1,0 +1,342 @@
+Initial amount : 100
+Start of the simulation
+
+
+
+
+Tournament : past-brisbane-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-hong-kong-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-auckland-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-adelaide-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-australian-open-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-montpellier-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-marseille-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-cordoba-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-dallas-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-doha-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-rio-de-janeiro-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-santiago-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-acapulco-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-dubai-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-indian-wells-atp-singles
+Skipping tournament
+
+
+
+Tournament : past-miami-atp-singles
+  - Train tournaments until : past-indian-wells-atp-singles
+  - Test tournament : past-miami-atp-singles
+Number of vectors after removing vectors with too much missing values : 1071 over 3745
+       --> Fold 1 : Early stopping at epoch 202 with validation loss: 0.85
+       --> Fold 2 : Early stopping at epoch 148 with validation loss: 0.80
+       --> Fold 3 : Early stopping at epoch 222 with validation loss: 0.76
+       --> Fold 4 : Early stopping at epoch 179 with validation loss: 0.89
+       --> Fold 5 : Early stopping at epoch 226 with validation loss: 0.81
+Folds to ignore : [4]
+Making predictions for 49 matches for tournament past-miami-atp-singles
+Match : 4bIfsZqM Alcaraz C. - Carballes Baena R., bet on player 1 (0.87), amount to bet : 7.49, odds : 1.01, label : 1.00, total amount : 100.07
+Match : KCo94xBT Dimitrov G. - Hanfmann Y., bet on player 1 (0.82), amount to bet : 6.52, odds : 1.08, label : 1.00, total amount : 100.60
+Match : ngt7AuzR Ruud C. - Davidovich Fokina A., bet on player 1 (0.82), amount to bet : 6.99, odds : 1.47, label : 1.00, total amount : 103.88
+Match : S4iSWkLK Humbert U. - Van De Zandschulp B., bet on player 1 (0.81), amount to bet : 6.84, odds : 1.21, label : 1.00, total amount : 105.32
+Match : 0vVDteNp Alcaraz C. - Musetti L., bet on player 1 (0.80), amount to bet : 6.49, odds : 1.05, label : 1.00, total amount : 105.64
+Match : AglUhFLI Ruud C. - van Assche L., bet on player 1 (0.80), amount to bet : 6.70, odds : 1.17, label : 1.00, total amount : 106.78
+Match : vNafwE21 Norrie C. - Medvedev D., bet on player 2 (0.82), amount to bet : 7.01, odds : 1.15, label : -1.00, total amount : 107.83
+Match : hUggKJBn Machac T. - Sinner J., bet on player 2 (0.83), amount to bet : 7.27, odds : 1.07, label : -1.00, total amount : 108.34
+Match : SKPCzsDh Griekspoor T. - Sinner J., bet on player 2 (0.84), amount to bet : 7.40, odds : 1.04, label : -1.00, total amount : 108.64
+Match : rLPG3dg8 O'Connell C. - Sinner J., bet on player 2 (0.86), amount to bet : 7.95, odds : 1.03, label : -1.00, total amount : 108.87
+Match : jcHGG50J Vavassori A. - Sinner J., bet on player 2 (0.93), amount to bet : 9.28, odds : 1.03, label : -1.00, total amount : 109.15
+
+
+
+Tournament : past-estoril-atp-singles
+  - Train tournaments until : past-miami-atp-singles
+  - Test tournament : past-estoril-atp-singles
+Number of vectors after removing vectors with too much missing values : 1120 over 3870
+       --> Fold 1 : Early stopping at epoch 260 with validation loss: 0.79
+       --> Fold 2 : Early stopping at epoch 117 with validation loss: 0.81
+       --> Fold 3 : Early stopping at epoch 294 with validation loss: 0.80
+       --> Fold 4 : Early stopping at epoch 206 with validation loss: 0.77
+       --> Fold 5 : Early stopping at epoch 196 with validation loss: 0.85
+Folds to ignore : []
+Making predictions for 6 matches for tournament past-estoril-atp-singles
+Match : jaQD6Xyo Ruud C. - Van De Zandschulp B., bet on player 1 (0.88), amount to bet : 8.54, odds : 1.19, label : 1.00, total amount : 110.78
+
+
+
+Tournament : past-houston-atp-singles
+  - Train tournaments until : past-estoril-atp-singles
+  - Test tournament : past-houston-atp-singles
+Number of vectors after removing vectors with too much missing values : 1126 over 3903
+       --> Fold 1 : Early stopping at epoch 215 with validation loss: 0.80
+       --> Fold 2 : Early stopping at epoch 294 with validation loss: 0.82
+       --> Fold 3 : Early stopping at epoch 221 with validation loss: 0.83
+       --> Fold 4 : Early stopping at epoch 233 with validation loss: 0.75
+       --> Fold 5 : Early stopping at epoch 165 with validation loss: 0.83
+Folds to ignore : []
+Making predictions for 6 matches for tournament past-houston-atp-singles
+
+
+
+Tournament : past-marrakech-atp-singles
+  - Train tournaments until : past-houston-atp-singles
+  - Test tournament : past-marrakech-atp-singles
+Number of vectors after removing vectors with too much missing values : 1132 over 3935
+No data to predict
+
+
+
+Tournament : past-monte-carlo-atp-singles
+  - Train tournaments until : past-marrakech-atp-singles
+  - Test tournament : past-monte-carlo-atp-singles
+Number of vectors after removing vectors with too much missing values : 1132 over 3968
+       --> Fold 1 : Early stopping at epoch 121 with validation loss: 0.82
+       --> Fold 2 : Early stopping at epoch 282 with validation loss: 0.74
+       --> Fold 3 : Early stopping at epoch 283 with validation loss: 0.79
+       --> Fold 4 : Early stopping at epoch 280 with validation loss: 0.85
+       --> Fold 5 : Early stopping at epoch 164 with validation loss: 0.80
+Folds to ignore : [4]
+Making predictions for 38 matches for tournament past-monte-carlo-atp-singles
+Match : KGFydh9K Hurkacz H. - Draper J., bet on player 1 (0.80), amount to bet : 7.52, odds : 1.58, label : 1.00, total amount : 115.14
+Match : bu4B2Mw8 Tsitsipas S. - Sinner J., bet on player 2 (0.84), amount to bet : 8.18, odds : 1.27, label : 1.00, total amount : 106.96
+Match : Ma8qvRN6 Korda S. - Sinner J., bet on player 2 (0.85), amount to bet : 7.69, odds : 1.11, label : -1.00, total amount : 107.80
+
+
+
+Tournament : past-munich-atp-singles
+  - Train tournaments until : past-monte-carlo-atp-singles
+  - Test tournament : past-munich-atp-singles
+Number of vectors after removing vectors with too much missing values : 1170 over 4042
+       --> Fold 1 : Early stopping at epoch 188 with validation loss: 0.85
+       --> Fold 2 : Early stopping at epoch 156 with validation loss: 0.79
+       --> Fold 3 : Early stopping at epoch 230 with validation loss: 0.80
+       --> Fold 4 : Early stopping at epoch 158 with validation loss: 0.84
+       --> Fold 5 : Early stopping at epoch 132 with validation loss: 0.79
+Folds to ignore : []
+Making predictions for 7 matches for tournament past-munich-atp-singles
+Match : ze0g1UyS Auger-Aliassime F. - Marterer M., bet on player 1 (0.91), amount to bet : 8.99, odds : 1.16, label : 1.00, total amount : 109.24
+Match : hbiLiP6s Zverev A. - Rodionov J., bet on player 1 (0.86), amount to bet : 7.96, odds : 1.04, label : 1.00, total amount : 109.56
+Match : jiMWv8wK Auger-Aliassime F. - Daniel T., bet on player 1 (0.83), amount to bet : 7.61, odds : 1.28, label : 1.00, total amount : 111.69
+
+
+
+Tournament : past-bucharest-atp-singles
+  - Train tournaments until : past-munich-atp-singles
+  - Test tournament : past-bucharest-atp-singles
+Number of vectors after removing vectors with too much missing values : 1177 over 4074
+       --> Fold 1 : Early stopping at epoch 178 with validation loss: 0.79
+       --> Fold 2 : Early stopping at epoch 237 with validation loss: 0.78
+       --> Fold 3 : Early stopping at epoch 147 with validation loss: 0.88
+       --> Fold 4 : Early stopping at epoch 184 with validation loss: 0.81
+       --> Fold 5 : Early stopping at epoch 176 with validation loss: 0.78
+Folds to ignore : [3]
+Making predictions for 7 matches for tournament past-bucharest-atp-singles
+
+
+
+Tournament : past-barcelona-atp-singles
+  - Train tournaments until : past-bucharest-atp-singles
+  - Test tournament : past-barcelona-atp-singles
+Number of vectors after removing vectors with too much missing values : 1184 over 4111
+       --> Fold 1 : Early stopping at epoch 223 with validation loss: 0.78
+       --> Fold 2 : Early stopping at epoch 208 with validation loss: 0.76
+       --> Fold 3 : Early stopping at epoch 170 with validation loss: 0.88
+       --> Fold 4 : Early stopping at epoch 188 with validation loss: 0.78
+       --> Fold 5 : Early stopping at epoch 305 with validation loss: 0.83
+Folds to ignore : [3]
+Making predictions for 22 matches for tournament past-barcelona-atp-singles
+Match : GdA56OGk Tsitsipas S. - Lajovic D., bet on player 1 (0.85), amount to bet : 8.13, odds : 1.17, label : 1.00, total amount : 113.07
+Match : MDcmKhHq Ruud C. - Etcheverry T. M., bet on player 1 (0.84), amount to bet : 7.99, odds : 1.23, label : 1.00, total amount : 114.91
+Match : OI1FQipo Carballes Baena R. - Tsitsipas S., bet on player 2 (0.81), amount to bet : 7.37, odds : 1.11, label : -1.00, total amount : 115.72
+
+
+
+Tournament : past-madrid-atp-singles
+  - Train tournaments until : past-barcelona-atp-singles
+  - Test tournament : past-madrid-atp-singles
+Number of vectors after removing vectors with too much missing values : 1206 over 4172
+       --> Fold 1 : Early stopping at epoch 199 with validation loss: 0.79
+       --> Fold 2 : Early stopping at epoch 241 with validation loss: 0.81
+       --> Fold 3 : Early stopping at epoch 178 with validation loss: 0.85
+       --> Fold 4 : Early stopping at epoch 261 with validation loss: 0.78
+       --> Fold 5 : Early stopping at epoch 299 with validation loss: 0.81
+Folds to ignore : []
+Making predictions for 64 matches for tournament past-madrid-atp-singles
+Match : WUsK0m1l Rublev A. - Bagnis F., bet on player 1 (0.87), amount to bet : 8.83, odds : 1.15, label : 1.00, total amount : 117.05
+Match : CU8pNGy9 Auger-Aliassime F. - Mannarino A., bet on player 1 (0.86), amount to bet : 8.48, odds : 1.11, label : 1.00, total amount : 117.98
+Match : hEa2uEyS Rublev A. - Davidovich Fokina A., bet on player 1 (0.81), amount to bet : 8.07, odds : 1.45, label : 1.00, total amount : 121.61
+Match : MyUNHQJk Hurkacz H. - Draper J., bet on player 1 (0.81), amount to bet : 8.42, odds : 1.61, label : 1.00, total amount : 126.75
+Match : GnmtOAdS Paul T. - Klein L., bet on player 1 (0.81), amount to bet : 8.68, odds : 1.55, label : 1.00, total amount : 131.52
+Match : MVUynCX9 Shapovalov D. - Zverev A., bet on player 2 (0.81), amount to bet : 8.39, odds : 1.13, label : -1.00, total amount : 132.62
+Match : 2H44ef26 Seyboth Wild T. - Alcaraz C., bet on player 2 (0.86), amount to bet : 9.64, odds : 1.05, label : -1.00, total amount : 133.10
+
+
+
+Tournament : past-rome-atp-singles
+  - Train tournaments until : past-madrid-atp-singles
+  - Test tournament : past-rome-atp-singles
+Number of vectors after removing vectors with too much missing values : 1270 over 4297
+       --> Fold 1 : Early stopping at epoch 163 with validation loss: 0.83
+       --> Fold 2 : Early stopping at epoch 121 with validation loss: 0.83
+       --> Fold 3 : Early stopping at epoch 270 with validation loss: 0.75
+       --> Fold 4 : Early stopping at epoch 186 with validation loss: 0.87
+       --> Fold 5 : Early stopping at epoch 160 with validation loss: 0.77
+Folds to ignore : [4]
+Making predictions for 50 matches for tournament past-rome-atp-singles
+Match : U9iqoNnJ Zverev A. - Vukic A., bet on player 1 (0.91), amount to bet : 11.05, odds : 1.03, label : 1.00, total amount : 133.43
+Match : GtYpKeV0 Hurkacz H. - Etcheverry T. M., bet on player 1 (0.81), amount to bet : 8.98, odds : 1.43, label : 1.00, total amount : 137.29
+Match : UqC6tMrI Fritz T. - Fognini F., bet on player 1 (0.80), amount to bet : 8.78, odds : 1.20, label : 1.00, total amount : 139.04
+Match : p02upK0U Auger-Aliassime F. - Van De Zandschulp B., bet on player 1 (0.80), amount to bet : 9.07, odds : 1.34, label : 1.00, total amount : 142.13
+Match : SSc1H9CF Hanfmann Y. - Tabilo A., bet on player 2 (0.82), amount to bet : 9.85, odds : 1.45, label : -1.00, total amount : 146.56
+
+
+
+Tournament : past-lyon-atp-singles
+  - Train tournaments until : past-rome-atp-singles
+  - Test tournament : past-lyon-atp-singles
+Number of vectors after removing vectors with too much missing values : 1320 over 4427
+       --> Fold 1 : Early stopping at epoch 178 with validation loss: 0.75
+       --> Fold 2 : Early stopping at epoch 114 with validation loss: 0.91
+       --> Fold 3 : Early stopping at epoch 195 with validation loss: 0.77
+       --> Fold 4 : Early stopping at epoch 254 with validation loss: 0.77
+       --> Fold 5 : Early stopping at epoch 234 with validation loss: 0.73
+Folds to ignore : [2]
+Making predictions for 8 matches for tournament past-lyon-atp-singles
+Match : YuBPiKPr Darderi L. - Daniel T., bet on player 1 (0.80), amount to bet : 9.72, odds : 1.42, label : 1.00, total amount : 150.64
+
+
+
+Tournament : past-geneva-atp-singles
+  - Train tournaments until : past-lyon-atp-singles
+  - Test tournament : past-geneva-atp-singles
+Number of vectors after removing vectors with too much missing values : 1328 over 4462
+       --> Fold 1 : Early stopping at epoch 156 with validation loss: 0.89
+       --> Fold 2 : Early stopping at epoch 232 with validation loss: 0.80
+       --> Fold 3 : Early stopping at epoch 247 with validation loss: 0.75
+       --> Fold 4 : Early stopping at epoch 180 with validation loss: 0.76
+       --> Fold 5 : Early stopping at epoch 212 with validation loss: 0.74
+Folds to ignore : [1]
+Making predictions for 14 matches for tournament past-geneva-atp-singles
+Match : ATGAIxJj Djokovic N. - Hanfmann Y., bet on player 1 (0.81), amount to bet : 9.65, odds : 1.08, label : 1.00, total amount : 151.42
+
+
+
+Tournament : past-french-open-atp-singles
+  - Train tournaments until : past-geneva-atp-singles
+  - Test tournament : past-french-open-atp-singles
+Number of vectors after removing vectors with too much missing values : 1342 over 4497
+       --> Fold 1 : Early stopping at epoch 139 with validation loss: 0.77
+       --> Fold 2 : Early stopping at epoch 184 with validation loss: 0.82
+       --> Fold 3 : Early stopping at epoch 160 with validation loss: 0.77
+       --> Fold 4 : Early stopping at epoch 149 with validation loss: 0.85
+       --> Fold 5 : Early stopping at epoch 213 with validation loss: 0.82
+Folds to ignore : [4]
+Making predictions for 68 matches for tournament past-french-open-atp-singles
+Match : UNWswM5e Zverev A. - Goffin D., bet on player 1 (0.86), amount to bet : 10.98, odds : 1.04, label : 1.00, total amount : 151.85
+Match : zNOkgMSh Fritz T. - Coria F., bet on player 1 (0.86), amount to bet : 11.09, odds : 1.12, label : 1.00, total amount : 153.19
+Match : Ao27fl6F Zverev A. - Griekspoor T., bet on player 1 (0.85), amount to bet : 10.98, odds : 1.10, label : 1.00, total amount : 154.28
+Match : 0pzUm6ZF Djokovic N. - Herbert P., bet on player 1 (0.85), amount to bet : 10.84, odds : 1.01, label : 1.00, total amount : 154.39
+Match : GIiPx1rC Rublev A. - Daniel T., bet on player 1 (0.85), amount to bet : 10.85, odds : 1.04, label : 1.00, total amount : 154.83
+Match : SQS3zTEq Hurkacz H. - Shapovalov D., bet on player 1 (0.82), amount to bet : 10.66, odds : 1.39, label : 1.00, total amount : 158.98
+Match : ncEBhG3n Zverev A. - De Minaur A., bet on player 1 (0.81), amount to bet : 10.53, odds : 1.35, label : 1.00, total amount : 162.67
+Match : AqJkgLrm Davidovich Fokina A. - Ruud C., bet on player 2 (0.80), amount to bet : 10.26, odds : 1.16, label : -1.00, total amount : 164.31
+Match : 4bEgKdZ7 Etcheverry T. M. - Ruud C., bet on player 2 (0.80), amount to bet : 10.55, odds : 1.22, label : -1.00, total amount : 166.63
+Match : fgOQx9f3 Korda S. - Alcaraz C., bet on player 2 (0.84), amount to bet : 11.55, odds : 1.07, label : -1.00, total amount : 167.44
+Match : O2wGtqqm Cachin P. - Paul T., bet on player 2 (0.85), amount to bet : 12.02, odds : 1.11, label : -1.00, total amount : 168.76
+Match : IiNfuGon Gasquet R. - Sinner J., bet on player 2 (0.88), amount to bet : 12.97, odds : 1.01, label : -1.00, total amount : 168.89
+Match : CKkb1eG7 De Jong J. - Alcaraz C., bet on player 2 (0.90), amount to bet : 13.44, odds : 1.01, label : -1.00, total amount : 169.03
+Match : xdf9oaOi Wolf J.J. - Alcaraz C., bet on player 2 (0.93), amount to bet : 14.70, odds : 1.01, label : -1.00, total amount : 169.17
+
+
+
+Tournament : past-stuttgart-atp-singles
+  - Train tournaments until : past-french-open-atp-singles
+  - Test tournament : past-stuttgart-atp-singles
+Number of vectors after removing vectors with too much missing values : 1410 over 4720
+       --> Fold 1 : Early stopping at epoch 140 with validation loss: 0.80
+       --> Fold 2 : Early stopping at epoch 148 with validation loss: 0.75
+       --> Fold 3 : Early stopping at epoch 177 with validation loss: 0.86
+       --> Fold 4 : Early stopping at epoch 210 with validation loss: 0.79
+       --> Fold 5 : Early stopping at epoch 145 with validation loss: 0.80
+Folds to ignore : [3]
+Making predictions for 12 matches for tournament past-stuttgart-atp-singles
+Match : On3pYZan Berrettini M. - Duckworth J., bet on player 1 (0.82), amount to bet : 11.33, odds : 1.17, label : 1.00, total amount : 171.10
+Match : SSk0APrK Berrettini M. - Shapovalov D., bet on player 1 (0.81), amount to bet : 11.76, odds : 1.55, label : 1.00, total amount : 177.57
+Match : ryt36Fat Safiullin R. - Berrettini M., bet on player 2 (0.84), amount to bet : 13.07, odds : 1.52, label : -1.00, total amount : 184.36
+
+
+
+Tournament : past-hertogenbosch-atp-singles
+  - Train tournaments until : past-stuttgart-atp-singles
+  - Test tournament : past-hertogenbosch-atp-singles
+Number of vectors after removing vectors with too much missing values : 1422 over 4755
+       --> Fold 1 : Early stopping at epoch 202 with validation loss: 0.80
+       --> Fold 2 : Early stopping at epoch 123 with validation loss: 0.77
+       --> Fold 3 : Early stopping at epoch 191 with validation loss: 0.88
+       --> Fold 4 : Early stopping at epoch 106 with validation loss: 0.85
+       --> Fold 5 : Early stopping at epoch 226 with validation loss: 0.71
+Folds to ignore : [3]
+Making predictions for 20 matches for tournament past-hertogenbosch-atp-singles
+
+
+
+Tournament : past-halle-atp-singles
+  - Train tournaments until : past-hertogenbosch-atp-singles
+  - Test tournament : past-halle-atp-singles
+Number of vectors after removing vectors with too much missing values : 1442 over 4789
+       --> Fold 1 : Early stopping at epoch 287 with validation loss: 0.78

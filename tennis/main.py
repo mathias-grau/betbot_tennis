@@ -633,4 +633,3 @@ else :
         amout_to_bet = max(row['kelly_criterion']*total_amount, 0)
         print(f"Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}")
         
-

@@ -233,7 +233,7 @@ class TennisMatchPredictor(nn.Module):
         x = F.tanh(self.fc2(x))
         return x
     
-PROB_THRESHOLD = 0.5
+PROB_THRESHOLD = 0.6
 
 # Kelly criterion
 def kelly_criterion(odds, prob, safe=0.1):
@@ -246,17 +246,28 @@ account_values = []
 total_amount = INIT_AMOUNT
 account_values.append(total_amount)
 
+with open('output.txt', 'w') as f:
+    f.write(f'Initial amount : {total_amount}\nStart of the simulation\n\n')
+
 for i in tqdm(range(len(tournaments_ordered_2024))):
     print("\n\n\n")
     print(15*'-')
     print(f'{BLUE}Tournament : {tournaments_ordered_2024[i]}{RESET}')
+    # write the tournament in output.txt file :
+    with open('output.txt', 'a') as f:
+        f.write(f'\n\n\nTournament : {tournaments_ordered_2024[i]}\n')
     if i < 15 :
         print(f'{RED}Skipping tournament{RESET}')
+        with open('output.txt', 'a') as f:
+            f.write('Skipping tournament\n')
         continue
     train_tournaments = tournaments_2023 + tournaments_ordered_2024[:i]
     test_tournaments = [tournaments_ordered_2024[i]]
     print(f'    - Train tournaments until : {train_tournaments[-1]}')
     print(f'    - Test tournament : {test_tournaments[0]}')
+    with open('output.txt', 'a') as f:
+        f.write(f'  - Train tournaments until : {train_tournaments[-1]}\n')
+        f.write(f'  - Test tournament : {test_tournaments[0]}\n')
     tennis_dataset = TennisMatchDataset(train_tournaments, verbose = False)
     list_vectors, list_labels, lst_match_id, nb_errors = tennis_dataset.get_past_vectors(verbose = False)
     input_shapes = []
@@ -274,9 +285,13 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
             new_list_vectors.append(vector)
             new_list_labels.append(list_labels[i])
     tqdm.write(f'{YELLOW}Number of vectors after removing vectors with too much missing values : {len(new_list_vectors)} over {len(list_vectors)}{RESET}')
+    with open('output.txt', 'a') as f:
+        f.write(f'Number of vectors after removing vectors with too much missing values : {len(new_list_vectors)} over {len(list_vectors)}\n')
 
     if len(new_list_vectors) == 0:
         print(f'{RED}No data to train{RESET}')
+        with open('output.txt', 'a') as f:
+            f.write('No data to train\n')
         continue
 
 
@@ -310,6 +325,8 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
 
     if len(new_list_vectors_test) == 0:
         print(f'{RED}No data to predict{RESET}')
+        with open('output.txt', 'a') as f:
+            f.write('No data to predict\n')
         continue
 
     
@@ -469,6 +486,8 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
                 patience_counter += 1
             if patience_counter == PATIENCE:
                 tqdm.write(f'{YELLOW}       --> Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}{RESET}')
+                with open('output.txt', 'a') as f:
+                    f.write(f'       --> Fold {fold + 1} : Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}\n')
                 break
         
         all_train_losses.append(fold_train_losses)
@@ -477,11 +496,19 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
         
         # Save the best model for each fold
         torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
-        if MIN_VAL_LOSS/len(val_dataloader) > 0.88 : 
+        if MIN_VAL_LOSS/len(val_dataloader) > 0.85 : 
             badly_trained_folds.append(fold + 1)
 
 
     print(f'{YELLOW}Folds to ignore : {badly_trained_folds}{RESET}')
+    with open('output.txt', 'a') as f:
+        f.write(f'Folds to ignore : {badly_trained_folds}\n')
+
+    if len(badly_trained_folds) > 3:
+        print(f'{RED}Too many folds badly trained, skipping tournament{RESET}')
+        with open('output.txt', 'a') as f:
+            f.write('Too many folds badly trained, skipping tournament\n')
+        continue
 
     tournament_features_vector_test = []
     player1_features_vector_test = []
@@ -584,7 +611,9 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
     all_predictions = torch.stack(all_predictions)
     predictions = all_predictions.mean(dim=0)
 
-    print(f'{YELLOW}Making predictions for {len(predictions)} matches for tournament {test_tournamets[0]}{RESET}')
+    print(f'{YELLOW}Making predictions for {len(predictions)} matches for tournament {test_tournaments[0]}{RESET}')
+    with open('output.txt', 'a') as f:
+        f.write(f'Making predictions for {len(predictions)} matches for tournament {test_tournaments[0]}\n')
 
     # get the indexes of the matches where the model was right
     # create data frame with the predictions and the labels and the match ids
@@ -647,9 +676,13 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
         if row['labels'] == 1:
             total_amount += amout_to_bet*(row['odds_1']-1)
             print(f"{GREEN}Match : {row['match_id']} {player1} - {player2}, bet on player 1 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_1']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}{RESET}")
+            with open('output.txt', 'a') as f:
+                f.write(f"Match : {row['match_id']} {player1} - {player2}, bet on player 1 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_1']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}\n")
         else:
             total_amount -= amout_to_bet
             print(f"{RED}Match : {row['match_id']} {player1} - {player2}, bet on player 1 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_1']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}{RESET}")
+            with open('output.txt', 'a') as f:
+                f.write(f"Match : {row['match_id']} {player1} - {player2}, bet on player 1 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_1']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}\n")
         account_values.append(total_amount)
 
     for i, row in bet_on_player_2_df.iterrows():
@@ -659,17 +692,25 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
         if row['labels'] == -1:
             total_amount += amout_to_bet*(row['odds_2']-1)
             print(f"{GREEN}Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}{RESET}")
+            with open('output.txt', 'a') as f:
+                f.write(f"Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}\n")
         else:
             total_amount -= amout_to_bet
             print(f"{RED}Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}{RESET}")
+            with open('output.txt', 'a') as f:
+                f.write(f"Match : {row['match_id']} {player1} - {player2}, bet on player 2 ({row['prediction_prob']:.2f}), amount to bet : {amout_to_bet:.2f}, odds : {row['odds_2']:.2f}, label : {row['labels']:.2f}, total amount : {total_amount:.2f}\n")
         account_values.append(total_amount)
     
 
 print(f"\nTotal amount after betting : {total_amount:.2f}")
 if total_amount >= INIT_AMOUNT:
     print(f"{GREEN}Relative won {(total_amount-INIT_AMOUNT)/INIT_AMOUNT*100:.2f}%{RESET}")
+    with open('output.txt', 'a') as f:
+        f.write(f"Relative won {(total_amount-INIT_AMOUNT)/INIT_AMOUNT*100:.2f}%\n")
 else:
     print(f"{RED}Relative lost {(INIT_AMOUNT-total_amount)/INIT_AMOUNT*100:.2f}%{RESET}")
+    with open('output.txt', 'a') as f:
+        f.write(f"Relative lost {(INIT_AMOUNT-total_amount)/INIT_AMOUNT*100:.2f}%\n")
 
 plt.figure(figsize=(20, 5))
 plt.plot(account_values, label='Account value', color='blue', marker='o')
@@ -678,4 +719,5 @@ plt.ylabel('Amount')
 plt.title('Account value over time')
 plt.grid()
 plt.tight_layout()
+plt.savefig('account_value.png')
 plt.show()
