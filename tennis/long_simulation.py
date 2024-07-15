@@ -454,29 +454,29 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
                     val_loss += loss.item()
                 
 
-                fold_train_losses.append(train_loss / len(train_dataloader))
-                fold_val_losses.append(val_loss / len(val_dataloader))
+            fold_train_losses.append(train_loss / len(train_dataloader))
+            fold_val_losses.append(val_loss / len(val_dataloader))
 
-                if epoch % 100 == 0:
-                    all_weights = torch.cat([x.view(-1) for x in model.parameters()])
-                    tqdm.write(f'Fold {fold + 1}, Epoch {epoch + 1}, Train Loss: {train_loss / len(train_dataloader):.2f}, Validation Loss: {val_loss / len(val_dataloader):.2f}, lr: {lr_scheduler.get_last_lr()[0]:.2e}, Weight norm: {all_weights.norm():.2f}')
-                if val_loss < MIN_VAL_LOSS:
-                    MIN_VAL_LOSS = val_loss
-                    patience_counter = 0
-                    BEST_MODEL = model.state_dict()
-                    INDEX_EPOCH = epoch
-                else:
-                    patience_counter += 1
-                if patience_counter == PATIENCE:
-                    tqdm.write(f'{YELLOW}       --> Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}{RESET}')
-                    break
-            
-            all_train_losses.append(fold_train_losses)
-            all_val_losses.append(fold_val_losses)
-            all_last_indexes.append(INDEX_EPOCH)
-            
-            # Save the best model for each fold
-            torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
+            if epoch % 100 == 0:
+                all_weights = torch.cat([x.view(-1) for x in model.parameters()])
+                tqdm.write(f'Fold {fold + 1}, Epoch {epoch + 1}, Train Loss: {train_loss / len(train_dataloader):.2f}, Validation Loss: {val_loss / len(val_dataloader):.2f}, lr: {lr_scheduler.get_last_lr()[0]:.2e}, Weight norm: {all_weights.norm():.2f}')
+            if val_loss < MIN_VAL_LOSS:
+                MIN_VAL_LOSS = val_loss
+                patience_counter = 0
+                BEST_MODEL = model.state_dict()
+                INDEX_EPOCH = epoch
+            else:
+                patience_counter += 1
+            if patience_counter == PATIENCE:
+                tqdm.write(f'{YELLOW}       --> Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}{RESET}')
+                break
+        
+        all_train_losses.append(fold_train_losses)
+        all_val_losses.append(fold_val_losses)
+        all_last_indexes.append(INDEX_EPOCH)
+        
+        # Save the best model for each fold
+        torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
         if MIN_VAL_LOSS/len(val_dataloader) > 0.88 : 
             badly_trained_folds.append(fold + 1)
 
