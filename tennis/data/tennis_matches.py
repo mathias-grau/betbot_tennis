@@ -157,7 +157,7 @@ async def get_match_data(tournament, league, match_id):
         await asyncio.sleep(1)
         content = await page.content()
         soup = BeautifulSoup(content, "html.parser")
-        
+
         odds = []
         if soup.select(".ui-table__row"):
             for row in soup.select(".ui-table__row"):

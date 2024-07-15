@@ -4,6 +4,11 @@ BASE_URL = "https://www.flashscore.com"
 
 REPO_PATH = "/users/eleves-b/2021/mathias.grau/betbot_tennis"
 
+FUTURE_TOURNAMENTS = [
+"bastad-atp-singles",
+"gstaad-atp-singles",
+]
+
 TOURNAMENTS = [   
 "rome-atp-singles",
 "madrid-atp-singles",

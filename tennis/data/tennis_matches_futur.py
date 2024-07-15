@@ -1,0 +1,171 @@
+import asyncio
+from pyppeteer import launch
+from bs4 import BeautifulSoup
+import os
+import json
+from tqdm import tqdm
+import re
+import time
+import utils.constants as c
+import time 
+
+
+# Adjusted scrolling mechanism to scroll until no more matches are loaded
+async def get_match_id_list(tournament, league):
+    url = f"{c.BASE_URL}/tennis/{league}/{tournament}/fixtures/"
+    browser = await launch(headless=True, args=['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--disable-software-rasterizer', '--disable-setuid-sandbox'])    
+    page = await browser.newPage()
+    await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    
+    try:
+        await page.goto(url, {"waitUntil": "networkidle2"})
+        
+        async def load_more_matches():
+            while True:
+                previous_height = await page.evaluate('document.body.scrollHeight')
+                try:
+                    await page.waitForSelector(".event__more.event__more--static", timeout=2000)
+                    await page.focus(".event__more.event__more--static")
+                    await page.keyboard.type('\n')
+                    await asyncio.sleep(1)  # Adjust as necessary to allow new content to load
+
+                    new_height = await page.evaluate('document.body.scrollHeight')
+                    if new_height == previous_height:
+                        print("breaking")
+                        break
+                except asyncio.TimeoutError:
+                    break
+        await load_more_matches()
+        
+        content = await page.content()
+        soup = BeautifulSoup(content, "html.parser")
+        all_matches = soup.select(".event__match.event__match--static.event__match--twoLine")
+        matches_ids = []
+        for match in all_matches:
+            # map(element => element?.id?.replace("g_2_", ""))
+            match_id = match.get("id").replace("g_2_", "")
+            matches_ids.append( match_id)
+        return matches_ids
+    
+    finally:
+        await browser.close()
+
+async def get_match_data(tournament, league, match_id):
+    url_statistics = f'{c.BASE_URL}/match/{match_id}/#/match-summary/match-statistics/0'
+    browser = await launch(headless=True, args=['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--disable-software-rasterizer', '--disable-setuid-sandbox'])    
+    page = await browser.newPage()
+    await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    
+    try:
+        await page.goto(url_statistics, {"waitUntil": "networkidle2"})
+        await page.waitForSelector(".duelParticipant")
+        content = await page.content()
+        soup = BeautifulSoup(content, "html.parser")
+        
+        date = soup.select_one(".duelParticipant__startTime").text
+        players = {
+            "player1": {
+                "name": soup.select_one(".duelParticipant__home .participant__participantName.participant__overflow").text,
+                "href": soup.select_one(".duelParticipant__home .participant__participantName.participant__overflow a").get("href"),
+                "fullname": soup.select_one(".duelParticipant__home .participant__participantName.participant__overflow a").get("href").split("/")[2],
+                "id": soup.select_one(".duelParticipant__home .participant__participantName.participant__overflow a").get("href").split("/")[3],
+                "image": soup.select_one(".duelParticipant__home .participant__image").get("src")
+            },
+            "player2": {
+                "name": soup.select_one(".duelParticipant__away .participant__participantName.participant__overflow").text,
+                "href": soup.select_one(".duelParticipant__away .participant__participantName.participant__overflow a").get("href"),
+                "fullname": soup.select_one(".duelParticipant__away .participant__participantName.participant__overflow a").get("href").split("/")[2],
+                "id": soup.select_one(".duelParticipant__away .participant__participantName.participant__overflow a").get("href").split("/")[3],
+                "image": soup.select_one(".duelParticipant__away .participant__image").get("src")
+            }
+        }
+        
+        data = {
+            "date": date,
+            "players": players,
+            # "result": result,
+            # "statistics": statistics,
+            "tournament": tournament,
+            "league": league
+        }
+        
+        # Fetch head-to-head data
+        for surface, suffix in [("h2h_overall", "overall"), ("h2h_clay", "home"), ("h2h_grass", "away"), ("h2h_hard", "3")]:
+            url_h2h = f'{c.BASE_URL}/match/{match_id}/#/h2h/{suffix}'
+            await page.goto(url_h2h, {"waitUntil": "networkidle2"})
+            await asyncio.sleep(1)
+            content = await page.content()
+            soup = BeautifulSoup(content, "html.parser")
+            
+            h2h_data = []
+            for section in soup.select(".h2h__section.section"):
+                title = section.select_one(".section__title").text
+                rows = section.select(".h2h__row")
+                data_rows = []
+                for row in rows:
+                    date = row.select_one(".h2h__date").text
+                    event = row.select_one(".h2h__event").text
+                    player1 = row.select_one(".h2h__participant.h2h__homeParticipant").text
+                    player2 = row.select_one(".h2h__participant.h2h__awayParticipant").text
+                    result = row.select_one(".h2h__result").text
+                    data_rows.append({
+                        "date": date,
+                        "event": event,
+                        "player1": player1,
+                        "player2": player2,
+                        "resultPlayer1": result[0] if (result and result!='-') else None,
+                        "resultPlayer2": result[1] if (result and result!='-') else None,
+                    })
+                h2h_data.append({"title": title, "data": data_rows})
+            data[surface] = h2h_data
+        
+        # Fetch odds data
+        url_odds = f'{c.BASE_URL}/match/{match_id}/#/odds-comparison/home-away/full-time'
+        await page.goto(url_odds, {"waitUntil": "networkidle2"})
+        await asyncio.sleep(3)
+        content = await page.content()
+        soup = BeautifulSoup(content, "html.parser")
+        odds = []
+        if soup.select(".ui-table__row"):
+            for row in soup.select(".ui-table__row"):
+                bookmaker_element = row.select_one(".oddsCell__bookmaker a")
+                bookmaker = bookmaker_element.get("title") if bookmaker_element else "Unknown Bookmaker"
+                link = bookmaker_element.get("href") if bookmaker_element else "Unknown Link"
+                odds_values = [odd.text.strip() for odd in row.select(".oddsCell__odd")[:3]]
+                odds.append({"bookmaker": bookmaker, "link": link, "odds": odds_values}) 
+        else :
+            tqdm.write(f"No odds found for match {match_id}")
+        data["odds"] = odds
+        
+        return data
+    except Exception as e:
+        tqdm.write(f"Error fetching data for {tournament} - {league} - {match_id}: {e}")
+        # write in error file
+        with open(f"{c.REPO_PATH}/tennis/data/files/errors.txt", "a") as f:
+            f.write(f"Error fetching data ({time.strftime('%Y-%m-%d %H:%M:%S')}) for {tournament} - {league} - {match_id}: {e}\n")
+    finally:
+        await browser.close()
+
+# Example usage
+async def main():
+    for tournament_league in c.FUTURE_TOURNAMENTS :
+        # check if the tournament already downloaded
+        if os.path.exists(f"{c.REPO_PATH}/tennis/data/files/future_matches/{tournament_league}.json"):
+            print(f"Data for {tournament_league} already downloaded")
+            continue
+        tournament = '-'.join(tournament_league.split('-')[:-2])
+        league = '-'.join(tournament_league.split('-')[-2:])
+        print(f"Fetching data for {tournament} - {league}")
+        match_ids = await get_match_id_list(tournament, league)
+        print(f"Found {len(match_ids)} matches")
+        match_dict = {}
+        for i,match_id in tqdm(enumerate(match_ids)):
+            tqdm.write(f"Fetching data for match {match_id}")
+            match_data = await get_match_data(tournament, league, match_id)
+            if match_data:
+                match_dict[match_id] = match_data
+        with open(f"{c.REPO_PATH}/tennis/data/files/future_matches/{tournament}-{league}.json", "w") as f:
+            json.dump(match_dict, f, indent=4)
+
+if __name__ == "__main__":
+    asyncio.get_event_loop().run_until_complete(main())

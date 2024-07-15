@@ -250,12 +250,13 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
     print("\n\n\n")
     print(15*'-')
     print(f'{BLUE}Tournament : {tournaments_ordered_2024[i]}{RESET}')
-    if i == 0 :
+    if i < 15 :
+        print(f'{RED}Skipping tournament{RESET}')
         continue
     train_tournaments = tournaments_2023 + tournaments_ordered_2024[:i]
     test_tournamets = [tournaments_ordered_2024[i]]
-    print(f'Train tournaments until : {train_tournaments[-1]}')
-    print(f'{BLUE}Test tournament : {test_tournamets[0]}{RESET}')
+    print(f'    - Train tournaments until : {train_tournaments[-1]}')
+    print(f'    - Test tournament : {test_tournamets[0]}')
     tennis_dataset = TennisMatchDataset(train_tournaments, verbose = False)
     list_vectors, list_labels, lst_match_id, nb_errors = tennis_dataset.get_past_vectors(verbose = False)
     input_shapes = []
@@ -391,6 +392,8 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
     all_val_losses = []
     all_last_indexes = []
 
+    badly_trained_folds = []
+
     for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
         tqdm.write(f"Fold {fold + 1}")
         
@@ -450,8 +453,10 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
                     loss = criterion(outputs, labels.unsqueeze(1).float())
                     val_loss += loss.item()
                 
+
                 fold_train_losses.append(train_loss / len(train_dataloader))
                 fold_val_losses.append(val_loss / len(val_dataloader))
+
                 if epoch % 100 == 0:
                     all_weights = torch.cat([x.view(-1) for x in model.parameters()])
                     tqdm.write(f'Fold {fold + 1}, Epoch {epoch + 1}, Train Loss: {train_loss / len(train_dataloader):.2f}, Validation Loss: {val_loss / len(val_dataloader):.2f}, lr: {lr_scheduler.get_last_lr()[0]:.2e}, Weight norm: {all_weights.norm():.2f}')
@@ -472,9 +477,11 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
             
             # Save the best model for each fold
             torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
+        if MIN_VAL_LOSS/len(val_dataloader) > 0.88 : 
+            badly_trained_folds.append(fold + 1)
 
 
-    
+    print(f'{YELLOW}Folds to ignore : {badly_trained_folds}{RESET}')
 
     tournament_features_vector_test = []
     player1_features_vector_test = []
@@ -542,36 +549,37 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
 
     all_predictions = []
     for j in range(N_FOLDS):
-        model = TennisMatchPredictor(input_shapes)
-        model.load_state_dict(torch.load(f'{c2.REPO_PATH}/tennis/models/best_model_fold_{j + 1}.pth'))
-        model.eval()
-        predictions = []
-        with torch.no_grad():
-            test_loss = 0.0
-            for i, data in enumerate(test_dataloader):
-                tournament_features, tournament_mask, player1_features, player1_mask, player2_features, player2_mask, h2h_overall, h2h_overall_mask, h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, shape_overall_player2, shape_overall_player2_mask, labels = data
-                outputs = model(tournament_features = tournament_features, 
-                                player1_features = player1_features, 
-                                player2_features = player2_features, 
-                                h2h_overall = h2h_overall, 
-                                h2h_surface = h2h_surface, 
-                                shape_overall_player1 = shape_overall_player1, 
-                                shape_overall_player2 = shape_overall_player2,
-                                tournament_mask = tournament_mask, 
-                                player1_mask = player1_mask, 
-                                player2_mask = player2_mask, 
-                                h2h_overall_mask = h2h_overall_mask,
-                                h2h_surface_mask = h2h_surface_mask,
-                                shape_overall_player1_mask = shape_overall_player1_mask,
-                                shape_overall_player2_mask = shape_overall_player2_mask
-                                )    
-                predictions.append(outputs)        
-                loss = criterion(outputs, labels.unsqueeze(1).float())
-                test_loss += loss.item()
-            print(f'Test Loss: for {j+1} : {test_loss/len(test_dataloader):.2f}')
-        # find the matches where the model is the most confident and was right
-        predictions = torch.cat(predictions).flatten()
-        all_predictions.append(predictions)
+        if j + 1 not in badly_trained_folds:
+            model = TennisMatchPredictor(input_shapes)
+            model.load_state_dict(torch.load(f'{c2.REPO_PATH}/tennis/models/best_model_fold_{j + 1}.pth'))
+            model.eval()
+            predictions = []
+            with torch.no_grad():
+                test_loss = 0.0
+                for i, data in enumerate(test_dataloader):
+                    tournament_features, tournament_mask, player1_features, player1_mask, player2_features, player2_mask, h2h_overall, h2h_overall_mask, h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, shape_overall_player2, shape_overall_player2_mask, labels = data
+                    outputs = model(tournament_features = tournament_features, 
+                                    player1_features = player1_features, 
+                                    player2_features = player2_features, 
+                                    h2h_overall = h2h_overall, 
+                                    h2h_surface = h2h_surface, 
+                                    shape_overall_player1 = shape_overall_player1, 
+                                    shape_overall_player2 = shape_overall_player2,
+                                    tournament_mask = tournament_mask, 
+                                    player1_mask = player1_mask, 
+                                    player2_mask = player2_mask, 
+                                    h2h_overall_mask = h2h_overall_mask,
+                                    h2h_surface_mask = h2h_surface_mask,
+                                    shape_overall_player1_mask = shape_overall_player1_mask,
+                                    shape_overall_player2_mask = shape_overall_player2_mask
+                                    )    
+                    predictions.append(outputs)        
+                    loss = criterion(outputs, labels.unsqueeze(1).float())
+                    test_loss += loss.item()
+                print(f'Test Loss: for {j+1} : {test_loss/len(test_dataloader):.2f}')
+            # find the matches where the model is the most confident and was right
+            predictions = torch.cat(predictions).flatten()
+            all_predictions.append(predictions)
 
     all_predictions = torch.stack(all_predictions)
     predictions = all_predictions.mean(dim=0)

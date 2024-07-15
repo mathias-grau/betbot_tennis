@@ -1,0 +1,5220 @@
+{
+    "Yw0DepS7": {
+        "date": "15.07.2024 11:00",
+        "players": {
+            "player1": {
+                "name": "Skatov T.",
+                "href": "/player/skatov-timofey/h6n0i9iE/",
+                "fullname": "skatov-timofey",
+                "id": "h6n0i9iE",
+                "image": "https://static.flashscore.com/res/image/data/M9QIBxFa-GlPDgZ4O.png"
+            },
+            "player2": {
+                "name": "Pellegrino A.",
+                "href": "/player/pellegrino-andrea/ENPUiYgk/",
+                "fullname": "pellegrino-andrea",
+                "id": "ENPUiYgk",
+                "image": "https://static.flashscore.com/res/image/data/EkztqacM-69WazsLd.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Skatov T.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Gigante M.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "SAL",
+                        "player1": "Skatov T.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Pichler D.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "TRO",
+                        "player1": "Skatov T.",
+                        "player2": "Debru G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "06.07.24",
+                        "event": "TRO",
+                        "player1": "Giustino L.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Pellegrino A.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Krumich M.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Maestrelli F.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "MOD",
+                        "player1": "Tseng C. H.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "MOD",
+                        "player1": "Piraino G.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "MOD",
+                        "player1": "Holmgren A.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.03.24",
+                        "event": "SZE",
+                        "player1": "Skatov T.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Skatov T.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Gigante M.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "SAL",
+                        "player1": "Skatov T.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Pichler D.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "TRO",
+                        "player1": "Skatov T.",
+                        "player2": "Debru G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "06.07.24",
+                        "event": "TRO",
+                        "player1": "Giustino L.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Pellegrino A.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Krumich M.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Maestrelli F.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "MOD",
+                        "player1": "Tseng C. H.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "MOD",
+                        "player1": "Piraino G.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "MOD",
+                        "player1": "Holmgren A.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "11.03.24",
+                        "event": "SZE",
+                        "player1": "Skatov T.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Skatov T.",
+                "data": [
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Skatov T.",
+                        "player2": "Klein L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "WIM",
+                        "player1": "Coppejans K.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.07.18",
+                        "event": "WIM",
+                        "player1": "Mu T.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Pellegrino A.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Noguchi R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.06.22",
+                        "event": "WIM",
+                        "player1": "Marterer M.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.06.22",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Serdarusic N.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.06.21",
+                        "event": "WIM",
+                        "player1": "Kudla D.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Pellegrino A.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Skatov T.",
+                "data": [
+                    {
+                        "date": "25.02.24",
+                        "event": "TEN",
+                        "player1": "Caruso S.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.02.24",
+                        "event": "TEN",
+                        "player1": "Skatov T.",
+                        "player2": "Safwat M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.01.24",
+                        "event": "AO",
+                        "player1": "Dzumhur D.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "01.01.24",
+                        "event": "CAN",
+                        "player1": "Hoole C.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "31.12.23",
+                        "event": "CAN",
+                        "player1": "Winter H.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Pellegrino A.",
+                "data": [
+                    {
+                        "date": "10.01.24",
+                        "event": "AO",
+                        "player1": "Pellegrino A.",
+                        "player2": "Piros Z.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.01.23",
+                        "event": "AO",
+                        "player1": "Piros Z.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.01.23",
+                        "event": "AO",
+                        "player1": "Pellegrino A.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "02.01.23",
+                        "event": "CAN",
+                        "player1": "Broady L.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "01.01.23",
+                        "event": "CAN",
+                        "player1": "Jones H.",
+                        "player2": "Pellegrino A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": []
+    },
+    "Kb8l2Z46": {
+        "date": "15.07.2024 11:00",
+        "players": {
+            "player1": {
+                "name": "Virtanen O.",
+                "href": "/player/virtanen-otto/hnYnFaTm/",
+                "fullname": "virtanen-otto",
+                "id": "hnYnFaTm",
+                "image": "https://static.flashscore.com/res/image/data/n72zgsyB-WMdj1jfA.png"
+            },
+            "player2": {
+                "name": "Faria J.",
+                "href": "/player/faria-jaime/ETojuYQP/",
+                "fullname": "faria-jaime",
+                "id": "ETojuYQP",
+                "image": "https://static.flashscore.com/res/image/data/GCXCT0Xg-IXFXtCoA.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Virtanen O.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Virtanen O.",
+                        "player2": "Rejchtman Vinciguerra W.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Paul T.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Burruchaga R. A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Ritschard A.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Faria J.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Kuznetsov An.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "TRI",
+                        "player1": "Faria J.",
+                        "player2": "Obradovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Faria J.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "ILK",
+                        "player1": "Zhukayev B.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.06.24",
+                        "event": "BRA",
+                        "player1": "Mikrut L.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Virtanen O.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Virtanen O.",
+                        "player2": "Rejchtman Vinciguerra W.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Misolic F.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "23.05.24",
+                        "event": "FO",
+                        "player1": "Virtanen O.",
+                        "player2": "Zeppieri G.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Thiem D.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "FO",
+                        "player1": "Sweeny D.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Faria J.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Kuznetsov An.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "TRI",
+                        "player1": "Faria J.",
+                        "player2": "Obradovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.06.24",
+                        "event": "BRA",
+                        "player1": "Mikrut L.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.05.24",
+                        "event": "FO",
+                        "player1": "Faria J.",
+                        "player2": "Meligeni Alves F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Svajda Z.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Virtanen O.",
+                "data": [
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Paul T.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Burruchaga R. A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Ritschard A.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Agamenone F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Faria J.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Faria J.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "ILK",
+                        "player1": "Zhukayev B.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "05.07.21",
+                        "event": "WIM",
+                        "player1": "Gueymard Wayenburg S.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "03.07.21",
+                        "event": "WIM",
+                        "player1": "Faria J.",
+                        "player2": "Perez Pena M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Virtanen O.",
+                "data": [
+                    {
+                        "date": "16.04.24",
+                        "event": "GWA",
+                        "player1": "Nam Ji S.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.04.24",
+                        "event": "BUS",
+                        "player1": "Hong S. C.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.03.24",
+                        "event": "MIA",
+                        "player1": "Virtanen O.",
+                        "player2": "Bautista-Agut R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Rodionov J.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.03.24",
+                        "event": "LUG",
+                        "player1": "Masur D.",
+                        "player2": "Virtanen O.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Faria J.",
+                "data": [
+                    {
+                        "date": "20.03.24",
+                        "event": "LOU",
+                        "player1": "Araujo P.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "17.03.24",
+                        "event": "VAL",
+                        "player1": "Barton H.",
+                        "player2": "Faria J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.03.24",
+                        "event": "VAL",
+                        "player1": "Faria J.",
+                        "player2": "Gonzalez Fernandez M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.03.24",
+                        "event": "VAL",
+                        "player1": "Faria J.",
+                        "player2": "Vale D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "14.03.24",
+                        "event": "VAL",
+                        "player1": "Faria J.",
+                        "player2": "Vasa E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": []
+    },
+    "hnZ3Zcw1": {
+        "date": "15.07.2024 13:30",
+        "players": {
+            "player1": {
+                "name": "Ajdukovic D.",
+                "href": "/player/ajdukovic-duje/n11bz7QK/",
+                "fullname": "ajdukovic-duje",
+                "id": "n11bz7QK",
+                "image": "https://static.flashscore.com/res/image/data/lCnP1IBr-4zJqyaPk.png"
+            },
+            "player2": {
+                "name": "Moro Canas A.",
+                "href": "/player/moro-canas-alejandro/MkI9xkTq/",
+                "fullname": "moro-canas-alejandro",
+                "id": "MkI9xkTq",
+                "image": "https://static.flashscore.com/res/image/data/Q5yvwFYA-Grhta2OP.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Ajdukovic D.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Popko D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Herbert P.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Sanchez Jover C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Slump S.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Bellucci M.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Moro Canas A.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Sanchez Izquierdo N.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Moro Canas A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "SAL",
+                        "player1": "Choinski J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.07.24",
+                        "event": "SAL",
+                        "player1": "Tabur C.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Fearnley J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Ajdukovic D.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Popko D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Herbert P.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Sanchez Jover C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Slump S.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Blancaneaux G.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Moro Canas A.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Sanchez Izquierdo N.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Moro Canas A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "SAL",
+                        "player1": "Choinski J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.07.24",
+                        "event": "SAL",
+                        "player1": "Tabur C.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.06.24",
+                        "event": "HEI",
+                        "player1": "Moro Canas A.",
+                        "player2": "Choinski J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Ajdukovic D.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Bellucci M.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "ILK",
+                        "player1": "Fery A.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.06.24",
+                        "event": "NOT",
+                        "player1": "Jubb P.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.06.22",
+                        "event": "WIM",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Ritschard A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "22.06.22",
+                        "event": "WIM",
+                        "player1": "Ajdukovic D.",
+                        "player2": "Rodriguez Taverna S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Moro Canas A.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Fearnley J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Dzumhur D.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Moro Canas A.",
+                        "player2": "Gigante M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Fonseca J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "ILK",
+                        "player1": "Barrios Vera T.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Ajdukovic D.",
+                "data": [
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Vavassori A.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.03.24",
+                        "event": "IND",
+                        "player1": "Svajda Z.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.02.24",
+                        "event": "PUN",
+                        "player1": "Walton A.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.02.24",
+                        "event": "PUN",
+                        "player1": "Zakharov A.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.02.24",
+                        "event": "PUN",
+                        "player1": "Boyer T.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Moro Canas A.",
+                "data": [
+                    {
+                        "date": "01.03.24",
+                        "event": "TEN",
+                        "player1": "Gigante M.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.02.24",
+                        "event": "TEN",
+                        "player1": "Marie J.",
+                        "player2": "Moro Canas A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.02.24",
+                        "event": "TEN",
+                        "player1": "Moro Canas A.",
+                        "player2": "Roca Batalla O.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.02.24",
+                        "event": "TEN",
+                        "player1": "Moro Canas A.",
+                        "player2": "Jorda Sanchis D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "25.02.24",
+                        "event": "TEN",
+                        "player1": "Moro Canas A.",
+                        "player2": "Barranco Cosano J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": []
+    },
+    "lESCXy8D": {
+        "date": "15.07.2024 13:30",
+        "players": {
+            "player1": {
+                "name": "Guinard M.",
+                "href": "/player/guinard-manuel/Yi4YPuke/",
+                "fullname": "guinard-manuel",
+                "id": "Yi4YPuke",
+                "image": "https://static.flashscore.com/res/image/data/0dTndIdM-txj0pFpj.png"
+            },
+            "player2": {
+                "name": "Yevseyev D.",
+                "href": "/player/yevseyev-denis/p2DCoR3r/",
+                "fullname": "yevseyev-denis",
+                "id": "p2DCoR3r",
+                "image": "https://static.flashscore.com/res/image/data/fFRxRmwS-SEHLxBf2.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Guinard M.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Burruchaga R. A.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Neumayer L.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Guinard M.",
+                        "player2": "Galarneau A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.06.24",
+                        "event": "LYO",
+                        "player1": "Blanchet U.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Guinard M.",
+                        "player2": "Harris B.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Yevseyev D.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Hede L. F.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Yevseyev D.",
+                        "player2": "Sanchez Jover C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "KAR",
+                        "player1": "Yevseyev D.",
+                        "player2": "Shelbayh A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Bergs Z.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Yevseyev D.",
+                        "player2": "Droguet T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "02.08.22",
+                        "event": "LIB",
+                        "player1": "Guinard M.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Guinard M.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Burruchaga R. A.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Neumayer L.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.06.24",
+                        "event": "LYO",
+                        "player1": "Blanchet U.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Guinard M.",
+                        "player2": "Harris B.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "FO",
+                        "player1": "Guinard M.",
+                        "player2": "Sachko V.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Yevseyev D.",
+                "data": [
+                    {
+                        "date": "14.07.24",
+                        "event": "BAS",
+                        "player1": "Hede L. F.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Yevseyev D.",
+                        "player2": "Sanchez Jover C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "KAR",
+                        "player1": "Yevseyev D.",
+                        "player2": "Shelbayh A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "29.05.24",
+                        "event": "VIC",
+                        "player1": "Yevseyev D.",
+                        "player2": "Tseng C. H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "FO",
+                        "player1": "Andreev A.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "02.08.22",
+                        "event": "LIB",
+                        "player1": "Guinard M.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Guinard M.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Guinard M.",
+                        "player2": "Galarneau A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.06.22",
+                        "event": "WIM",
+                        "player1": "Moreno De Alboran N.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Yevseyev D.",
+                "data": [
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Bergs Z.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Yevseyev D.",
+                        "player2": "Droguet T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Martineau M.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.06.24",
+                        "event": "HER",
+                        "player1": "Garin C.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Guinard M.",
+                "data": [
+                    {
+                        "date": "27.02.24",
+                        "event": "LIL",
+                        "player1": "Guinard M.",
+                        "player2": "Droguet T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.02.24",
+                        "event": "LIL",
+                        "player1": "Guinard M.",
+                        "player2": "Colson T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "25.02.24",
+                        "event": "LIL",
+                        "player1": "Guinard M.",
+                        "player2": "Gautier A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "17.02.24",
+                        "event": "GLA",
+                        "player1": "Chidekh C.",
+                        "player2": "Guinard M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "16.02.24",
+                        "event": "GLA",
+                        "player1": "Guinard M.",
+                        "player2": "Kuhn N.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Yevseyev D.",
+                "data": [
+                    {
+                        "date": "30.04.24",
+                        "event": "GUA",
+                        "player1": "Schoolkate T.",
+                        "player2": "Yevseyev D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.04.24",
+                        "event": "SHE",
+                        "player1": "Yevseyev D.",
+                        "player2": "Lajal M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.04.24",
+                        "event": "SHE",
+                        "player1": "Yevseyev D.",
+                        "player2": "Sekulic P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.04.24",
+                        "event": "SHE",
+                        "player1": "Yevseyev D.",
+                        "player2": "Celikbilek A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "12.03.24",
+                        "event": "HAM",
+                        "player1": "Yevseyev D.",
+                        "player2": "Berankis R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": []
+    },
+    "vy3ysnI6": {
+        "date": "15.07.2024 15:00",
+        "players": {
+            "player1": {
+                "name": "Kotov P.",
+                "href": "/player/kotov-pavel/809HrNqi/",
+                "fullname": "kotov-pavel",
+                "id": "809HrNqi",
+                "image": "https://static.flashscore.com/res/image/data/hfvGnwil-fPkF75ca.png"
+            },
+            "player2": {
+                "name": "Garin C.",
+                "href": "/player/garin-cristian/U73k5I15/",
+                "fullname": "garin-cristian",
+                "id": "U73k5I15",
+                "image": "https://static.flashscore.com/res/image/data/IXPBVzg5-noXmEZHh.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Kotov P.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Kotov P.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "31.05.24",
+                        "event": "FO",
+                        "player1": "Kotov P.",
+                        "player2": "Sinner J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "29.05.24",
+                        "event": "FO",
+                        "player1": "Kotov P.",
+                        "player2": "Wawrinka S.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Norrie C.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "23.05.24",
+                        "event": "LYO",
+                        "player1": "Kotov P.",
+                        "player2": "Bublik A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Garin C.",
+                "data": [
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Kukushkin M.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Dodig M.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Kotov P.",
+                "data": [
+                    {
+                        "date": "31.05.24",
+                        "event": "FO",
+                        "player1": "Kotov P.",
+                        "player2": "Sinner J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "29.05.24",
+                        "event": "FO",
+                        "player1": "Kotov P.",
+                        "player2": "Wawrinka S.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Norrie C.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "23.05.24",
+                        "event": "LYO",
+                        "player1": "Kotov P.",
+                        "player2": "Bublik A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.05.24",
+                        "event": "LYO",
+                        "player1": "Kotov P.",
+                        "player2": "Muller A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Garin C.",
+                "data": [
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Kukushkin M.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Dodig M.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "FO",
+                        "player1": "Garin C.",
+                        "player2": "Blanchet U.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "06.05.24",
+                        "event": "ROM",
+                        "player1": "Garin C.",
+                        "player2": "Kukushkin M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Kotov P.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Kotov P.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "29.06.23",
+                        "event": "MAL",
+                        "player1": "Harris L.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.23",
+                        "event": "MAL",
+                        "player1": "Kotov P.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "MAL",
+                        "player1": "Kotov P.",
+                        "player2": "Tu L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "25.06.23",
+                        "event": "MAL",
+                        "player1": "Kotov P.",
+                        "player2": "Tu L.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Garin C.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Skatov T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Barrios Vera T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Couacaud E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "ILK",
+                        "player1": "Atmane T.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Kotov P.",
+                "data": [
+                    {
+                        "date": "20.03.24",
+                        "event": "MIA",
+                        "player1": "Kotov P.",
+                        "player2": "van Assche L.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Kotov P.",
+                        "player2": "Tabilo A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.02.24",
+                        "event": "DUB",
+                        "player1": "Kotov P.",
+                        "player2": "Korda S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.02.24",
+                        "event": "DOH",
+                        "player1": "Humbert U.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.02.24",
+                        "event": "DOH",
+                        "player1": "Kotov P.",
+                        "player2": "Sonego L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Garin C.",
+                "data": [
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Garin C.",
+                        "player2": "Vacherot V.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "13.03.24",
+                        "event": "PHO",
+                        "player1": "Garin C.",
+                        "player2": "van Assche L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.03.24",
+                        "event": "PHO",
+                        "player1": "Garin C.",
+                        "player2": "Moreno De Alboran N.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.03.24",
+                        "event": "PHO",
+                        "player1": "Garin C.",
+                        "player2": "Dzumhur D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "14.01.24",
+                        "event": "AO",
+                        "player1": "O'Connell C.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.76",
+                    "2.00"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.74",
+                    "2.00"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.70",
+                    "1.91"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.70",
+                    "2.00"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.70",
+                    "2.00"
+                ]
+            }
+        ]
+    },
+    "hK4Tr8mf": {
+        "date": "15.07.2024 16:30",
+        "players": {
+            "player1": {
+                "name": "Norrie C.",
+                "href": "/player/norrie-cameron/pvzhJGY8/",
+                "fullname": "norrie-cameron",
+                "id": "pvzhJGY8",
+                "image": "https://static.flashscore.com/res/image/data/xQ8cn0eM-pQ0ElVBe.png"
+            },
+            "player2": {
+                "name": "Kovalik J.",
+                "href": "/player/kovalik-jozef/dAbTjNiB/",
+                "fullname": "kovalik-jozef",
+                "id": "dAbTjNiB",
+                "image": "https://static.flashscore.com/res/image/data/081DUWYg-YsPPPfH5.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Norrie C.",
+                "data": [
+                    {
+                        "date": "06.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Zverev A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Draper J.",
+                        "player2": "Norrie C.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "HUR",
+                        "player1": "Norrie C.",
+                        "player2": "Rune H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "EAS",
+                        "player1": "Norrie C.",
+                        "player2": "Ruusuvuori E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Kovalik J.",
+                "data": [
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Klein L.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Masur D.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.07.24",
+                        "event": "KAR",
+                        "player1": "Molleker R.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "KAR",
+                        "player1": "Gavrielides L.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Norrie C.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Norrie C.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "13.05.24",
+                        "event": "ROM",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Norrie C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.05.24",
+                        "event": "ROM",
+                        "player1": "Munar J.",
+                        "player2": "Norrie C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "29.04.24",
+                        "event": "MAD",
+                        "player1": "Norrie C.",
+                        "player2": "Ruud C.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.04.24",
+                        "event": "MAD",
+                        "player1": "Norrie C.",
+                        "player2": "Fonseca J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Kovalik J.",
+                "data": [
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Klein L.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Masur D.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.07.24",
+                        "event": "KAR",
+                        "player1": "Molleker R.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "KAR",
+                        "player1": "Gavrielides L.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Norrie C.",
+                "data": [
+                    {
+                        "date": "06.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Zverev A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Draper J.",
+                        "player2": "Norrie C.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "HUR",
+                        "player1": "Norrie C.",
+                        "player2": "Rune H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "EAS",
+                        "player1": "Norrie C.",
+                        "player2": "Ruusuvuori E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Kovalik J.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Kovalik J.",
+                        "player2": "Shimabukuro S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "WIM",
+                        "player1": "Kovalik J.",
+                        "player2": "Nardi L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.06.22",
+                        "event": "WIM",
+                        "player1": "Kovalik J.",
+                        "player2": "Rodionov J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.06.21",
+                        "event": "WIM",
+                        "player1": "Kovalik J.",
+                        "player2": "Ramanathan R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.19",
+                        "event": "WIM",
+                        "player1": "Kovalik J.",
+                        "player2": "Haase R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Norrie C.",
+                "data": [
+                    {
+                        "date": "25.03.24",
+                        "event": "MIA",
+                        "player1": "Norrie C.",
+                        "player2": "Medvedev D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "23.03.24",
+                        "event": "MIA",
+                        "player1": "Norrie C.",
+                        "player2": "Cobolli F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.03.24",
+                        "event": "IND",
+                        "player1": "Norrie C.",
+                        "player2": "Monfils G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.03.24",
+                        "event": "IND",
+                        "player1": "Norrie C.",
+                        "player2": "Sonego L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.01.24",
+                        "event": "AO",
+                        "player1": "Zverev A.",
+                        "player2": "Norrie C.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Kovalik J.",
+                "data": [
+                    {
+                        "date": "28.02.24",
+                        "event": "TEN",
+                        "player1": "Bu Y.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.02.24",
+                        "event": "TEN",
+                        "player1": "Kovalik J.",
+                        "player2": "Radulov I.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.02.24",
+                        "event": "TEN",
+                        "player1": "Kovalik J.",
+                        "player2": "Travaglia S.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.02.24",
+                        "event": "TEN",
+                        "player1": "Kuzmanov D.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "19.02.24",
+                        "event": "TEN",
+                        "player1": "Kovalik J.",
+                        "player2": "Zusman R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.59",
+                    "2.28"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.60",
+                    "2.20"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.55",
+                    "2.15"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.55",
+                    "2.25"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.55",
+                    "2.25"
+                ]
+            }
+        ]
+    },
+    "pEs2Sn3D": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Carballes Baena R.",
+                "href": "/player/carballes-baena-roberto/hj8fIZPg/",
+                "fullname": "carballes-baena-roberto",
+                "id": "hj8fIZPg",
+                "image": "https://static.flashscore.com/res/image/data/6m7j8Hil-EDWDBvVg.png"
+            },
+            "player2": {
+                "name": "Safiullin R.",
+                "href": "/player/safiullin-roman/IBpggNog/",
+                "fullname": "safiullin-roman",
+                "id": "IBpggNog",
+                "image": "https://static.flashscore.com/res/image/data/KIHB7Dil-xbQlHtXi.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Carballes Baena R.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Van De Zandschulp B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Herbert P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Klein L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Molleker R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Safiullin R.",
+                "data": [
+                    {
+                        "date": "06.07.24",
+                        "event": "WIM",
+                        "player1": "Fils A.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Machac T.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Safiullin R.",
+                        "player2": "Cerundolo F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "17.06.24",
+                        "event": "HAL",
+                        "player1": "Marozsan F.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.06.24",
+                        "event": "STU",
+                        "player1": "Safiullin R.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Carballes Baena R.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Van De Zandschulp B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Herbert P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Garin C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Klein L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Molleker R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Safiullin R.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Lajovic D.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.05.24",
+                        "event": "ROM",
+                        "player1": "Moutet C.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.05.24",
+                        "event": "AP",
+                        "player1": "Safiullin R.",
+                        "player2": "Munar J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.05.24",
+                        "event": "AP",
+                        "player1": "Nakashima B.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.05.24",
+                        "event": "AP",
+                        "player1": "Ramos A.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Carballes Baena R.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Zverev A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "MAL",
+                        "player1": "Monfils G.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.06.24",
+                        "event": "MAL",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Carreno-Busta P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "07.07.23",
+                        "event": "WIM",
+                        "player1": "Carballes Baena R.",
+                        "player2": "Rune H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "06.07.23",
+                        "event": "WIM",
+                        "player1": "Arnaldi M.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Safiullin R.",
+                "data": [
+                    {
+                        "date": "06.07.24",
+                        "event": "WIM",
+                        "player1": "Fils A.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Machac T.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Safiullin R.",
+                        "player2": "Cerundolo F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "17.06.24",
+                        "event": "HAL",
+                        "player1": "Marozsan F.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.06.24",
+                        "event": "STU",
+                        "player1": "Safiullin R.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Carballes Baena R.",
+                "data": [
+                    {
+                        "date": "24.03.24",
+                        "event": "MIA",
+                        "player1": "Alcaraz C.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.03.24",
+                        "event": "MIA",
+                        "player1": "Vukic A.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "13.03.24",
+                        "event": "PHO",
+                        "player1": "Lestienne C.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.03.24",
+                        "event": "IND",
+                        "player1": "Medvedev D.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Cobolli F.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Safiullin R.",
+                "data": [
+                    {
+                        "date": "24.03.24",
+                        "event": "MIA",
+                        "player1": "Musetti L.",
+                        "player2": "Safiullin R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.03.24",
+                        "event": "MIA",
+                        "player1": "Safiullin R.",
+                        "player2": "Schwartzman D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "12.03.24",
+                        "event": "PHO",
+                        "player1": "Safiullin R.",
+                        "player2": "Kudla D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.03.24",
+                        "event": "IND",
+                        "player1": "Safiullin R.",
+                        "player2": "Korda S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.03.24",
+                        "event": "IND",
+                        "player1": "Safiullin R.",
+                        "player2": "Evans D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.76",
+                    "1.99"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.75",
+                    "1.97"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.70",
+                    "1.91"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.73",
+                    "1.95"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.73",
+                    "1.95"
+                ]
+            }
+        ]
+    },
+    "0MPljjeK": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Coria F.",
+                "href": "/player/coria-federico/vJdE1Bg7/",
+                "fullname": "coria-federico",
+                "id": "vJdE1Bg7",
+                "image": "https://static.flashscore.com/res/image/data/0dxHExBr-xvd6c9Qq.png"
+            },
+            "player2": {
+                "name": "Monteiro T.",
+                "href": "/player/monteiro-thiago/YqLucTlj/",
+                "fullname": "monteiro-thiago",
+                "id": "YqLucTlj",
+                "image": "https://static.flashscore.com/res/image/data/b56ADRDa-2koK4co3.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Coria F.",
+                "data": [
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Ritschard A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Kasnikowski M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Jorda Sanchis D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Coria F.",
+                        "player2": "Walton A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "21.06.24",
+                        "event": "SAS",
+                        "player1": "Coria F.",
+                        "player2": "Altmaier D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Monteiro T.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "SAL",
+                        "player1": "Monteiro T.",
+                        "player2": "Jacquet K.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Moro Canas A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "SAL",
+                        "player1": "Skatov T.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Rola B.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Popyrin A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "07.02.23",
+                        "event": "COR",
+                        "player1": "Coria F.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "20.08.20",
+                        "event": "CIN",
+                        "player1": "Coria F.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.10.19",
+                        "event": "LIM",
+                        "player1": "Monteiro T.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Coria F.",
+                "data": [
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Ritschard A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Kasnikowski M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Coria F.",
+                        "player2": "Jorda Sanchis D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.06.24",
+                        "event": "SAS",
+                        "player1": "Coria F.",
+                        "player2": "Altmaier D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.06.24",
+                        "event": "SAS",
+                        "player1": "Coria F.",
+                        "player2": "Cecchinato M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Monteiro T.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "SAL",
+                        "player1": "Monteiro T.",
+                        "player2": "Jacquet K.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "SAL",
+                        "player1": "Moro Canas A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "SAL",
+                        "player1": "Skatov T.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Rola B.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Monteiro T.",
+                        "player2": "Kecmanovic M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "07.02.23",
+                        "event": "COR",
+                        "player1": "Coria F.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.10.19",
+                        "event": "LIM",
+                        "player1": "Monteiro T.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Coria F.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Coria F.",
+                        "player2": "Walton A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "05.07.23",
+                        "event": "WIM",
+                        "player1": "Ivashka I.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.06.22",
+                        "event": "WIM",
+                        "player1": "Coria F.",
+                        "player2": "Vesely J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "30.06.21",
+                        "event": "WIM",
+                        "player1": "Galan D. E.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.06.19",
+                        "event": "WIM",
+                        "player1": "Popyrin A.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Monteiro T.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Popyrin A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.06.24",
+                        "event": "MAL",
+                        "player1": "Monteiro T.",
+                        "player2": "Jubb P.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.06.24",
+                        "event": "MAL",
+                        "player1": "Monteiro T.",
+                        "player2": "Noguchi R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "05.07.23",
+                        "event": "WIM",
+                        "player1": "Eubanks C.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.06.22",
+                        "event": "WIM",
+                        "player1": "Monteiro T.",
+                        "player2": "Munar J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Coria F.",
+                "data": [
+                    {
+                        "date": "15.01.24",
+                        "event": "AO",
+                        "player1": "Zhang Z.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.08.23",
+                        "event": "USO",
+                        "player1": "Coria F.",
+                        "player2": "Meligeni Alves F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.08.23",
+                        "event": "USO",
+                        "player1": "Coria F.",
+                        "player2": "Damm M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "22.08.23",
+                        "event": "USO",
+                        "player1": "Coria F.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.03.23",
+                        "event": "MIA",
+                        "player1": "Coria F.",
+                        "player2": "Lehecka J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Monteiro T.",
+                "data": [
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Walton A.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.08.23",
+                        "event": "USO",
+                        "player1": "Monteiro T.",
+                        "player2": "Mpetshi Perricard G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.03.23",
+                        "event": "MIA",
+                        "player1": "Auger-Aliassime F.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.03.23",
+                        "event": "MIA",
+                        "player1": "Monteiro T.",
+                        "player2": "Kubler J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.03.23",
+                        "event": "IND",
+                        "player1": "Monteiro T.",
+                        "player2": "Pella G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "20.08.20",
+                        "event": "CIN",
+                        "player1": "Coria F.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.08",
+                    "1.73"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.09",
+                    "1.66"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.95",
+                    "1.67"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.07",
+                    "1.65"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.07",
+                    "1.65"
+                ]
+            }
+        ]
+    },
+    "I1joWU3l": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Daniel T.",
+                "href": "/player/daniel-taro/h4fpmGci/",
+                "fullname": "daniel-taro",
+                "id": "h4fpmGci",
+                "image": "https://static.flashscore.com/res/image/data/QaV8j6EG-xp9kmwRC.png"
+            },
+            "player2": {
+                "name": "Passaro F.",
+                "href": "/player/passaro-francesco/6iHVMexn/",
+                "fullname": "passaro-francesco",
+                "id": "6iHVMexn",
+                "image": "https://static.flashscore.com/res/image/data/fBlYDbEG-xrnIKwNd.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Daniel T.",
+                "data": [
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Jacquet K.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Daniel T.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "23.06.24",
+                        "event": "MAL",
+                        "player1": "Bautista-Agut R.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "LON",
+                        "player1": "Daniel T.",
+                        "player2": "Fritz T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "LON",
+                        "player1": "Kokkinakis T.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Passaro F.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Dalla Valle E.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Lajal M.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "14.06.24",
+                        "event": "PER",
+                        "player1": "Altmaier D.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "13.06.24",
+                        "event": "PER",
+                        "player1": "Agamenone F.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.06.24",
+                        "event": "PER",
+                        "player1": "Hardt N.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Daniel T.",
+                "data": [
+                    {
+                        "date": "09.07.24",
+                        "event": "SAL",
+                        "player1": "Jacquet K.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.05.24",
+                        "event": "FO",
+                        "player1": "Rublev A.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.05.24",
+                        "event": "LYO",
+                        "player1": "Darderi L.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.05.24",
+                        "event": "LYO",
+                        "player1": "Daniel T.",
+                        "player2": "Fanselow S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.05.24",
+                        "event": "LYO",
+                        "player1": "Daniel T.",
+                        "player2": "Chazal M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Passaro F.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Dalla Valle E.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "14.06.24",
+                        "event": "PER",
+                        "player1": "Altmaier D.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "13.06.24",
+                        "event": "PER",
+                        "player1": "Agamenone F.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.06.24",
+                        "event": "PER",
+                        "player1": "Hardt N.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.06.24",
+                        "event": "PRO",
+                        "player1": "Vrbensky M.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Daniel T.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Daniel T.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "23.06.24",
+                        "event": "MAL",
+                        "player1": "Bautista-Agut R.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "LON",
+                        "player1": "Daniel T.",
+                        "player2": "Fritz T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "LON",
+                        "player1": "Kokkinakis T.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "LON",
+                        "player1": "Daniel T.",
+                        "player2": "Cazaux A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Passaro F.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Lajal M.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "WIM",
+                        "player1": "Kudla D.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "06.07.19",
+                        "event": "WIM",
+                        "player1": "Damm M.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Daniel T.",
+                "data": [
+                    {
+                        "date": "20.03.24",
+                        "event": "MIA",
+                        "player1": "Draper J.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Daniel T.",
+                        "player2": "De Minaur A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "06.03.24",
+                        "event": "IND",
+                        "player1": "Daniel T.",
+                        "player2": "Galan D. E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.02.24",
+                        "event": "ACA",
+                        "player1": "De Minaur A.",
+                        "player2": "Daniel T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.02.24",
+                        "event": "LSC",
+                        "player1": "Daniel T.",
+                        "player2": "Giron M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Passaro F.",
+                "data": [
+                    {
+                        "date": "16.01.24",
+                        "event": "NON",
+                        "player1": "Moreno De Alboran N.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.01.24",
+                        "event": "AO",
+                        "player1": "Passaro F.",
+                        "player2": "Crawford O.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.01.24",
+                        "event": "AO",
+                        "player1": "Martinez P.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.01.24",
+                        "event": "NON",
+                        "player1": "Vacherot V.",
+                        "player2": "Passaro F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "03.01.24",
+                        "event": "NON",
+                        "player1": "Passaro F.",
+                        "player2": "Gakhov I.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.12",
+                    "1.73"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.08",
+                    "1.67"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.05",
+                    "1.60"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.07",
+                    "1.65"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.07",
+                    "1.65"
+                ]
+            }
+        ]
+    },
+    "C0qfU8Y0": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Nadal R.",
+                "href": "/player/nadal-rafael/xUwlUnRK/",
+                "fullname": "nadal-rafael",
+                "id": "xUwlUnRK",
+                "image": "https://static.flashscore.com/res/image/data/MLabt1Fa-OtJeQ92e.png"
+            },
+            "player2": {
+                "name": "Borg L.",
+                "href": "/player/borg-leo/CrZJzDe5/",
+                "fullname": "borg-leo",
+                "id": "CrZJzDe5",
+                "image": "https://static.flashscore.com/res/image/data/AmnYLVZA-fq0E6Zd0.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Nadal R.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Zverev A.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.05.24",
+                        "event": "ROM",
+                        "player1": "Hurkacz H.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.05.24",
+                        "event": "ROM",
+                        "player1": "Bergs Z.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "30.04.24",
+                        "event": "MAD",
+                        "player1": "Nadal R.",
+                        "player2": "Lehecka J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "29.04.24",
+                        "event": "MAD",
+                        "player1": "Nadal R.",
+                        "player2": "Cachin P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Borg L.",
+                "data": [
+                    {
+                        "date": "07.07.24",
+                        "event": "BRA",
+                        "player1": "Borg L.",
+                        "player2": "Stodder T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "GET",
+                        "player1": "Curras Abasolo T.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "12.06.24",
+                        "event": "DIE",
+                        "player1": "Borg L.",
+                        "player2": "Rubio Fierros A. F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.06.24",
+                        "event": "TYL",
+                        "player1": "Borg L.",
+                        "player2": "Quinn E.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.06.24",
+                        "event": "TYL",
+                        "player1": "Borg L.",
+                        "player2": "Kirchheimer S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Nadal R.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Zverev A.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.05.24",
+                        "event": "ROM",
+                        "player1": "Hurkacz H.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.05.24",
+                        "event": "ROM",
+                        "player1": "Bergs Z.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "30.04.24",
+                        "event": "MAD",
+                        "player1": "Nadal R.",
+                        "player2": "Lehecka J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "29.04.24",
+                        "event": "MAD",
+                        "player1": "Nadal R.",
+                        "player2": "Cachin P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Borg L.",
+                "data": [
+                    {
+                        "date": "07.07.24",
+                        "event": "BRA",
+                        "player1": "Borg L.",
+                        "player2": "Stodder T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "GET",
+                        "player1": "Curras Abasolo T.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.02.24",
+                        "event": "HAM",
+                        "player1": "Gima S.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.02.24",
+                        "event": "HAM",
+                        "player1": "Ingarao A.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "14.02.24",
+                        "event": "HAM",
+                        "player1": "Perfetti N.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Nadal R.",
+                "data": [
+                    {
+                        "date": "08.07.22",
+                        "event": "WIM",
+                        "player1": "Kyrgios N.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "06.07.22",
+                        "event": "WIM",
+                        "player1": "Fritz T.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "04.07.22",
+                        "event": "WIM",
+                        "player1": "Van De Zandschulp B.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "02.07.22",
+                        "event": "WIM",
+                        "player1": "Sonego L.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "30.06.22",
+                        "event": "WIM",
+                        "player1": "Berankis R.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Borg L.",
+                "data": [
+                    {
+                        "date": "08.07.21",
+                        "event": "WIM",
+                        "player1": "Petr V.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "05.07.21",
+                        "event": "WIM",
+                        "player1": "Topo M.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.19",
+                        "event": "WIM",
+                        "player1": "Borg L.",
+                        "player2": "Pourroy L.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Nadal R.",
+                "data": [
+                    {
+                        "date": "05.01.24",
+                        "event": "BRI",
+                        "player1": "Nadal R.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.01.24",
+                        "event": "BRI",
+                        "player1": "Kubler J.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.01.24",
+                        "event": "BRI",
+                        "player1": "Thiem D.",
+                        "player2": "Nadal R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.01.23",
+                        "event": "AO",
+                        "player1": "Nadal R.",
+                        "player2": "McDonald M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "16.01.23",
+                        "event": "AO",
+                        "player1": "Nadal R.",
+                        "player2": "Draper J.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Borg L.",
+                "data": [
+                    {
+                        "date": "12.06.24",
+                        "event": "DIE",
+                        "player1": "Borg L.",
+                        "player2": "Rubio Fierros A. F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.06.24",
+                        "event": "TYL",
+                        "player1": "Borg L.",
+                        "player2": "Quinn E.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.06.24",
+                        "event": "TYL",
+                        "player1": "Borg L.",
+                        "player2": "Kirchheimer S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.06.24",
+                        "event": "TYL",
+                        "player1": "Borg L.",
+                        "player2": "Tracy J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.05.24",
+                        "event": "KIN",
+                        "player1": "Craig C.",
+                        "player2": "Borg L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.01",
+                    "18.00"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.01",
+                    "16.80"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.01",
+                    "8.25"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.01",
+                    "10.50"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.01",
+                    "14.00"
+                ]
+            }
+        ]
+    },
+    "nJaFyitR": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Ugo Carabelli C.",
+                "href": "/player/ugo-carabelli-camilo/KWdgY7Bq/",
+                "fullname": "ugo-carabelli-camilo",
+                "id": "KWdgY7Bq",
+                "image": "https://static.flashscore.com/res/image/data/MgMEjZCa-lCpb9IPe.png"
+            },
+            "player2": {
+                "name": "Rocha H.",
+                "href": "/player/rocha-henrique/b7jXvxef/",
+                "fullname": "rocha-henrique",
+                "id": "b7jXvxef",
+                "image": "https://static.flashscore.com/res/image/data/ULCGHeil-jXYWnpzD.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Ugo Carabelli C.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "IAS",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Royer V.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "IAS",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Vesely J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Piros Z.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "05.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Butvilas E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Rocha H.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "TRI",
+                        "player1": "Rocha H.",
+                        "player2": "Gomez F. A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "TRI",
+                        "player1": "Rocha H.",
+                        "player2": "Maestrelli F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "TRI",
+                        "player1": "Pecci A.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Guerrieri A.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Rocha H.",
+                        "player2": "Lajal M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Ugo Carabelli C.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "IAS",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Royer V.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "IAS",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Vesely J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Kovalik J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Piros Z.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "05.07.24",
+                        "event": "KAR",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Butvilas E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Rocha H.",
+                "data": [
+                    {
+                        "date": "13.07.24",
+                        "event": "TRI",
+                        "player1": "Rocha H.",
+                        "player2": "Gomez F. A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.07.24",
+                        "event": "TRI",
+                        "player1": "Rocha H.",
+                        "player2": "Maestrelli F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "11.07.24",
+                        "event": "TRI",
+                        "player1": "Pecci A.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "10.07.24",
+                        "event": "TRI",
+                        "player1": "Guerrieri A.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "BRA",
+                        "player1": "Majchrzak K.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Ugo Carabelli C.",
+                "data": [
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "De Loore J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.06.22",
+                        "event": "WIM",
+                        "player1": "Ugo Carabelli C.",
+                        "player2": "Muller A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Rocha H.",
+                "data": [
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Rocha H.",
+                        "player2": "Lajal M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Faria J.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "19.06.24",
+                        "event": "ILK",
+                        "player1": "Rocha H.",
+                        "player2": "Barrere G.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.07.21",
+                        "event": "WIM",
+                        "player1": "Rocha H.",
+                        "player2": "Bertrand R.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.07.21",
+                        "event": "WIM",
+                        "player1": "Andrejic M.",
+                        "player2": "Rocha H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Ugo Carabelli C.",
+                "data": [
+                    {
+                        "date": "12.01.24",
+                        "event": "AO",
+                        "player1": "De Jong J.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "11.01.24",
+                        "event": "AO",
+                        "player1": "Bonadio R.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.01.24",
+                        "event": "AO",
+                        "player1": "Jones H.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.08.23",
+                        "event": "USO",
+                        "player1": "Coria F.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.03.23",
+                        "event": "MIA",
+                        "player1": "Misolic F.",
+                        "player2": "Ugo Carabelli C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Rocha H.",
+                "data": [
+                    {
+                        "date": "10.03.24",
+                        "event": "QUI",
+                        "player1": "Rocha H.",
+                        "player2": "Habib H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "QUI",
+                        "player1": "Rocha H.",
+                        "player2": "Loffhagen G.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "07.03.24",
+                        "event": "QUI",
+                        "player1": "Rocha H.",
+                        "player2": "Furness E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "06.03.24",
+                        "event": "QUI",
+                        "player1": "Rocha H.",
+                        "player2": "Pereira T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "25.02.24",
+                        "event": "TEN",
+                        "player1": "Rocha H.",
+                        "player2": "Brancaccio R.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.56",
+                    "2.40"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.53",
+                    "2.34"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.50",
+                    "2.25"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.53",
+                    "2.30"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.53",
+                    "2.30"
+                ]
+            }
+        ]
+    },
+    "W4GKpUIs": {
+        "date": "16.07.2024 10:00",
+        "players": {
+            "player1": {
+                "name": "Ymer E.",
+                "href": "/player/ymer-elias/GhVfMwlD/",
+                "fullname": "ymer-elias",
+                "id": "GhVfMwlD",
+                "image": "https://static.flashscore.com/res/image/data/8SBwQyFG-Mmm0CY32.png"
+            },
+            "player2": {
+                "name": "Nagal S.",
+                "href": "/player/nagal-sumit/46aHbwDc/",
+                "fullname": "nagal-sumit",
+                "id": "46aHbwDc",
+                "image": "https://static.flashscore.com/res/image/data/AHWz0HYg-KncviCBg.png"
+            }
+        },
+        "tournament": "bastad",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Ymer E.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Draper J.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Shimabukuro S.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Ymer E.",
+                        "player2": "Trungelliti M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Ymer E.",
+                        "player2": "Neumayer L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "SAS",
+                        "player1": "Altmaier D.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Nagal S.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Cachin P.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Meligeni Alves F.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Nagal S.",
+                        "player2": "Kecmanovic M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "PER",
+                        "player1": "Darderi L.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "PER",
+                        "player1": "Nagal S.",
+                        "player2": "Zapata Miralles B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "09.04.23",
+                        "event": "SPL",
+                        "player1": "Ymer E.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.06.19",
+                        "event": "LYO",
+                        "player1": "Nagal S.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Ymer E.",
+                "data": [
+                    {
+                        "date": "18.06.24",
+                        "event": "SAS",
+                        "player1": "Altmaier D.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.05.24",
+                        "event": "FO",
+                        "player1": "Ymer E.",
+                        "player2": "Ritschard A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.05.24",
+                        "event": "OEI",
+                        "player1": "Faria J.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "17.05.24",
+                        "event": "OEI",
+                        "player1": "Yevseyev D.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.05.24",
+                        "event": "OEI",
+                        "player1": "Ymer E.",
+                        "player2": "Choinski J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Nagal S.",
+                "data": [
+                    {
+                        "date": "10.07.24",
+                        "event": "BRA",
+                        "player1": "Cachin P.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.07.24",
+                        "event": "BRA",
+                        "player1": "Meligeni Alves F.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "PER",
+                        "player1": "Darderi L.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "PER",
+                        "player1": "Nagal S.",
+                        "player2": "Zapata Miralles B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "14.06.24",
+                        "event": "PER",
+                        "player1": "Nagal S.",
+                        "player2": "Kasnikowski M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "09.04.23",
+                        "event": "SPL",
+                        "player1": "Ymer E.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.06.19",
+                        "event": "LYO",
+                        "player1": "Nagal S.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Ymer E.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Draper J.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Shimabukuro S.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Ymer E.",
+                        "player2": "Trungelliti M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Ymer E.",
+                        "player2": "Neumayer L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.06.23",
+                        "event": "WIM",
+                        "player1": "Marozsan F.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Nagal S.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Nagal S.",
+                        "player2": "Kecmanovic M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "25.06.18",
+                        "event": "WIM",
+                        "player1": "Nagal S.",
+                        "player2": "Majchrzak K.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Ymer E.",
+                "data": [
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "12.03.24",
+                        "event": "PHO",
+                        "player1": "Ymer E.",
+                        "player2": "Svajda Z.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.03.24",
+                        "event": "PHO",
+                        "player1": "Molcan A.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.03.24",
+                        "event": "IND",
+                        "player1": "Lestienne C.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.02.24",
+                        "event": "DUB",
+                        "player1": "Machac T.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Nagal S.",
+                "data": [
+                    {
+                        "date": "19.03.24",
+                        "event": "MIA",
+                        "player1": "Wong C.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Diallo G.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Raonic M.",
+                        "player2": "Nagal S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "05.03.24",
+                        "event": "IND",
+                        "player1": "Nagal S.",
+                        "player2": "Hong S. C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.03.24",
+                        "event": "IND",
+                        "player1": "Nagal S.",
+                        "player2": "Dostanic S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.40",
+                    "1.55"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.30",
+                    "1.55"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.25",
+                    "1.50"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.27",
+                    "1.53"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.25",
+                    "1.55"
+                ]
+            }
+        ]
+    }
+}
