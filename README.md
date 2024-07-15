@@ -20,16 +20,26 @@ LICENSE
 README.md
 requirements.txt
 tennis/
-    model.ipynb
-    tennis_analysis.ipynb
+    model.ipynb                  # understand the model
+    tennis_analysis.ipynb        # understand dataa
+    README.md
+    model_number_games.ipynb     # model for number of games in a match
+    main.py                      # for future matches predictions
+    long_simulation.py           # simulation during 1 year 
+    test_match.ipynb             # visualize data
     data/
         tennis_matches.py        # Fetches match data from FlashResultat
         tennis_player_data.py    # Fetches player data from ATPtour
         tennis_player_ids.py     # Fetches player IDs from ATPtour
+        tennis_matches_futur.py  # Fetches future match data from FlashResultat
         files/
             players_data.json
             players_ids.json
+            fr_to_atp_ids.json
+            errors.txt
             matches/
+                ...
+            future_matches/
                 ...
         utils/
             constants.py
