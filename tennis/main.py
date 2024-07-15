@@ -242,384 +242,385 @@ PROB_THRESHOLD = 0.5
 def kelly_criterion(odds, prob, safe=0.1):
     return (prob - ((1- prob)/(odds)))*safe
 
-    
-for i in tqdm(range(len(future_tournaments))):
-    print("\n\n\n")
-    print(15*'-')
-    print(f'{BLUE}Tournament : {future_tournaments}{RESET}')
-    train_tournaments = past_tournaments
-    test_tournaments = future_tournaments
-    print(f'    - Train tournaments until : {train_tournaments[-1]}')
-    print(f'    - Test tournament : {test_tournaments}')
-    tennis_dataset = TennisMatchDataset(train_tournaments, verbose = False)
-    list_vectors, list_labels, lst_match_id, nb_errors = tennis_dataset.get_past_vectors(verbose = False)
-    input_shapes = []
-    for i in range(len(list_vectors[0])):
-        input_shapes.append(len(list_vectors[0][i]))
-    lst_tournaments = []
-    new_list_vectors = []
-    new_list_labels = []
-    for i in tqdm(range(len(list_vectors))) :
-        vector = list_vectors[i]
-        num_padding = 0
-        for spe_vec in vector :
-            num_padding += spe_vec.count(c.PADDING)
-        if num_padding < MAX_PADDED and list_labels[i] != c.PADDING:
-            new_list_vectors.append(vector)
-            new_list_labels.append(list_labels[i])
-    tqdm.write(f'{YELLOW}Number of vectors after removing vectors with too much missing values : {len(new_list_vectors)} over {len(list_vectors)}{RESET}')
 
-    if len(new_list_vectors) == 0:
-        print(f'{RED}No data to train{RESET}')
-        continue
 
+print(f'{BLUE}Tournament : {future_tournaments}{RESET}')
+train_tournaments = past_tournaments
+test_tournaments = future_tournaments
+print(f'    - Train tournaments until : {train_tournaments[-1]}')
+print(f'    - Test tournament : {test_tournaments}')
+tennis_dataset = TennisMatchDataset(train_tournaments, verbose = False)
+list_vectors, list_labels, lst_match_id, nb_errors = tennis_dataset.get_past_vectors(verbose = False)
+input_shapes = []
+for i in range(len(list_vectors[0])):
+    input_shapes.append(len(list_vectors[0][i]))
+lst_tournaments = []
+new_list_vectors = []
+new_list_labels = []
+for i in tqdm(range(len(list_vectors))) :
+    vector = list_vectors[i]
+    num_padding = 0
+    for spe_vec in vector :
+        num_padding += spe_vec.count(c.PADDING)
+    if num_padding < MAX_PADDED and list_labels[i] != c.PADDING:
+        new_list_vectors.append(vector)
+        new_list_labels.append(list_labels[i])
+tqdm.write(f'{YELLOW}Number of vectors after removing vectors with too much missing values : {len(new_list_vectors)} over {len(list_vectors)}{RESET}')
+
+if len(new_list_vectors) == 0:
+    print(f'{RED}No data to train{RESET}')
+    # stop the program
+    sys.exit()
 
 
 
 
-    tennis_test_dataset = FutureTennisMatchDataset(test_tournaments, verbose = False)
-    nb_errors = 0
-    list_vectors_test = []
-    list_matches_ids_test = []
 
-    list_vectors_test, list_matches_ids_test, nb_errors = tennis_test_dataset.get_vectors(verbose = False)
-    input_shapes = []
-    for i in range(len(list_vectors_test[0])):
-        input_shapes.append(len(list_vectors_test[0][i]))
-         
-    new_list_vectors_test = []
-    new_list_matches_ids_test = []
+tennis_test_dataset = FutureTennisMatchDataset(test_tournaments, verbose = False)
+nb_errors = 0
+list_vectors_test = []
+list_matches_ids_test = []
 
-    for i in tqdm(range(len(list_vectors_test))) :
-        vector = list_vectors_test[i]
-        num_padding = 0
-        for spe_vec in vector :
-            num_padding += spe_vec.count(c.PADDING)
-        if num_padding < MAX_PADDED :
-            new_list_vectors_test.append(vector)
-            new_list_matches_ids_test.append(list_matches_ids_test[i])
-
-    if len(new_list_vectors_test) == 0:
-        print(f'{RED}No data to predict{RESET}')
-        continue
-    
-    
-    
-    # create 7 tensors : [tournament_features_vector, player1_features_vector, player2_features_vector, h2h_overall_vector, h2h_surface_vector, shape_overall_player1, shape_overall_player2]
-    tournament_features_vector = []
-    player1_features_vector = []
-    player2_features_vector = []
-    h2h_overall_vector = []
-    h2h_surface_vector = []
-    shape_overall_player1_vector = []
-    shape_overall_player2_vector = []
-
-    for vector in new_list_vectors:
-        tournament_features_vector.append(vector[0])
-        player1_features_vector.append(vector[1])
-        player2_features_vector.append(vector[2])
-        h2h_overall_vector.append(vector[3])
-        h2h_surface_vector.append(vector[4])
-        shape_overall_player1_vector.append(vector[5])
-        shape_overall_player2_vector.append(vector[6])
-
-    # convert to pytorch tensor
-    tournament_features_tensor = torch.tensor(tournament_features_vector, dtype=torch.float)
-    tournament_features_mask = torch.zeros_like(tournament_features_tensor)
-    tournament_features_mask[tournament_features_tensor != c.PADDING] = 1.
-    player1_features_tensor = torch.tensor(player1_features_vector, dtype=torch.float)
-    player1_features_mask = torch.zeros_like(player1_features_tensor)
-    player1_features_mask[player1_features_tensor != c.PADDING] = 1.
-    player2_features_tensor = torch.tensor(player2_features_vector, dtype=torch.float)
-    player2_features_mask = torch.zeros_like(player2_features_tensor)
-    player2_features_mask[player2_features_tensor != c.PADDING] = 1.
-    h2h_overall_tensor = torch.tensor(h2h_overall_vector, dtype=torch.float)
-    h2h_overall_mask = torch.zeros_like(h2h_overall_tensor)
-    h2h_overall_mask[h2h_overall_tensor != c.PADDING] = 1.
-    h2h_surface_tensor = torch.tensor(h2h_surface_vector, dtype=torch.float)
-    h2h_surface_mask = torch.zeros_like(h2h_surface_tensor)
-    h2h_surface_mask[h2h_surface_tensor != c.PADDING] = 1.
-    shape_overall_player1_tensor = torch.tensor(shape_overall_player1_vector, dtype=torch.float)
-    shape_overall_player1_mask = torch.zeros_like(shape_overall_player1_tensor)
-    shape_overall_player1_mask[shape_overall_player1_tensor != c.PADDING] = 1.
-    shape_overall_player2_tensor = torch.tensor(shape_overall_player2_vector, dtype=torch.float)
-    shape_overall_player2_mask = torch.zeros_like(shape_overall_player2_tensor)
-    shape_overall_player2_mask[shape_overall_player2_tensor != c.PADDING] = 1.
-
-    label_vector = []
-    for label in new_list_labels:
-        label_vector.append(label)
-
-    label_tensor = torch.tensor(label_vector)
-
-    dataset = TensorDataset(tournament_features_tensor, 
-                            tournament_features_mask, 
-                            player1_features_tensor, 
-                            player1_features_mask, 
-                            player2_features_tensor, 
-                            player2_features_mask,
-                            h2h_overall_tensor, 
-                            h2h_overall_mask, 
-                            h2h_surface_tensor, 
-                            h2h_surface_mask, 
-                            shape_overall_player1_tensor, 
-                            shape_overall_player1_mask, 
-                            shape_overall_player2_tensor, 
-                            shape_overall_player2_mask, 
-                            label_tensor)
-
-    # split the dataset into train and validation 
-    # train_size = int(0.85 * len(dataset))
-    # val_size = len(dataset) - train_size
-    # train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-    N_FOLDS = 5
-    kf = KFold(n_splits=N_FOLDS, shuffle=True)
-
-    # Initialize lists to store the results
-    all_train_losses = []
-    all_val_losses = []
-    all_last_indexes = []
-
-    badly_trained_folds = []
-
-    for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
-        tqdm.write(f"Fold {fold + 1}")
+list_vectors_test, list_matches_ids_test, nb_errors = tennis_test_dataset.get_vectors(verbose = False)
+input_shapes = []
+for i in range(len(list_vectors_test[0])):
+    input_shapes.append(len(list_vectors_test[0][i]))
         
-        train_subset = Subset(dataset, train_idx)
-        val_subset = Subset(dataset, val_idx)
+new_list_vectors_test = []
+new_list_matches_ids_test = []
+
+for i in tqdm(range(len(list_vectors_test))) :
+    vector = list_vectors_test[i]
+    num_padding = 0
+    for spe_vec in vector :
+        num_padding += spe_vec.count(c.PADDING)
+    if num_padding < MAX_PADDED :
+        new_list_vectors_test.append(vector)
+        new_list_matches_ids_test.append(list_matches_ids_test[i])
+
+if len(new_list_vectors_test) == 0:
+    print(f'{RED}No data to predict{RESET}')
+    sys.exit()
+
+
+
+
+
+
+# create 7 tensors : [tournament_features_vector, player1_features_vector, player2_features_vector, h2h_overall_vector, h2h_surface_vector, shape_overall_player1, shape_overall_player2]
+tournament_features_vector = []
+player1_features_vector = []
+player2_features_vector = []
+h2h_overall_vector = []
+h2h_surface_vector = []
+shape_overall_player1_vector = []
+shape_overall_player2_vector = []
+
+for vector in new_list_vectors:
+    tournament_features_vector.append(vector[0])
+    player1_features_vector.append(vector[1])
+    player2_features_vector.append(vector[2])
+    h2h_overall_vector.append(vector[3])
+    h2h_surface_vector.append(vector[4])
+    shape_overall_player1_vector.append(vector[5])
+    shape_overall_player2_vector.append(vector[6])
+
+# convert to pytorch tensor
+tournament_features_tensor = torch.tensor(tournament_features_vector, dtype=torch.float)
+tournament_features_mask = torch.zeros_like(tournament_features_tensor)
+tournament_features_mask[tournament_features_tensor != c.PADDING] = 1.
+player1_features_tensor = torch.tensor(player1_features_vector, dtype=torch.float)
+player1_features_mask = torch.zeros_like(player1_features_tensor)
+player1_features_mask[player1_features_tensor != c.PADDING] = 1.
+player2_features_tensor = torch.tensor(player2_features_vector, dtype=torch.float)
+player2_features_mask = torch.zeros_like(player2_features_tensor)
+player2_features_mask[player2_features_tensor != c.PADDING] = 1.
+h2h_overall_tensor = torch.tensor(h2h_overall_vector, dtype=torch.float)
+h2h_overall_mask = torch.zeros_like(h2h_overall_tensor)
+h2h_overall_mask[h2h_overall_tensor != c.PADDING] = 1.
+h2h_surface_tensor = torch.tensor(h2h_surface_vector, dtype=torch.float)
+h2h_surface_mask = torch.zeros_like(h2h_surface_tensor)
+h2h_surface_mask[h2h_surface_tensor != c.PADDING] = 1.
+shape_overall_player1_tensor = torch.tensor(shape_overall_player1_vector, dtype=torch.float)
+shape_overall_player1_mask = torch.zeros_like(shape_overall_player1_tensor)
+shape_overall_player1_mask[shape_overall_player1_tensor != c.PADDING] = 1.
+shape_overall_player2_tensor = torch.tensor(shape_overall_player2_vector, dtype=torch.float)
+shape_overall_player2_mask = torch.zeros_like(shape_overall_player2_tensor)
+shape_overall_player2_mask[shape_overall_player2_tensor != c.PADDING] = 1.
+
+label_vector = []
+for label in new_list_labels:
+    label_vector.append(label)
+
+label_tensor = torch.tensor(label_vector)
+
+dataset = TensorDataset(tournament_features_tensor, 
+                        tournament_features_mask, 
+                        player1_features_tensor, 
+                        player1_features_mask, 
+                        player2_features_tensor, 
+                        player2_features_mask,
+                        h2h_overall_tensor, 
+                        h2h_overall_mask, 
+                        h2h_surface_tensor, 
+                        h2h_surface_mask, 
+                        shape_overall_player1_tensor, 
+                        shape_overall_player1_mask, 
+                        shape_overall_player2_tensor, 
+                        shape_overall_player2_mask, 
+                        label_tensor)
+
+# split the dataset into train and validation 
+# train_size = int(0.85 * len(dataset))
+# val_size = len(dataset) - train_size
+# train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
+N_FOLDS = 5
+kf = KFold(n_splits=N_FOLDS, shuffle=True)
+
+# Initialize lists to store the results
+all_train_losses = []
+all_val_losses = []
+all_last_indexes = []
+
+badly_trained_folds = []
+
+for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
+    tqdm.write(f"Fold {fold + 1}")
+    
+    train_subset = Subset(dataset, train_idx)
+    val_subset = Subset(dataset, val_idx)
+    
+    train_dataloader = DataLoader(train_subset, batch_size=64, shuffle=True)
+    val_dataloader = DataLoader(val_subset, batch_size=64, shuffle=False)
+
+    model = TennisMatchPredictor(input_shapes)
+    criterion = nn.MSELoss()
+    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+    lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
+
+    fold_train_losses = []
+    fold_val_losses = []
+
+    patience_counter = 0
+    MIN_VAL_LOSS = np.inf
+    BEST_MODEL = None
+    INDEX_EPOCH = 0
+    
+    for epoch in tqdm(range(N_EPOCHS)):
+        train_loss = 0.0
+        val_loss = 0.0
+        model.train()
+        for data in train_dataloader:
+            (tournament_features, tournament_mask, player1_features, player1_mask,
+            player2_features, player2_mask, h2h_overall, h2h_overall_mask, 
+            h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, 
+            shape_overall_player2, shape_overall_player2_mask, labels) = data
+            optimizer.zero_grad()
+            outputs = model(tournament_features, player1_features, player2_features, 
+                            h2h_overall, h2h_surface, shape_overall_player1, shape_overall_player2,
+                            tournament_mask, player1_mask, player2_mask, h2h_overall_mask, 
+                            h2h_surface_mask, shape_overall_player1_mask, shape_overall_player2_mask)
+            loss = criterion(outputs, labels.unsqueeze(1).float())
+            loss.backward()
+            optimizer.step()
+            train_loss += loss.item()
+        lr_scheduler.step()
+
         
-        train_dataloader = DataLoader(train_subset, batch_size=64, shuffle=True)
-        val_dataloader = DataLoader(val_subset, batch_size=64, shuffle=False)
 
-        model = TennisMatchPredictor(input_shapes)
-        criterion = nn.MSELoss()
-        optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
-        lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
-
-        fold_train_losses = []
-        fold_val_losses = []
-
-        patience_counter = 0
-        MIN_VAL_LOSS = np.inf
-        BEST_MODEL = None
-        INDEX_EPOCH = 0
         
-        for epoch in tqdm(range(N_EPOCHS)):
-            train_loss = 0.0
-            val_loss = 0.0
-            model.train()
-            for data in train_dataloader:
+        model.eval()
+        with torch.no_grad():
+            for data in val_dataloader:
                 (tournament_features, tournament_mask, player1_features, player1_mask,
                 player2_features, player2_mask, h2h_overall, h2h_overall_mask, 
                 h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, 
                 shape_overall_player2, shape_overall_player2_mask, labels) = data
-                optimizer.zero_grad()
                 outputs = model(tournament_features, player1_features, player2_features, 
                                 h2h_overall, h2h_surface, shape_overall_player1, shape_overall_player2,
                                 tournament_mask, player1_mask, player2_mask, h2h_overall_mask, 
                                 h2h_surface_mask, shape_overall_player1_mask, shape_overall_player2_mask)
                 loss = criterion(outputs, labels.unsqueeze(1).float())
-                loss.backward()
-                optimizer.step()
-                train_loss += loss.item()
-            lr_scheduler.step()
-
+                val_loss += loss.item()
             
 
-            
-            model.eval()
-            with torch.no_grad():
-                for data in val_dataloader:
-                    (tournament_features, tournament_mask, player1_features, player1_mask,
-                    player2_features, player2_mask, h2h_overall, h2h_overall_mask, 
-                    h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, 
-                    shape_overall_player2, shape_overall_player2_mask, labels) = data
-                    outputs = model(tournament_features, player1_features, player2_features, 
-                                    h2h_overall, h2h_surface, shape_overall_player1, shape_overall_player2,
-                                    tournament_mask, player1_mask, player2_mask, h2h_overall_mask, 
-                                    h2h_surface_mask, shape_overall_player1_mask, shape_overall_player2_mask)
-                    loss = criterion(outputs, labels.unsqueeze(1).float())
-                    val_loss += loss.item()
-                
+            fold_train_losses.append(train_loss / len(train_dataloader))
+            fold_val_losses.append(val_loss / len(val_dataloader))
 
-                fold_train_losses.append(train_loss / len(train_dataloader))
-                fold_val_losses.append(val_loss / len(val_dataloader))
-
-                if epoch % 100 == 0:
-                    all_weights = torch.cat([x.view(-1) for x in model.parameters()])
-                    tqdm.write(f'Fold {fold + 1}, Epoch {epoch + 1}, Train Loss: {train_loss / len(train_dataloader):.2f}, Validation Loss: {val_loss / len(val_dataloader):.2f}, lr: {lr_scheduler.get_last_lr()[0]:.2e}, Weight norm: {all_weights.norm():.2f}')
-                if val_loss < MIN_VAL_LOSS:
-                    MIN_VAL_LOSS = val_loss
-                    patience_counter = 0
-                    BEST_MODEL = model.state_dict()
-                    INDEX_EPOCH = epoch
-                else:
-                    patience_counter += 1
-                if patience_counter == PATIENCE:
-                    tqdm.write(f'{YELLOW}       --> Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}{RESET}')
-                    break
-            
-            all_train_losses.append(fold_train_losses)
-            all_val_losses.append(fold_val_losses)
-            all_last_indexes.append(INDEX_EPOCH)
-            
-            # Save the best model for each fold
-            torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
-        if MIN_VAL_LOSS/len(val_dataloader) > 0.88 : 
-            badly_trained_folds.append(fold + 1)
-
-
-    print(f'{YELLOW}Folds to ignore : {badly_trained_folds}{RESET}')
-
-    tournament_features_vector_test = []
-    player1_features_vector_test = []
-    player2_features_vector_test = []
-    h2h_overall_vector_test = []
-    h2h_surface_vector_test = []
-    shape_overall_player1_vector_test = []
-    shape_overall_player2_vector_test = []
-
-    for vector in new_list_vectors_test:
-        tournament_features_vector_test.append(vector[0])
-        player1_features_vector_test.append(vector[1])
-        player2_features_vector_test.append(vector[2])
-        h2h_overall_vector_test.append(vector[3])
-        h2h_surface_vector_test.append(vector[4])
-        shape_overall_player1_vector_test.append(vector[5])
-        shape_overall_player2_vector_test.append(vector[6])
-
-    # convert to pytorch tensor
-    tournament_features_tensor_test = torch.tensor(tournament_features_vector_test, dtype=torch.float)
-    tournament_features_mask_test = torch.zeros_like(tournament_features_tensor_test)
-    tournament_features_mask_test[tournament_features_tensor_test != c.PADDING] = 1.
-    player1_features_tensor_test = torch.tensor(player1_features_vector_test, dtype=torch.float)
-    player1_features_mask_test = torch.zeros_like(player1_features_tensor_test)
-    player1_features_mask_test[player1_features_tensor_test != c.PADDING] = 1.
-    player2_features_tensor_test = torch.tensor(player2_features_vector_test, dtype=torch.float)
-    player2_features_mask_test = torch.zeros_like(player2_features_tensor_test)
-    player2_features_mask_test[player2_features_tensor_test != c.PADDING] = 1.
-    h2h_overall_tensor_test = torch.tensor(h2h_overall_vector_test, dtype=torch.float)
-    h2h_overall_mask_test = torch.zeros_like(h2h_overall_tensor_test)
-    h2h_overall_mask_test[h2h_overall_tensor_test != c.PADDING] = 1.
-    h2h_surface_tensor_test = torch.tensor(h2h_surface_vector_test, dtype=torch.float)
-    h2h_surface_mask_test = torch.zeros_like(h2h_surface_tensor_test)
-    h2h_surface_mask_test[h2h_surface_tensor_test != c.PADDING] = 1.
-    shape_overall_player1_tensor_test = torch.tensor(shape_overall_player1_vector_test, dtype=torch.float)
-    shape_overall_player1_mask_test = torch.zeros_like(shape_overall_player1_tensor_test)
-    shape_overall_player1_mask_test[shape_overall_player1_tensor_test != c.PADDING] = 1.
-    shape_overall_player2_tensor_test = torch.tensor(shape_overall_player2_vector_test, dtype=torch.float)
-    shape_overall_player2_mask_test = torch.zeros_like(shape_overall_player2_tensor_test)
-    shape_overall_player2_mask_test[shape_overall_player2_tensor_test != c.PADDING] = 1.
-
-
-    test_dataset = TensorDataset(tournament_features_tensor_test, 
-                                tournament_features_mask_test, 
-                                player1_features_tensor_test, 
-                                player1_features_mask_test, 
-                                player2_features_tensor_test, 
-                                player2_features_mask_test,
-                                h2h_overall_tensor_test, 
-                                h2h_overall_mask_test, 
-                                h2h_surface_tensor_test, 
-                                h2h_surface_mask_test, 
-                                shape_overall_player1_tensor_test, 
-                                shape_overall_player1_mask_test, 
-                                shape_overall_player2_tensor_test, 
-                                shape_overall_player2_mask_test, 
-                                )
-
-    test_dataloader = DataLoader(test_dataset, batch_size=64, shuffle=False)
-
-    all_predictions = []
-    for j in range(N_FOLDS):
-        if j + 1 not in badly_trained_folds:
-            model = TennisMatchPredictor(input_shapes)
-            model.load_state_dict(torch.load(f'{c2.REPO_PATH}/tennis/models/best_model_fold_{j + 1}.pth'))
-            model.eval()
-            predictions = []
-            with torch.no_grad():
-                for i, data in enumerate(test_dataloader):
-                    tournament_features, tournament_mask, player1_features, player1_mask, player2_features, player2_mask, h2h_overall, h2h_overall_mask, h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, shape_overall_player2, shape_overall_player2_mask = data
-                    outputs = model(tournament_features = tournament_features, 
-                                    player1_features = player1_features, 
-                                    player2_features = player2_features, 
-                                    h2h_overall = h2h_overall, 
-                                    h2h_surface = h2h_surface, 
-                                    shape_overall_player1 = shape_overall_player1, 
-                                    shape_overall_player2 = shape_overall_player2,
-                                    tournament_mask = tournament_mask, 
-                                    player1_mask = player1_mask, 
-                                    player2_mask = player2_mask, 
-                                    h2h_overall_mask = h2h_overall_mask,
-                                    h2h_surface_mask = h2h_surface_mask,
-                                    shape_overall_player1_mask = shape_overall_player1_mask,
-                                    shape_overall_player2_mask = shape_overall_player2_mask
-                                    )    
-                    predictions.append(outputs)        
-            # find the matches where the model is the most confident and was right
-            predictions = torch.cat(predictions).flatten()
-            all_predictions.append(predictions)
-
-    all_predictions = torch.stack(all_predictions)
-    predictions = all_predictions.mean(dim=0)
-
-    print(f'{YELLOW}Making predictions for {len(predictions)} matches for tournament {test_tournaments[0]}{RESET}')
-
-    # get the indexes of the matches where the model was right
-    # create data frame with the predictions and the labels and the match ids
-    df = pd.DataFrame(columns=['match_id', 'predictions', 'labels'])
-    df['predictions'] = predictions
-    df['match_id'] = new_list_matches_ids_test
-    # order the data frame by predictions values
-    df = df.sort_values(by='predictions', ascending=False)
-
-    # fetch the odds of betclic for the matches
-    odds_1_list = []
-    odds_2_list = []
-    prob_list = []
-    for match_id in df['match_id']:
-        match_odds =tennis_test_dataset.get_match(match_id).get_odds()
-        odds_found = False
-        for match_odd in match_odds:
-            if match_odd['bookmaker'] == 'Betclic.fr':
-                odds_found = True
-                odds_1_list.append(float(match_odd['odds'][0]))
-                odds_2_list.append(float(match_odd['odds'][1]))
-                player1odd = float(match_odd['odds'][0])
-                player2odd = float(match_odd['odds'][1])
-                prob_win_player1 = 1/player1odd
-                prob_win_player2 = 1/player2odd
-                # normalize the probabilities
-                prob_sum = prob_win_player1 + prob_win_player2
-                prob_win_player1 = prob_win_player1/prob_sum
-                prob_win_player2 = prob_win_player2/prob_sum
-                prob_list.append(2*prob_win_player1-1)
+            if epoch % 100 == 0:
+                all_weights = torch.cat([x.view(-1) for x in model.parameters()])
+                tqdm.write(f'Fold {fold + 1}, Epoch {epoch + 1}, Train Loss: {train_loss / len(train_dataloader):.2f}, Validation Loss: {val_loss / len(val_dataloader):.2f}, lr: {lr_scheduler.get_last_lr()[0]:.2e}, Weight norm: {all_weights.norm():.2f}')
+            if val_loss < MIN_VAL_LOSS:
+                MIN_VAL_LOSS = val_loss
+                patience_counter = 0
+                BEST_MODEL = model.state_dict()
+                INDEX_EPOCH = epoch
+            else:
+                patience_counter += 1
+            if patience_counter == PATIENCE:
+                tqdm.write(f'{YELLOW}       --> Early stopping at epoch {epoch + 1} with validation loss: {MIN_VAL_LOSS/len(val_dataloader):.2f}{RESET}')
                 break
-        if not odds_found:
-            odds_1_list.append(None)
-            odds_2_list.append(None)
-            prob_list.append(None) 
+        
+        all_train_losses.append(fold_train_losses)
+        all_val_losses.append(fold_val_losses)
+        all_last_indexes.append(INDEX_EPOCH)
+        
+        # Save the best model for each fold
+        torch.save(BEST_MODEL, f'{c2.REPO_PATH}/tennis/models/best_model_fold_{fold + 1}.pth')
+    if MIN_VAL_LOSS/len(val_dataloader) > 0.88 : 
+        badly_trained_folds.append(fold + 1)
 
-    df['odds_1'] = odds_1_list
-    df['odds_2'] = odds_2_list
-    df['bookmaker_pred'] = prob_list
-    df = df.loc[df['odds_1'].notnull()]
 
-    total_amount = 100
+print(f'{YELLOW}Folds to ignore : {badly_trained_folds}{RESET}')
 
-    # if predictions > 0.6 bet on player 1, if predictions < -0.6 bet on player 2
-    bet_on_player_1_df = df.loc[df['predictions'] > PROB_THRESHOLD].copy()
-    bet_on_player_1_df['prediction_prob']= bet_on_player_1_df['predictions'].apply(lambda x : (1+x)/2)
-    bet_on_player_1_df['kelly_criterion'] = bet_on_player_1_df.apply(lambda row : kelly_criterion(row['odds_1'], row['prediction_prob']), axis=1)
+tournament_features_vector_test = []
+player1_features_vector_test = []
+player2_features_vector_test = []
+h2h_overall_vector_test = []
+h2h_surface_vector_test = []
+shape_overall_player1_vector_test = []
+shape_overall_player2_vector_test = []
 
-    bet_on_player_2_df = df.loc[df['predictions'] < -PROB_THRESHOLD].copy()
-    bet_on_player_2_df['prediction_prob']= bet_on_player_2_df['predictions'].apply(lambda x : (1-x)/2)
-    bet_on_player_2_df['kelly_criterion'] = bet_on_player_2_df.apply(lambda row : kelly_criterion(row['odds_2'], row['prediction_prob']), axis=1)
-    
-    if len(bet_on_player_1_df) == 0 and len(bet_on_player_2_df) == 0:
-        print(f'{RED}No bets to make{RESET}')
-        continue
+for vector in new_list_vectors_test:
+    tournament_features_vector_test.append(vector[0])
+    player1_features_vector_test.append(vector[1])
+    player2_features_vector_test.append(vector[2])
+    h2h_overall_vector_test.append(vector[3])
+    h2h_surface_vector_test.append(vector[4])
+    shape_overall_player1_vector_test.append(vector[5])
+    shape_overall_player2_vector_test.append(vector[6])
 
+# convert to pytorch tensor
+tournament_features_tensor_test = torch.tensor(tournament_features_vector_test, dtype=torch.float)
+tournament_features_mask_test = torch.zeros_like(tournament_features_tensor_test)
+tournament_features_mask_test[tournament_features_tensor_test != c.PADDING] = 1.
+player1_features_tensor_test = torch.tensor(player1_features_vector_test, dtype=torch.float)
+player1_features_mask_test = torch.zeros_like(player1_features_tensor_test)
+player1_features_mask_test[player1_features_tensor_test != c.PADDING] = 1.
+player2_features_tensor_test = torch.tensor(player2_features_vector_test, dtype=torch.float)
+player2_features_mask_test = torch.zeros_like(player2_features_tensor_test)
+player2_features_mask_test[player2_features_tensor_test != c.PADDING] = 1.
+h2h_overall_tensor_test = torch.tensor(h2h_overall_vector_test, dtype=torch.float)
+h2h_overall_mask_test = torch.zeros_like(h2h_overall_tensor_test)
+h2h_overall_mask_test[h2h_overall_tensor_test != c.PADDING] = 1.
+h2h_surface_tensor_test = torch.tensor(h2h_surface_vector_test, dtype=torch.float)
+h2h_surface_mask_test = torch.zeros_like(h2h_surface_tensor_test)
+h2h_surface_mask_test[h2h_surface_tensor_test != c.PADDING] = 1.
+shape_overall_player1_tensor_test = torch.tensor(shape_overall_player1_vector_test, dtype=torch.float)
+shape_overall_player1_mask_test = torch.zeros_like(shape_overall_player1_tensor_test)
+shape_overall_player1_mask_test[shape_overall_player1_tensor_test != c.PADDING] = 1.
+shape_overall_player2_tensor_test = torch.tensor(shape_overall_player2_vector_test, dtype=torch.float)
+shape_overall_player2_mask_test = torch.zeros_like(shape_overall_player2_tensor_test)
+shape_overall_player2_mask_test[shape_overall_player2_tensor_test != c.PADDING] = 1.
+
+
+test_dataset = TensorDataset(tournament_features_tensor_test, 
+                            tournament_features_mask_test, 
+                            player1_features_tensor_test, 
+                            player1_features_mask_test, 
+                            player2_features_tensor_test, 
+                            player2_features_mask_test,
+                            h2h_overall_tensor_test, 
+                            h2h_overall_mask_test, 
+                            h2h_surface_tensor_test, 
+                            h2h_surface_mask_test, 
+                            shape_overall_player1_tensor_test, 
+                            shape_overall_player1_mask_test, 
+                            shape_overall_player2_tensor_test, 
+                            shape_overall_player2_mask_test, 
+                            )
+
+test_dataloader = DataLoader(test_dataset, batch_size=64, shuffle=False)
+
+all_predictions = []
+for j in range(N_FOLDS):
+    if j + 1 not in badly_trained_folds:
+        model = TennisMatchPredictor(input_shapes)
+        model.load_state_dict(torch.load(f'{c2.REPO_PATH}/tennis/models/best_model_fold_{j + 1}.pth'))
+        model.eval()
+        predictions = []
+        with torch.no_grad():
+            for i, data in enumerate(test_dataloader):
+                tournament_features, tournament_mask, player1_features, player1_mask, player2_features, player2_mask, h2h_overall, h2h_overall_mask, h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, shape_overall_player2, shape_overall_player2_mask = data
+                outputs = model(tournament_features = tournament_features, 
+                                player1_features = player1_features, 
+                                player2_features = player2_features, 
+                                h2h_overall = h2h_overall, 
+                                h2h_surface = h2h_surface, 
+                                shape_overall_player1 = shape_overall_player1, 
+                                shape_overall_player2 = shape_overall_player2,
+                                tournament_mask = tournament_mask, 
+                                player1_mask = player1_mask, 
+                                player2_mask = player2_mask, 
+                                h2h_overall_mask = h2h_overall_mask,
+                                h2h_surface_mask = h2h_surface_mask,
+                                shape_overall_player1_mask = shape_overall_player1_mask,
+                                shape_overall_player2_mask = shape_overall_player2_mask
+                                )    
+                predictions.append(outputs)        
+        # find the matches where the model is the most confident and was right
+        predictions = torch.cat(predictions).flatten()
+        all_predictions.append(predictions)
+
+all_predictions = torch.stack(all_predictions)
+predictions = all_predictions.mean(dim=0)
+
+print(f'{YELLOW}Making predictions for {len(predictions)} matches for tournament {test_tournaments[0]}{RESET}')
+
+# get the indexes of the matches where the model was right
+# create data frame with the predictions and the labels and the match ids
+df = pd.DataFrame(columns=['match_id', 'predictions', 'labels'])
+df['predictions'] = predictions
+df['match_id'] = new_list_matches_ids_test
+# order the data frame by predictions values
+df = df.sort_values(by='predictions', ascending=False)
+
+# fetch the odds of betclic for the matches
+odds_1_list = []
+odds_2_list = []
+prob_list = []
+for match_id in df['match_id']:
+    match_odds =tennis_test_dataset.get_match(match_id).get_odds()
+    odds_found = False
+    for match_odd in match_odds:
+        if match_odd['bookmaker'] == 'Betclic.fr':
+            odds_found = True
+            odds_1_list.append(float(match_odd['odds'][0]))
+            odds_2_list.append(float(match_odd['odds'][1]))
+            player1odd = float(match_odd['odds'][0])
+            player2odd = float(match_odd['odds'][1])
+            prob_win_player1 = 1/player1odd
+            prob_win_player2 = 1/player2odd
+            # normalize the probabilities
+            prob_sum = prob_win_player1 + prob_win_player2
+            prob_win_player1 = prob_win_player1/prob_sum
+            prob_win_player2 = prob_win_player2/prob_sum
+            prob_list.append(2*prob_win_player1-1)
+            break
+    if not odds_found:
+        odds_1_list.append(None)
+        odds_2_list.append(None)
+        prob_list.append(None) 
+
+df['odds_1'] = odds_1_list
+df['odds_2'] = odds_2_list
+df['bookmaker_pred'] = prob_list
+df = df.loc[df['odds_1'].notnull()]
+
+total_amount = 100
+
+# if predictions > 0.6 bet on player 1, if predictions < -0.6 bet on player 2
+bet_on_player_1_df = df.loc[df['predictions'] > PROB_THRESHOLD].copy()
+bet_on_player_1_df['prediction_prob']= bet_on_player_1_df['predictions'].apply(lambda x : (1+x)/2)
+bet_on_player_1_df['kelly_criterion'] = bet_on_player_1_df.apply(lambda row : kelly_criterion(row['odds_1'], row['prediction_prob']), axis=1)
+
+bet_on_player_2_df = df.loc[df['predictions'] < -PROB_THRESHOLD].copy()
+bet_on_player_2_df['prediction_prob']= bet_on_player_2_df['predictions'].apply(lambda x : (1-x)/2)
+bet_on_player_2_df['kelly_criterion'] = bet_on_player_2_df.apply(lambda row : kelly_criterion(row['odds_2'], row['prediction_prob']), axis=1)
+
+if len(bet_on_player_1_df) == 0 and len(bet_on_player_2_df) == 0:
+    print(f'{RED}No bets to make{RESET}')
+else :
     for i, row in bet_on_player_1_df.iterrows():
         player1 = tennis_test_dataset.get_match(row['match_id']).get_players()[0]
         player2 = tennis_test_dataset.get_match(row['match_id']).get_players()[1]
