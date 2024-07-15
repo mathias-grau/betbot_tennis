@@ -254,9 +254,9 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
         print(f'{RED}Skipping tournament{RESET}')
         continue
     train_tournaments = tournaments_2023 + tournaments_ordered_2024[:i]
-    test_tournamets = [tournaments_ordered_2024[i]]
+    test_tournaments = [tournaments_ordered_2024[i]]
     print(f'    - Train tournaments until : {train_tournaments[-1]}')
-    print(f'    - Test tournament : {test_tournamets[0]}')
+    print(f'    - Test tournament : {test_tournaments[0]}')
     tennis_dataset = TennisMatchDataset(train_tournaments, verbose = False)
     list_vectors, list_labels, lst_match_id, nb_errors = tennis_dataset.get_past_vectors(verbose = False)
     input_shapes = []
@@ -283,7 +283,7 @@ for i in tqdm(range(len(tournaments_ordered_2024))):
 
 
 
-    tennis_test_dataset = TennisMatchDataset(test_tournamets, verbose = False)
+    tennis_test_dataset = TennisMatchDataset(test_tournaments, verbose = False)
     nb_errors = 0
     list_vectors_test = []
     list_labels_test = []

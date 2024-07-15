@@ -102,10 +102,13 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'mallorca': 3,
                     'eastbourne': 3,
                     'wimbledon': 1,
+                    'bastad': 3,
+                    'gstaad': 3,
 }
 MAX_SURFACE_TYPE_VALUE = 3
 SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
 TENNIS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/matches"
+TENNIS_FUTURE_DATA_PATH = f"{REPO_PATH}/tennis/data/files/future_matches"
 PLAYERS_IDS_AND_NAMES_PATH = f"{REPO_PATH}/tennis/data/files/players_ids.json"
 CORRESPONDANCE_FR_IDS_ATP_IDS_PATH = f"{REPO_PATH}/tennis/data/files/fr_to_atp_ids.json"
 PLAYERS_DATA_PATH = f"{REPO_PATH}/tennis/data/files/players_data.json"
@@ -216,6 +219,8 @@ TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'mallorca': 'grass',
                     'eastbourne': 'grass',
                     'wimbledon': 'grass',
+                    'bastad': 'clay',
+                    'gstaad': 'clay',
 }
 
 PADDING = 0
