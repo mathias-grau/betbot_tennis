@@ -340,3 +340,89 @@ Tournament : past-halle-atp-singles
   - Test tournament : past-halle-atp-singles
 Number of vectors after removing vectors with too much missing values : 1442 over 4789
        --> Fold 1 : Early stopping at epoch 287 with validation loss: 0.78
+       --> Fold 2 : Early stopping at epoch 289 with validation loss: 0.81
+       --> Fold 3 : Early stopping at epoch 272 with validation loss: 0.72
+       --> Fold 4 : Early stopping at epoch 362 with validation loss: 0.85
+       --> Fold 5 : Early stopping at epoch 128 with validation loss: 0.84
+Folds to ignore : []
+Making predictions for 10 matches for tournament past-halle-atp-singles
+Match : CI6r7mLP Sinner J. - Griekspoor T., bet on player 1 (0.80), amount to bet : 11.42, odds : 1.08, label : 1.00, total amount : 185.28
+
+
+
+Tournament : past-london-atp-singles
+  - Train tournaments until : past-halle-atp-singles
+  - Test tournament : past-london-atp-singles
+Number of vectors after removing vectors with too much missing values : 1452 over 4828
+       --> Fold 1 : Early stopping at epoch 299 with validation loss: 0.75
+       --> Fold 2 : Early stopping at epoch 306 with validation loss: 0.72
+       --> Fold 3 : Early stopping at epoch 110 with validation loss: 0.85
+       --> Fold 4 : Early stopping at epoch 253 with validation loss: 0.83
+       --> Fold 5 : Early stopping at epoch 163 with validation loss: 0.77
+Folds to ignore : [3]
+Making predictions for 23 matches for tournament past-london-atp-singles
+Match : zDehUz5N Korda S. - Hijikata R., bet on player 1 (0.83), amount to bet : 12.56, odds : 1.13, label : 1.00, total amount : 186.91
+Match : bizlw5ue Alcaraz C. - Cerundolo F., bet on player 1 (0.83), amount to bet : 12.43, odds : 1.08, label : 1.00, total amount : 187.90
+Match : 6ZWRX93F Dimitrov G. - Mannarino A., bet on player 1 (0.80), amount to bet : 11.95, odds : 1.16, label : 1.00, total amount : 189.82
+Match : EoH3Kj2l Daniel T. - Fritz T., bet on player 2 (0.84), amount to bet : 13.34, odds : 1.12, label : -1.00, total amount : 191.42
+
+
+
+Tournament : past-mallorca-atp-singles
+  - Train tournaments until : past-london-atp-singles
+  - Test tournament : past-mallorca-atp-singles
+Number of vectors after removing vectors with too much missing values : 1475 over 4869
+       --> Fold 1 : Early stopping at epoch 236 with validation loss: 0.75
+       --> Fold 2 : Early stopping at epoch 118 with validation loss: 0.84
+       --> Fold 3 : Early stopping at epoch 141 with validation loss: 0.75
+       --> Fold 4 : Early stopping at epoch 171 with validation loss: 0.84
+       --> Fold 5 : Early stopping at epoch 290 with validation loss: 0.78
+Folds to ignore : []
+Making predictions for 6 matches for tournament past-mallorca-atp-singles
+
+
+
+Tournament : past-eastbourne-atp-singles
+  - Train tournaments until : past-mallorca-atp-singles
+  - Test tournament : past-eastbourne-atp-singles
+Number of vectors after removing vectors with too much missing values : 1481 over 4897
+       --> Fold 1 : Early stopping at epoch 285 with validation loss: 0.79
+       --> Fold 2 : Early stopping at epoch 210 with validation loss: 0.79
+       --> Fold 3 : Early stopping at epoch 338 with validation loss: 0.85
+       --> Fold 4 : Early stopping at epoch 174 with validation loss: 0.74
+       --> Fold 5 : Early stopping at epoch 163 with validation loss: 0.82
+Folds to ignore : [3]
+Making predictions for 3 matches for tournament past-eastbourne-atp-singles
+Match : zBOtikZp Shang J. - Etcheverry T. M., bet on player 1 (0.80), amount to bet : 13.00, odds : 1.65, label : 1.00, total amount : 199.87
+
+
+
+Tournament : past-wimbledon-atp-singles
+  - Train tournaments until : past-eastbourne-atp-singles
+  - Test tournament : past-wimbledon-atp-singles
+Number of vectors after removing vectors with too much missing values : 1484 over 4920
+       --> Fold 1 : Early stopping at epoch 164 with validation loss: 0.85
+       --> Fold 2 : Early stopping at epoch 232 with validation loss: 0.81
+       --> Fold 3 : Early stopping at epoch 228 with validation loss: 0.77
+       --> Fold 4 : Early stopping at epoch 335 with validation loss: 0.80
+       --> Fold 5 : Early stopping at epoch 131 with validation loss: 0.81
+Folds to ignore : []
+Making predictions for 71 matches for tournament past-wimbledon-atp-singles
+Match : jq8ynwHk Sinner J. - Hanfmann Y., bet on player 1 (0.93), amount to bet : 17.29, odds : 1.01, label : 1.00, total amount : 200.04
+Match : 0tUC6sO6 Sinner J. - Shelton B., bet on player 1 (0.93), amount to bet : 17.23, odds : 1.04, label : 1.00, total amount : 200.73
+Match : ObL2Ki4t Alcaraz C. - Vukic A., bet on player 1 (0.91), amount to bet : 16.58, odds : 1.01, label : 1.00, total amount : 200.89
+Match : CUx6jYQO Fritz T. - O'Connell C., bet on player 1 (0.87), amount to bet : 15.12, odds : 1.03, label : 1.00, total amount : 201.35
+Match : ShoNrr9t Pouille L. - Vesely J., bet on player 1 (0.87), amount to bet : 15.87, odds : 1.51, label : 1.00, total amount : 209.44
+Match : Y1tyOWT6 Draper J. - Ymer E., bet on player 1 (0.85), amount to bet : 14.94, odds : 1.03, label : 1.00, total amount : 209.89
+Match : CYSBxIl3 Alcaraz C. - Tiafoe F., bet on player 1 (0.84), amount to bet : 14.43, odds : 1.06, label : 1.00, total amount : 210.76
+Match : n3BWOGld Sinner J. - Berrettini M., bet on player 1 (0.83), amount to bet : 14.49, odds : 1.15, label : 1.00, total amount : 212.93
+Match : SK9NEm8j Hurkacz H. - Albot R., bet on player 1 (0.82), amount to bet : 13.76, odds : 1.02, label : 1.00, total amount : 213.20
+Match : 6wwgFVfB Fils A. - Safiullin R., bet on player 1 (0.82), amount to bet : 15.30, odds : 1.73, label : 1.00, total amount : 224.37
+Match : b3hKGxAs Alcaraz C. - Humbert U., bet on player 1 (0.81), amount to bet : 14.20, odds : 1.09, label : 1.00, total amount : 225.65
+Match : Sx9UIRsC Draper J. - Norrie C., bet on player 1 (0.81), amount to bet : 14.76, odds : 1.28, label : -1.00, total amount : 210.89
+Match : KSkmWc1U Muller A. - Medvedev D., bet on player 2 (0.80), amount to bet : 12.75, odds : 1.01, label : -1.00, total amount : 211.01
+Match : 4rbNuHC6 Carballes Baena R. - Zverev A., bet on player 2 (0.81), amount to bet : 13.29, odds : 1.01, label : -1.00, total amount : 211.15
+Match : SAhPQABE Munar J. - De Minaur A., bet on player 2 (0.83), amount to bet : 14.14, odds : 1.01, label : -1.00, total amount : 211.29
+Match : 4MlKREUs Lestienne C. - Musetti L., bet on player 2 (0.83), amount to bet : 14.46, odds : 1.10, label : -1.00, total amount : 212.73
+Match : 8SvTqakd Norrie C. - Zverev A., bet on player 2 (0.86), amount to bet : 15.66, odds : 1.11, label : -1.00, total amount : 214.46
+Relative won 114.46%
