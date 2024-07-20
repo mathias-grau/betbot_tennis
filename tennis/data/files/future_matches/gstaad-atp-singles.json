@@ -1,893 +1,13 @@
 {
-    "EibDVXZg": {
-        "date": "18.07.2024 10:30",
+    "lIIEcgJH": {
+        "date": "20.07.2024 13:40",
         "players": {
             "player1": {
-                "name": "Klein L.",
-                "href": "/player/klein-lukas/O49b2LJR/",
-                "fullname": "klein-lukas",
-                "id": "O49b2LJR",
-                "image": "https://static.flashscore.com/res/image/data/dOEZUyDr-CS8Exh9l.png"
-            },
-            "player2": {
-                "name": "Halys Q.",
-                "href": "/player/halys-quentin/EDve8Ljh/",
-                "fullname": "halys-quentin",
-                "id": "EDve8Ljh",
-                "image": "https://static.flashscore.com/res/image/data/0GxnPUDa-d4CRNZWd.png"
-            }
-        },
-        "tournament": "gstaad",
-        "league": "atp-singles",
-        "h2h_overall": [
-            {
-                "title": "Last matches: Klein L.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Wawrinka S.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "10.07.24",
-                        "event": "BRA",
-                        "player1": "Carballes Baena R.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.07.24",
-                        "event": "BRA",
-                        "player1": "Klein L.",
-                        "player2": "Kovalik J.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "WIM",
-                        "player1": "Skatov T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "24.06.24",
-                        "event": "WIM",
-                        "player1": "Boyer T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Halys Q.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Halys Q.",
-                        "player2": "Gasquet R.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "14.07.24",
-                        "event": "GST",
-                        "player1": "Moreno De Alboran N.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.07.24",
-                        "event": "GST",
-                        "player1": "Fonio G.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Rune H.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "04.07.24",
-                        "event": "WIM",
-                        "player1": "Halys Q.",
-                        "player2": "Khachanov K.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": [
-                    {
-                        "date": "30.12.23",
-                        "event": "BRI",
-                        "player1": "Halys Q.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            }
-        ],
-        "h2h_clay": [
-            {
-                "title": "Last matches: Klein L.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Wawrinka S.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "10.07.24",
-                        "event": "BRA",
-                        "player1": "Carballes Baena R.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.07.24",
-                        "event": "BRA",
-                        "player1": "Klein L.",
-                        "player2": "Kovalik J.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "20.05.24",
-                        "event": "FO",
-                        "player1": "Klein L.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "26.04.24",
-                        "event": "MAD",
-                        "player1": "Paul T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Halys Q.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Halys Q.",
-                        "player2": "Gasquet R.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "14.07.24",
-                        "event": "GST",
-                        "player1": "Moreno De Alboran N.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.07.24",
-                        "event": "GST",
-                        "player1": "Fonio G.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "14.06.24",
-                        "event": "LYO",
-                        "player1": "Jacquet K.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "13.06.24",
-                        "event": "LYO",
-                        "player1": "Halys Q.",
-                        "player2": "Bourgue M.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_grass": [
-            {
-                "title": "Last matches: Klein L.",
-                "data": [
-                    {
-                        "date": "26.06.24",
-                        "event": "WIM",
-                        "player1": "Skatov T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "24.06.24",
-                        "event": "WIM",
-                        "player1": "Boyer T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "20.06.24",
-                        "event": "ILK",
-                        "player1": "Klein L.",
-                        "player2": "Svajda Z.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "20.06.24",
-                        "event": "ILK",
-                        "player1": "Barrios Vera T.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "19.06.24",
-                        "event": "ILK",
-                        "player1": "Peniston R.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Halys Q.",
-                "data": [
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Rune H.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "04.07.24",
-                        "event": "WIM",
-                        "player1": "Halys Q.",
-                        "player2": "Khachanov K.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Halys Q.",
-                        "player2": "Eubanks C.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "27.06.24",
-                        "event": "WIM",
-                        "player1": "Halys Q.",
-                        "player2": "Zhukayev B.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "WIM",
-                        "player1": "Halys Q.",
-                        "player2": "Clarke J.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_hard": [
-            {
-                "title": "Last matches: Klein L.",
-                "data": [
-                    {
-                        "date": "21.03.24",
-                        "event": "MIA",
-                        "player1": "Michelsen A.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "19.03.24",
-                        "event": "MIA",
-                        "player1": "Mensik J.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "18.03.24",
-                        "event": "MIA",
-                        "player1": "Klein L.",
-                        "player2": "Paire B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "10.03.24",
-                        "event": "IND",
-                        "player1": "Ruud C.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.03.24",
-                        "event": "IND",
-                        "player1": "Moreno De Alboran N.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Halys Q.",
-                "data": [
-                    {
-                        "date": "18.03.24",
-                        "event": "MIA",
-                        "player1": "Nava E.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "16.03.24",
-                        "event": "PHO",
-                        "player1": "Vukic A.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "14.03.24",
-                        "event": "PHO",
-                        "player1": "Halys Q.",
-                        "player2": "Nava E.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "13.03.24",
-                        "event": "PHO",
-                        "player1": "Wolf J.J.",
-                        "player2": "Halys Q.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "04.03.24",
-                        "event": "IND",
-                        "player1": "Halys Q.",
-                        "player2": "Quinn E.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": [
-                    {
-                        "date": "30.12.23",
-                        "event": "BRI",
-                        "player1": "Halys Q.",
-                        "player2": "Klein L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            }
-        ],
-        "odds": [
-            {
-                "bookmaker": "Betclic.fr",
-                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.90",
-                    "1.91"
-                ]
-            },
-            {
-                "bookmaker": "Unibet.fr",
-                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.88",
-                    "1.90"
-                ]
-            },
-            {
-                "bookmaker": "bwin.fr",
-                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.83",
-                    "1.78"
-                ]
-            },
-            {
-                "bookmaker": "France Pari",
-                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.85",
-                    "1.85"
-                ]
-            },
-            {
-                "bookmaker": "NetBet.fr",
-                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.85",
-                    "1.85"
-                ]
-            }
-        ]
-    },
-    "zcLFLENj": {
-        "date": "18.07.2024 12:00",
-        "players": {
-            "player1": {
-                "name": "Heide G.",
-                "href": "/player/heide-gustavo/6krWmGif/",
-                "fullname": "heide-gustavo",
-                "id": "6krWmGif",
-                "image": "https://static.flashscore.com/res/image/data/zDjp51zB-SMqfYKur.png"
-            },
-            "player2": {
-                "name": "Humbert U.",
-                "href": "/player/humbert-ugo/O4ywE5Ah/",
-                "fullname": "humbert-ugo",
-                "id": "O4ywE5Ah",
-                "image": "https://static.flashscore.com/res/image/data/MVi1SsWg-x6lv4PUq.png"
-            }
-        },
-        "tournament": "gstaad",
-        "league": "atp-singles",
-        "h2h_overall": [
-            {
-                "title": "Last matches: Heide G.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Heide G.",
-                        "player2": "Napolitano S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "14.07.24",
-                        "event": "GST",
-                        "player1": "Misolic F.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.07.24",
-                        "event": "GST",
-                        "player1": "Brunold M.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "08.07.24",
-                        "event": "IAS",
-                        "player1": "Heide G.",
-                        "player2": "Sachko V.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "05.07.24",
-                        "event": "BRA",
-                        "player1": "Jianu F. C.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Humbert U.",
-                "data": [
-                    {
-                        "date": "07.07.24",
-                        "event": "WIM",
-                        "player1": "Alcaraz C.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Nakashima B.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Van De Zandschulp B.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "Shevchenko A.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "MAL",
-                        "player1": "Bautista-Agut R.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_clay": [
-            {
-                "title": "Last matches: Heide G.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Heide G.",
-                        "player2": "Napolitano S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "14.07.24",
-                        "event": "GST",
-                        "player1": "Misolic F.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.07.24",
-                        "event": "GST",
-                        "player1": "Brunold M.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "08.07.24",
-                        "event": "IAS",
-                        "player1": "Heide G.",
-                        "player2": "Sachko V.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "05.07.24",
-                        "event": "BRA",
-                        "player1": "Jianu F. C.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Humbert U.",
-                "data": [
-                    {
-                        "date": "26.05.24",
-                        "event": "FO",
-                        "player1": "Humbert U.",
-                        "player2": "Sonego L.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "22.05.24",
-                        "event": "LYO",
-                        "player1": "Humbert U.",
-                        "player2": "Koepfer D.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "28.04.24",
-                        "event": "MAD",
-                        "player1": "Humbert U.",
-                        "player2": "Struff J-L.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "26.04.24",
-                        "event": "MAD",
-                        "player1": "Humbert U.",
-                        "player2": "Van De Zandschulp B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "17.04.24",
-                        "event": "BAR",
-                        "player1": "Lajovic D.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_grass": [
-            {
-                "title": "Last matches: Heide G.",
-                "data": [
-                    {
-                        "date": "24.06.24",
-                        "event": "WIM",
-                        "player1": "Heide G.",
-                        "player2": "Burruchaga R. A.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Humbert U.",
-                "data": [
-                    {
-                        "date": "07.07.24",
-                        "event": "WIM",
-                        "player1": "Alcaraz C.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Nakashima B.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Van De Zandschulp B.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "Shevchenko A.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "MAL",
-                        "player1": "Bautista-Agut R.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_hard": [
-            {
-                "title": "Last matches: Heide G.",
-                "data": [
-                    {
-                        "date": "30.11.23",
-                        "event": "TEM",
-                        "player1": "Heide G.",
-                        "player2": "Vacherot V.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "28.11.23",
-                        "event": "TEM",
-                        "player1": "Heide G.",
-                        "player2": "Paz J. P.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "23.11.23",
-                        "event": "BRA",
-                        "player1": "Ficovich J. P.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "22.11.23",
-                        "event": "BRA",
-                        "player1": "Heide G.",
-                        "player2": "Barrios Vera T.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "18.06.23",
-                        "event": "PAL",
-                        "player1": "Nishikori K.",
-                        "player2": "Heide G.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Humbert U.",
-                "data": [
-                    {
-                        "date": "25.03.24",
-                        "event": "MIA",
-                        "player1": "Humbert U.",
-                        "player2": "Koepfer D.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "22.03.24",
-                        "event": "MIA",
-                        "player1": "Humbert U.",
-                        "player2": "Van De Zandschulp B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "11.03.24",
-                        "event": "IND",
-                        "player1": "Paul T.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.03.24",
-                        "event": "IND",
-                        "player1": "Kypson P.",
-                        "player2": "Humbert U.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "02.03.24",
-                        "event": "DUB",
-                        "player1": "Humbert U.",
-                        "player2": "Bublik A.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "odds": [
-            {
-                "bookmaker": "Betclic.fr",
-                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "3.50",
-                    "1.30"
-                ]
-            },
-            {
-                "bookmaker": "Unibet.fr",
-                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "3.45",
-                    "1.30"
-                ]
-            },
-            {
-                "bookmaker": "bwin.fr",
-                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "3.20",
-                    "1.26"
-                ]
-            },
-            {
-                "bookmaker": "France Pari",
-                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "3.30",
-                    "1.29"
-                ]
-            },
-            {
-                "bookmaker": "NetBet.fr",
-                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "3.30",
-                    "1.29"
-                ]
-            }
-        ]
-    },
-    "IaZCKY9O": {
-        "date": "18.07.2024 15:00",
-        "players": {
-            "player1": {
-                "name": "Galan D. E.",
-                "href": "/player/galan-daniel-elahi/jgzV6009/",
-                "fullname": "galan-daniel-elahi",
-                "id": "jgzV6009",
-                "image": "https://static.flashscore.com/res/image/data/6mofpkCr-tWjVoSmM.png"
+                "name": "Tsitsipas S.",
+                "href": "/player/tsitsipas-stefanos/hb6oWfc6/",
+                "fullname": "tsitsipas-stefanos",
+                "id": "hb6oWfc6",
+                "image": "https://static.flashscore.com/res/image/data/zLzqR2Xg-p2KalsZ9.png"
             },
             "player2": {
                 "name": "Berrettini M.",
@@ -901,53 +21,69 @@
         "league": "atp-singles",
         "h2h_overall": [
             {
-                "title": "Last matches: Galan D. E.",
+                "title": "Last matches: Tsitsipas S.",
                 "data": [
                     {
-                        "date": "15.07.24",
+                        "date": "19.07.24",
                         "event": "GST",
-                        "player1": "Kopriva V.",
-                        "player2": "Galan D. E.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "11.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Cachin P.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "10.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Varillas J. P.",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Fognini F.",
                         "resultPlayer1": "2",
                         "resultPlayer2": "0"
                     },
                     {
-                        "date": "09.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Moeller M.",
+                        "date": "17.07.24",
+                        "event": "GST",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Medjedovic H.",
                         "resultPlayer1": "2",
                         "resultPlayer2": "0"
                     },
                     {
-                        "date": "01.07.24",
+                        "date": "04.07.24",
                         "event": "WIM",
-                        "player1": "Galan D. E.",
-                        "player2": "Griekspoor T.",
+                        "player1": "Ruusuvuori E.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Daniel T.",
+                        "player2": "Tsitsipas S.",
                         "resultPlayer1": "0",
                         "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "BOO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Korda S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
                     }
                 ]
             },
             {
                 "title": "Last matches: Berrettini M.",
                 "data": [
+                    {
+                        "date": "19.07.24",
+                        "event": "GST",
+                        "player1": "Auger-Aliassime F.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "GST",
+                        "player1": "Galan D. E.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
                     {
                         "date": "16.07.24",
                         "event": "GST",
@@ -971,79 +107,120 @@
                         "player2": "Fucsovics M.",
                         "resultPlayer1": "3",
                         "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "20.06.24",
-                        "event": "HAL",
-                        "player1": "Berrettini M.",
-                        "player2": "Giron M.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "19.06.24",
-                        "event": "HAL",
-                        "player1": "Berrettini M.",
-                        "player2": "Michelsen A.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
                     }
                 ]
             },
             {
                 "title": "Head-to-head matches",
-                "data": []
+                "data": [
+                    {
+                        "date": "07.01.23",
+                        "event": "UNI",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "13.05.21",
+                        "event": "ROM",
+                        "player1": "Berrettini M.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "15.02.21",
+                        "event": "AO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "12.07.20",
+                        "event": "UTS",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "04.07.20",
+                        "event": "UTS",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    }
+                ]
             }
         ],
         "h2h_clay": [
             {
-                "title": "Last matches: Galan D. E.",
+                "title": "Last matches: Tsitsipas S.",
                 "data": [
                     {
-                        "date": "15.07.24",
+                        "date": "19.07.24",
                         "event": "GST",
-                        "player1": "Kopriva V.",
-                        "player2": "Galan D. E.",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Fognini F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "17.07.24",
+                        "event": "GST",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Medjedovic H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "04.06.24",
+                        "event": "FO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Alcaraz C.",
                         "resultPlayer1": "0",
-                        "resultPlayer2": "2"
+                        "resultPlayer2": "3"
                     },
                     {
-                        "date": "11.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Cachin P.",
+                        "date": "02.06.24",
+                        "event": "FO",
+                        "player1": "Arnaldi M.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "31.05.24",
+                        "event": "FO",
+                        "player1": "Zhang Z.",
+                        "player2": "Tsitsipas S.",
                         "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "10.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Varillas J. P.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.07.24",
-                        "event": "BRA",
-                        "player1": "Galan D. E.",
-                        "player2": "Moeller M.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "03.06.24",
-                        "event": "HEI",
-                        "player1": "Gakhov I.",
-                        "player2": "Galan D. E.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
+                        "resultPlayer2": "3"
                     }
                 ]
             },
             {
                 "title": "Last matches: Berrettini M.",
                 "data": [
+                    {
+                        "date": "19.07.24",
+                        "event": "GST",
+                        "player1": "Auger-Aliassime F.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "GST",
+                        "player1": "Galan D. E.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
                     {
                         "date": "16.07.24",
                         "event": "GST",
@@ -1067,72 +244,65 @@
                         "player2": "Berrettini M.",
                         "resultPlayer1": "0",
                         "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "06.04.24",
-                        "event": "MAR",
-                        "player1": "Berrettini M.",
-                        "player2": "Navone M.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "05.04.24",
-                        "event": "MAR",
-                        "player1": "Berrettini M.",
-                        "player2": "Sonego L.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
                     }
                 ]
             },
             {
                 "title": "Head-to-head matches",
-                "data": []
+                "data": [
+                    {
+                        "date": "13.05.21",
+                        "event": "ROM",
+                        "player1": "Berrettini M.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
             }
         ],
         "h2h_grass": [
             {
-                "title": "Last matches: Galan D. E.",
+                "title": "Last matches: Tsitsipas S.",
                 "data": [
                     {
-                        "date": "01.07.24",
+                        "date": "04.07.24",
                         "event": "WIM",
-                        "player1": "Galan D. E.",
-                        "player2": "Griekspoor T.",
+                        "player1": "Ruusuvuori E.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Daniel T.",
+                        "player2": "Tsitsipas S.",
                         "resultPlayer1": "0",
                         "resultPlayer2": "3"
                     },
                     {
                         "date": "27.06.24",
-                        "event": "WIM",
-                        "player1": "Galan D. E.",
-                        "player2": "Albot R.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "WIM",
-                        "player1": "Galan D. E.",
-                        "player2": "Diallo G.",
+                        "event": "BOO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Korda S.",
                         "resultPlayer1": "2",
-                        "resultPlayer2": "0"
+                        "resultPlayer2": "1"
                     },
                     {
-                        "date": "24.06.24",
-                        "event": "WIM",
-                        "player1": "Galan D. E.",
-                        "player2": "Roca Batalla O.",
+                        "date": "25.06.24",
+                        "event": "BOO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Lajovic D.",
                         "resultPlayer1": "2",
-                        "resultPlayer2": "0"
+                        "resultPlayer2": "1"
                     },
                     {
-                        "date": "09.07.23",
-                        "event": "WIM",
-                        "player1": "Sinner J.",
-                        "player2": "Galan D. E.",
-                        "resultPlayer1": "3",
+                        "date": "20.06.24",
+                        "event": "HAL",
+                        "player1": "Struff J-L.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "2",
                         "resultPlayer2": "0"
                     }
                 ]
@@ -1189,47 +359,47 @@
         ],
         "h2h_hard": [
             {
-                "title": "Last matches: Galan D. E.",
+                "title": "Last matches: Tsitsipas S.",
                 "data": [
                     {
-                        "date": "22.03.24",
+                        "date": "23.03.24",
                         "event": "MIA",
-                        "player1": "Galan D. E.",
-                        "player2": "Shevchenko A.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "14.03.24",
-                        "event": "PHO",
-                        "player1": "Kudla D.",
-                        "player2": "Galan D. E.",
+                        "player1": "Shapovalov D.",
+                        "player2": "Tsitsipas S.",
                         "resultPlayer1": "2",
                         "resultPlayer2": "0"
                     },
                     {
                         "date": "12.03.24",
-                        "event": "PHO",
-                        "player1": "Rodionov J.",
-                        "player2": "Galan D. E.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "06.03.24",
                         "event": "IND",
-                        "player1": "Daniel T.",
-                        "player2": "Galan D. E.",
+                        "player1": "Lehecka J.",
+                        "player2": "Tsitsipas S.",
                         "resultPlayer1": "2",
                         "resultPlayer2": "0"
                     },
                     {
-                        "date": "17.01.24",
-                        "event": "AO",
-                        "player1": "Galan D. E.",
-                        "player2": "Baez S.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
+                        "date": "10.03.24",
+                        "event": "IND",
+                        "player1": "Tiafoe F.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Pouille L.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.03.24",
+                        "event": "ACA",
+                        "player1": "De Minaur A.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
                     }
                 ]
             },
@@ -1280,7 +450,48 @@
             },
             {
                 "title": "Head-to-head matches",
-                "data": []
+                "data": [
+                    {
+                        "date": "07.01.23",
+                        "event": "UNI",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "15.02.21",
+                        "event": "AO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "12.07.20",
+                        "event": "UTS",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "04.07.20",
+                        "event": "UTS",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.01.20",
+                        "event": "KOO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
             }
         ],
         "odds": [
@@ -1288,962 +499,42 @@
                 "bookmaker": "Betclic.fr",
                 "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
                 "odds": [
-                    "5.10",
-                    "1.16"
+                    "1.67",
+                    "2.18"
                 ]
             },
             {
                 "bookmaker": "Unibet.fr",
                 "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
                 "odds": [
-                    "5.00",
-                    "1.16"
+                    "1.65",
+                    "2.20"
                 ]
             },
             {
                 "bookmaker": "bwin.fr",
                 "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
                 "odds": [
-                    "4.20",
-                    "1.15"
+                    "1.57",
+                    "2.10"
                 ]
             },
             {
                 "bookmaker": "France Pari",
                 "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
                 "odds": [
-                    "4.70",
-                    "1.15"
+                    "1.62",
+                    "2.15"
                 ]
             },
             {
                 "bookmaker": "NetBet.fr",
                 "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
                 "odds": [
-                    "4.70",
-                    "1.15"
+                    "1.62",
+                    "2.15"
                 ]
             }
         ]
-    },
-    "GMF3mbEF": {
-        "date": "18.07.2024 17:30",
-        "players": {
-            "player1": {
-                "name": "Auger-Aliassime F.",
-                "href": "/player/auger-aliassime-felix/CzXh4LAb/",
-                "fullname": "auger-aliassime-felix",
-                "id": "CzXh4LAb",
-                "image": "https://static.flashscore.com/res/image/data/vyQLHQEG-8fYqFF2n.png"
-            },
-            "player2": {
-                "name": "Hanfmann Y.",
-                "href": "/player/hanfmann-yannick/zLJYYbhm/",
-                "fullname": "hanfmann-yannick",
-                "id": "zLJYYbhm",
-                "image": "https://static.flashscore.com/res/image/data/OMgJpohl-EX8p71Ag.png"
-            }
-        },
-        "tournament": "gstaad",
-        "league": "atp-singles",
-        "h2h_overall": [
-            {
-                "title": "Last matches: Auger-Aliassime F.",
-                "data": [
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Kokkinakis T.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "27.06.24",
-                        "event": "BOO",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Coric B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "BOO",
-                        "player1": "Schwartzman D.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "17.06.24",
-                        "event": "HAL",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Koepfer D.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "02.06.24",
-                        "event": "FO",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Alcaraz C.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Hanfmann Y.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Moreno De Alboran N.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "Sinner J.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "MAL",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Walton A.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "16.06.24",
-                        "event": "HAL",
-                        "player1": "Michelsen A.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "15.06.24",
-                        "event": "HAL",
-                        "player1": "Walton A.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_clay": [
-            {
-                "title": "Last matches: Auger-Aliassime F.",
-                "data": [
-                    {
-                        "date": "02.06.24",
-                        "event": "FO",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Alcaraz C.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "01.06.24",
-                        "event": "FO",
-                        "player1": "Shelton B.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "30.05.24",
-                        "event": "FO",
-                        "player1": "Squire H.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "27.05.24",
-                        "event": "FO",
-                        "player1": "Nishioka Y.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "13.05.24",
-                        "event": "ROM",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "De Minaur A.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Hanfmann Y.",
-                "data": [
-                    {
-                        "date": "16.07.24",
-                        "event": "GST",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Moreno De Alboran N.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "04.06.24",
-                        "event": "HEI",
-                        "player1": "Choinski J.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "27.05.24",
-                        "event": "FO",
-                        "player1": "Cerundolo F.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "22.05.24",
-                        "event": "GEN",
-                        "player1": "Djokovic N.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "21.05.24",
-                        "event": "GEN",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Murray A.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_grass": [
-            {
-                "title": "Last matches: Auger-Aliassime F.",
-                "data": [
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Kokkinakis T.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "27.06.24",
-                        "event": "BOO",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Coric B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "BOO",
-                        "player1": "Schwartzman D.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "17.06.24",
-                        "event": "HAL",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Koepfer D.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "03.07.23",
-                        "event": "WIM",
-                        "player1": "Mmoh M.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Hanfmann Y.",
-                "data": [
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "Sinner J.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "MAL",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Walton A.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "16.06.24",
-                        "event": "HAL",
-                        "player1": "Michelsen A.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "15.06.24",
-                        "event": "HAL",
-                        "player1": "Walton A.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "12.06.24",
-                        "event": "STU",
-                        "player1": "Tiafoe F.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_hard": [
-            {
-                "title": "Last matches: Auger-Aliassime F.",
-                "data": [
-                    {
-                        "date": "24.03.24",
-                        "event": "MIA",
-                        "player1": "Zverev A.",
-                        "player2": "Auger-Aliassime F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "21.03.24",
-                        "event": "MIA",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Walton A.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "10.03.24",
-                        "event": "IND",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Alcaraz C.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "08.03.24",
-                        "event": "IND",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Lestienne C.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "27.02.24",
-                        "event": "ACA",
-                        "player1": "Auger-Aliassime F.",
-                        "player2": "Cobolli F.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Hanfmann Y.",
-                "data": [
-                    {
-                        "date": "26.03.24",
-                        "event": "MIA",
-                        "player1": "Dimitrov G.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "24.03.24",
-                        "event": "MIA",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Mannarino A.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "21.03.24",
-                        "event": "MIA",
-                        "player1": "Ruusuvuori E.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.03.24",
-                        "event": "PHO",
-                        "player1": "Nava E.",
-                        "player2": "Hanfmann Y.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.03.24",
-                        "event": "IND",
-                        "player1": "Hanfmann Y.",
-                        "player2": "Griekspoor T.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "odds": [
-            {
-                "bookmaker": "Betclic.fr",
-                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.28",
-                    "3.20"
-                ]
-            },
-            {
-                "bookmaker": "Unibet.fr",
-                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.28",
-                    "3.05"
-                ]
-            },
-            {
-                "bookmaker": "bwin.fr",
-                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.26",
-                    "3.20"
-                ]
-            },
-            {
-                "bookmaker": "France Pari",
-                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.30",
-                    "3.20"
-                ]
-            },
-            {
-                "bookmaker": "NetBet.fr",
-                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
-                "odds": [
-                    "1.30",
-                    "3.20"
-                ]
-            }
-        ]
-    },
-    "j9qFFYUF": {
-        "date": "19.07.2024 10:00",
-        "players": {
-            "player1": {
-                "name": "Tsitsipas S.",
-                "href": "/player/tsitsipas-stefanos/hb6oWfc6/",
-                "fullname": "tsitsipas-stefanos",
-                "id": "hb6oWfc6",
-                "image": "https://static.flashscore.com/res/image/data/zLzqR2Xg-p2KalsZ9.png"
-            },
-            "player2": {
-                "name": "Fognini F.",
-                "href": "/player/fognini-fabio/OEmFxtMq/",
-                "fullname": "fognini-fabio",
-                "id": "OEmFxtMq",
-                "image": "https://static.flashscore.com/res/image/data/Stkn5dyS-hU4TuAJu.png"
-            }
-        },
-        "tournament": "gstaad",
-        "league": "atp-singles",
-        "h2h_overall": [
-            {
-                "title": "Last matches: Tsitsipas S.",
-                "data": [
-                    {
-                        "date": "17.07.24",
-                        "event": "GST",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Medjedovic H.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "04.07.24",
-                        "event": "WIM",
-                        "player1": "Ruusuvuori E.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "02.07.24",
-                        "event": "WIM",
-                        "player1": "Daniel T.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "27.06.24",
-                        "event": "BOO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Korda S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "BOO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Lajovic D.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Fognini F.",
-                "data": [
-                    {
-                        "date": "17.07.24",
-                        "event": "GST",
-                        "player1": "Varillas J. P.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "15.07.24",
-                        "event": "GST",
-                        "player1": "Droguet T.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Bautista-Agut R.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Fognini F.",
-                        "player2": "Ruud C.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "van Assche L.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": [
-                    {
-                        "date": "12.04.22",
-                        "event": "MON",
-                        "player1": "Fognini F.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "13.10.21",
-                        "event": "IND",
-                        "player1": "Fognini F.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "16.05.19",
-                        "event": "ROM",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "20.10.18",
-                        "event": "STO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            }
-        ],
-        "h2h_clay": [
-            {
-                "title": "Last matches: Tsitsipas S.",
-                "data": [
-                    {
-                        "date": "17.07.24",
-                        "event": "GST",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Medjedovic H.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "04.06.24",
-                        "event": "FO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Alcaraz C.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "02.06.24",
-                        "event": "FO",
-                        "player1": "Arnaldi M.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "31.05.24",
-                        "event": "FO",
-                        "player1": "Zhang Z.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "29.05.24",
-                        "event": "FO",
-                        "player1": "Altmaier D.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "3"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Fognini F.",
-                "data": [
-                    {
-                        "date": "17.07.24",
-                        "event": "GST",
-                        "player1": "Varillas J. P.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "15.07.24",
-                        "event": "GST",
-                        "player1": "Droguet T.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "19.06.24",
-                        "event": "SAS",
-                        "player1": "Bonadio R.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "17.06.24",
-                        "event": "SAS",
-                        "player1": "Janvier M.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "14.06.24",
-                        "event": "PER",
-                        "player1": "Darderi L.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": [
-                    {
-                        "date": "12.04.22",
-                        "event": "MON",
-                        "player1": "Fognini F.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "16.05.19",
-                        "event": "ROM",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            }
-        ],
-        "h2h_grass": [
-            {
-                "title": "Last matches: Tsitsipas S.",
-                "data": [
-                    {
-                        "date": "04.07.24",
-                        "event": "WIM",
-                        "player1": "Ruusuvuori E.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "02.07.24",
-                        "event": "WIM",
-                        "player1": "Daniel T.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "27.06.24",
-                        "event": "BOO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Korda S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "25.06.24",
-                        "event": "BOO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Lajovic D.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "20.06.24",
-                        "event": "HAL",
-                        "player1": "Struff J-L.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Fognini F.",
-                "data": [
-                    {
-                        "date": "06.07.24",
-                        "event": "WIM",
-                        "player1": "Bautista-Agut R.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "03.07.24",
-                        "event": "WIM",
-                        "player1": "Fognini F.",
-                        "player2": "Ruud C.",
-                        "resultPlayer1": "3",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "01.07.24",
-                        "event": "WIM",
-                        "player1": "van Assche L.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "3"
-                    },
-                    {
-                        "date": "26.06.24",
-                        "event": "MAL",
-                        "player1": "Mensik J.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "24.06.24",
-                        "event": "MAL",
-                        "player1": "Fognini F.",
-                        "player2": "Brouwer G.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": []
-            }
-        ],
-        "h2h_hard": [
-            {
-                "title": "Last matches: Tsitsipas S.",
-                "data": [
-                    {
-                        "date": "23.03.24",
-                        "event": "MIA",
-                        "player1": "Shapovalov D.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "12.03.24",
-                        "event": "IND",
-                        "player1": "Lehecka J.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "10.03.24",
-                        "event": "IND",
-                        "player1": "Tiafoe F.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "08.03.24",
-                        "event": "IND",
-                        "player1": "Pouille L.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "01.03.24",
-                        "event": "ACA",
-                        "player1": "De Minaur A.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    }
-                ]
-            },
-            {
-                "title": "Last matches: Fognini F.",
-                "data": [
-                    {
-                        "date": "14.03.24",
-                        "event": "PHO",
-                        "player1": "Vukic A.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "13.03.24",
-                        "event": "PHO",
-                        "player1": "Fognini F.",
-                        "player2": "Mmoh M.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    },
-                    {
-                        "date": "09.03.24",
-                        "event": "IND",
-                        "player1": "Fognini F.",
-                        "player2": "Baez S.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "08.03.24",
-                        "event": "IND",
-                        "player1": "Fognini F.",
-                        "player2": "Zapata Miralles B.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "1"
-                    },
-                    {
-                        "date": "17.02.24",
-                        "event": "DOH",
-                        "player1": "Fognini F.",
-                        "player2": "Dzumhur D.",
-                        "resultPlayer1": "0",
-                        "resultPlayer2": "2"
-                    }
-                ]
-            },
-            {
-                "title": "Head-to-head matches",
-                "data": [
-                    {
-                        "date": "13.10.21",
-                        "event": "IND",
-                        "player1": "Fognini F.",
-                        "player2": "Tsitsipas S.",
-                        "resultPlayer1": "1",
-                        "resultPlayer2": "2"
-                    },
-                    {
-                        "date": "20.10.18",
-                        "event": "STO",
-                        "player1": "Tsitsipas S.",
-                        "player2": "Fognini F.",
-                        "resultPlayer1": "2",
-                        "resultPlayer2": "0"
-                    }
-                ]
-            }
-        ],
-        "odds": []
     }
 }
