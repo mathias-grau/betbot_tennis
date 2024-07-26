@@ -1,0 +1,922 @@
+{
+    "2DhXheC6": {
+        "date": "26.07.2024 12:35",
+        "players": {
+            "player1": {
+                "name": "Hanfmann Y.",
+                "href": "/player/hanfmann-yannick/zLJYYbhm/",
+                "fullname": "hanfmann-yannick",
+                "id": "zLJYYbhm",
+                "image": "https://static.flashscore.com/res/image/data/OMgJpohl-EX8p71Ag.png"
+            },
+            "player2": {
+                "name": "Berrettini M.",
+                "href": "/player/berrettini-matteo/OhwtM7N8/",
+                "fullname": "berrettini-matteo",
+                "id": "OhwtM7N8",
+                "image": "https://static.flashscore.com/res/image/data/KvZNhNZA-8rO8nrm4.png"
+            }
+        },
+        "tournament": "kitzbuhel",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Hanfmann Y.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Seyboth Wild T.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Heide G.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "KIT",
+                        "player1": "Munar J.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "GST",
+                        "player1": "Auger-Aliassime F.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "GST",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Moreno De Alboran N.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Berrettini M.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Moreno De Alboran N.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Berrettini M.",
+                        "player2": "Tabilo A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Berrettini M.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "GST",
+                        "player1": "Berrettini M.",
+                        "player2": "Halys Q.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "GST",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Hanfmann Y.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Seyboth Wild T.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Heide G.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "KIT",
+                        "player1": "Munar J.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "GST",
+                        "player1": "Auger-Aliassime F.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "GST",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Moreno De Alboran N.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Berrettini M.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Moreno De Alboran N.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Berrettini M.",
+                        "player2": "Tabilo A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Berrettini M.",
+                        "player2": "Kotov P.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "GST",
+                        "player1": "Berrettini M.",
+                        "player2": "Halys Q.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "GST",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Hanfmann Y.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Sinner J.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "MAL",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Walton A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "HAL",
+                        "player1": "Michelsen A.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "15.06.24",
+                        "event": "HAL",
+                        "player1": "Walton A.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "12.06.24",
+                        "event": "STU",
+                        "player1": "Tiafoe F.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Berrettini M.",
+                "data": [
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Sinner J.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Berrettini M.",
+                        "player2": "Fucsovics M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "20.06.24",
+                        "event": "HAL",
+                        "player1": "Berrettini M.",
+                        "player2": "Giron M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "19.06.24",
+                        "event": "HAL",
+                        "player1": "Berrettini M.",
+                        "player2": "Michelsen A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "16.06.24",
+                        "event": "STU",
+                        "player1": "Draper J.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Hanfmann Y.",
+                "data": [
+                    {
+                        "date": "26.03.24",
+                        "event": "MIA",
+                        "player1": "Dimitrov G.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.03.24",
+                        "event": "MIA",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Mannarino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.03.24",
+                        "event": "MIA",
+                        "player1": "Ruusuvuori E.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "13.03.24",
+                        "event": "PHO",
+                        "player1": "Nava E.",
+                        "player2": "Hanfmann Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "09.03.24",
+                        "event": "IND",
+                        "player1": "Hanfmann Y.",
+                        "player2": "Griekspoor T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Berrettini M.",
+                "data": [
+                    {
+                        "date": "20.03.24",
+                        "event": "MIA",
+                        "player1": "Murray A.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "17.03.24",
+                        "event": "PHO",
+                        "player1": "Borges N.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "17.03.24",
+                        "event": "PHO",
+                        "player1": "Vukic A.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.03.24",
+                        "event": "PHO",
+                        "player1": "Berrettini M.",
+                        "player2": "Atmane T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.03.24",
+                        "event": "PHO",
+                        "player1": "Cazaux A.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "4.30",
+                    "1.22"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "4.40",
+                    "1.22"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "3.90",
+                    "1.17"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "4.20",
+                    "1.19"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "4.40",
+                    "1.20"
+                ]
+            }
+        ]
+    },
+    "6mSpHxEN": {
+        "date": "26.07.2024 14:30",
+        "players": {
+            "player1": {
+                "name": "Gaston H.",
+                "href": "/player/gaston-hugo/hGqnSub7/",
+                "fullname": "gaston-hugo",
+                "id": "hGqnSub7",
+                "image": "https://static.flashscore.com/res/image/data/Ii41tKyS-hGTYE603.png"
+            },
+            "player2": {
+                "name": "Diaz Acosta F.",
+                "href": "/player/diaz-acosta-facundo/AsRYv2m2/",
+                "fullname": "diaz-acosta-facundo",
+                "id": "AsRYv2m2",
+                "image": "https://static.flashscore.com/res/image/data/tKEVmU9r-vmzwIQAG.png"
+            }
+        },
+        "tournament": "kitzbuhel",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Gaston H.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Baez S.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Gaston H.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Gaston H.",
+                        "player2": "Altmaier D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "HAM",
+                        "player1": "Zverev A.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Diaz Acosta F.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Martinez P.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Galan D. E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.23",
+                        "event": "SAN",
+                        "player1": "Gaston H.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Gaston H.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Baez S.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Gaston H.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Gaston H.",
+                        "player2": "Altmaier D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.07.24",
+                        "event": "HAM",
+                        "player1": "Zverev A.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Diaz Acosta F.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "KIT",
+                        "player1": "Martinez P.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "KIT",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Galan D. E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "KIT",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Coria F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.04.24",
+                        "event": "MAD",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Shapovalov D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "16.07.24",
+                        "event": "HAM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "08.03.23",
+                        "event": "SAN",
+                        "player1": "Gaston H.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Gaston H.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Muller A.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Gaston H.",
+                        "player2": "Kukushkin M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Gaston H.",
+                        "player2": "Prizmic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Gaston H.",
+                        "player2": "Mochizuki S.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.06.24",
+                        "event": "ILK",
+                        "player1": "Gaston H.",
+                        "player2": "Barrios Vera T.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Diaz Acosta F.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Norrie C.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.23",
+                        "event": "WIM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Shimabukuro S.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.06.22",
+                        "event": "WIM",
+                        "player1": "Barranco Cosano J.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "09.07.18",
+                        "event": "WIM",
+                        "player1": "Diaz Acosta F.",
+                        "player2": "Nanda G.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Gaston H.",
+                "data": [
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Gaston H.",
+                        "player2": "Wong C.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "13.03.24",
+                        "event": "PHO",
+                        "player1": "Gaston H.",
+                        "player2": "Berrettini M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.03.24",
+                        "event": "IND",
+                        "player1": "Gaston H.",
+                        "player2": "Kudla D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.02.24",
+                        "event": "ROT",
+                        "player1": "Gaston H.",
+                        "player2": "Shapovalov D.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.02.24",
+                        "event": "ROT",
+                        "player1": "Gaston H.",
+                        "player2": "Boogaard T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Diaz Acosta F.",
+                "data": [
+                    {
+                        "date": "21.03.24",
+                        "event": "MIA",
+                        "player1": "Popyrin A.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "14.01.24",
+                        "event": "AO",
+                        "player1": "Fritz T.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.01.24",
+                        "event": "ADE",
+                        "player1": "Thompson J.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "08.01.24",
+                        "event": "ADE",
+                        "player1": "Seyboth Wild T.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.01.24",
+                        "event": "ADE",
+                        "player1": "Watanuki Y.",
+                        "player2": "Diaz Acosta F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.02",
+                    "1.80"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.02",
+                    "1.80"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.90",
+                    "1.72"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.97",
+                    "1.75"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.97",
+                    "1.75"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1892 @@
+{
+    "EPmxq1LN": {
+        "date": "26.07.2024 20:00",
+        "players": {
+            "player1": {
+                "name": "Thompson J.",
+                "href": "/player/thompson-jordan/8pwfoWMP/",
+                "fullname": "thompson-jordan",
+                "id": "8pwfoWMP",
+                "image": "https://static.flashscore.com/res/image/data/WvCKwFYg-r9K2H1nn.png"
+            },
+            "player2": {
+                "name": "Davidovich Fokina A.",
+                "href": "/player/davidovich-fokina-alejandro/0zQXLfz4/",
+                "fullname": "davidovich-fokina-alejandro",
+                "id": "0zQXLfz4",
+                "image": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png"
+            }
+        },
+        "tournament": "atlanta",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Thompson J.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Thompson J.",
+                        "player2": "Mayot H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Nakashima B.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Kotov P.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "22.06.24",
+                        "event": "LON",
+                        "player1": "Thompson J.",
+                        "player2": "Musetti L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.06.24",
+                        "event": "LON",
+                        "player1": "Thompson J.",
+                        "player2": "Fritz T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Davidovich Fokina A.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Opelka R.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "ATL",
+                        "player1": "Cazaux A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "LON",
+                        "player1": "Tabilo A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "30.05.24",
+                        "event": "FO",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Ruud C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "28.05.24",
+                        "event": "FO",
+                        "player1": "Vacherot V.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "19.10.21",
+                        "event": "ANT",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.05.19",
+                        "event": "FO",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Thompson J.",
+                "data": [
+                    {
+                        "date": "26.05.24",
+                        "event": "FO",
+                        "player1": "Thompson J.",
+                        "player2": "Marterer M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "10.05.24",
+                        "event": "ROM",
+                        "player1": "Thompson J.",
+                        "player2": "Monteiro T.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.04.24",
+                        "event": "MAD",
+                        "player1": "Kotov P.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.04.24",
+                        "event": "BAR",
+                        "player1": "Thompson J.",
+                        "player2": "Ruud C.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "17.04.24",
+                        "event": "BAR",
+                        "player1": "Thompson J.",
+                        "player2": "Munar J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Davidovich Fokina A.",
+                "data": [
+                    {
+                        "date": "30.05.24",
+                        "event": "FO",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Ruud C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "28.05.24",
+                        "event": "FO",
+                        "player1": "Vacherot V.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "11.05.24",
+                        "event": "ROM",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Medjedovic H.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "28.04.24",
+                        "event": "MAD",
+                        "player1": "Rublev A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.04.24",
+                        "event": "MAD",
+                        "player1": "Shang J.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "28.05.19",
+                        "event": "FO",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Thompson J.",
+                "data": [
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Nakashima B.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Kotov P.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "22.06.24",
+                        "event": "LON",
+                        "player1": "Thompson J.",
+                        "player2": "Musetti L.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.06.24",
+                        "event": "LON",
+                        "player1": "Thompson J.",
+                        "player2": "Fritz T.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.06.24",
+                        "event": "LON",
+                        "player1": "Thompson J.",
+                        "player2": "Murray A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Davidovich Fokina A.",
+                "data": [
+                    {
+                        "date": "18.06.24",
+                        "event": "LON",
+                        "player1": "Tabilo A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "08.07.23",
+                        "event": "WIM",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Rune H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "07.07.23",
+                        "event": "WIM",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Van De Zandschulp B.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "06.07.23",
+                        "event": "WIM",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Fils A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "30.06.23",
+                        "event": "BOO",
+                        "player1": "Tsitsipas S.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Thompson J.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Thompson J.",
+                        "player2": "Mayot H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "24.03.24",
+                        "event": "MIA",
+                        "player1": "Monfils G.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "08.03.24",
+                        "event": "IND",
+                        "player1": "Shang J.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.02.24",
+                        "event": "ACA",
+                        "player1": "Kovacevic A.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "25.02.24",
+                        "event": "LSC",
+                        "player1": "Thompson J.",
+                        "player2": "Ruud C.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Davidovich Fokina A.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Opelka R.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "ATL",
+                        "player1": "Cazaux A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.03.24",
+                        "event": "MIA",
+                        "player1": "Ruud C.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.03.24",
+                        "event": "MIA",
+                        "player1": "Shang J.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.03.24",
+                        "event": "IND",
+                        "player1": "Fils A.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "19.10.21",
+                        "event": "ANT",
+                        "player1": "Davidovich Fokina A.",
+                        "player2": "Thompson J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.80",
+                    "1.91"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.80",
+                    "1.91"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.75",
+                    "1.85"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.80",
+                    "1.93"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.80",
+                    "1.93"
+                ]
+            }
+        ]
+    },
+    "b9cVDLKc": {
+        "date": "26.07.2024 21:30",
+        "players": {
+            "player1": {
+                "name": "Shang J.",
+                "href": "/player/shang-juncheng/tvjTgE3J/",
+                "fullname": "shang-juncheng",
+                "id": "tvjTgE3J",
+                "image": "https://static.flashscore.com/res/image/data/Y7KvlfCa-vcHTmQNN.png"
+            },
+            "player2": {
+                "name": "Purcell M.",
+                "href": "/player/purcell-max/GMK1R241/",
+                "fullname": "purcell-max",
+                "id": "GMK1R241",
+                "image": "https://static.flashscore.com/res/image/data/KQulKuyB-E5fT8adt.png"
+            }
+        },
+        "tournament": "atlanta",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Shang J.",
+                "data": [
+                    {
+                        "date": "26.07.24",
+                        "event": "ATL",
+                        "player1": "Shelton B.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Martin A.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "ATL",
+                        "player1": "Shang J.",
+                        "player2": "Wolf J.J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "ATL",
+                        "player1": "Shang J.",
+                        "player2": "Broady L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Dimitrov G.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Purcell M.",
+                "data": [
+                    {
+                        "date": "26.07.24",
+                        "event": "ATL",
+                        "player1": "Goffin D.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "O'Connell C.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "29.06.24",
+                        "event": "EAS",
+                        "player1": "Fritz T.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.06.24",
+                        "event": "EAS",
+                        "player1": "Purcell M.",
+                        "player2": "Harris B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Shang J.",
+                "data": [
+                    {
+                        "date": "21.05.24",
+                        "event": "FO",
+                        "player1": "Shang J.",
+                        "player2": "Burruchaga R. A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.05.24",
+                        "event": "BOR",
+                        "player1": "Shang J.",
+                        "player2": "Martinez P.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "17.05.24",
+                        "event": "BOR",
+                        "player1": "Evans D.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.05.24",
+                        "event": "BOR",
+                        "player1": "Shang J.",
+                        "player2": "Carballes Baena R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "15.05.24",
+                        "event": "BOR",
+                        "player1": "Shang J.",
+                        "player2": "Gaston H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Purcell M.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Purcell M.",
+                        "player2": "Squire H.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.04.24",
+                        "event": "MAD",
+                        "player1": "Purcell M.",
+                        "player2": "Korda S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "25.04.24",
+                        "event": "MAD",
+                        "player1": "Purcell M.",
+                        "player2": "Giron M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "04.04.24",
+                        "event": "HOU",
+                        "player1": "Mmoh M.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "02.04.24",
+                        "event": "HOU",
+                        "player1": "Michelsen A.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Shang J.",
+                "data": [
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Dimitrov G.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Garin C.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "EAS",
+                        "player1": "Fritz T.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "EAS",
+                        "player1": "Ruusuvuori E.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "EAS",
+                        "player1": "Shang J.",
+                        "player2": "Etcheverry T. M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Purcell M.",
+                "data": [
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Virtanen O.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "29.06.24",
+                        "event": "EAS",
+                        "player1": "Fritz T.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "28.06.24",
+                        "event": "EAS",
+                        "player1": "Purcell M.",
+                        "player2": "Harris B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "EAS",
+                        "player1": "Purcell M.",
+                        "player2": "Kecmanovic M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "EAS",
+                        "player1": "Sonego L.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Shang J.",
+                "data": [
+                    {
+                        "date": "26.07.24",
+                        "event": "ATL",
+                        "player1": "Shelton B.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Martin A.",
+                        "player2": "Shang J.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "ATL",
+                        "player1": "Shang J.",
+                        "player2": "Wolf J.J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "ATL",
+                        "player1": "Shang J.",
+                        "player2": "Broady L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.03.24",
+                        "event": "MIA",
+                        "player1": "Shang J.",
+                        "player2": "Davidovich Fokina A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Purcell M.",
+                "data": [
+                    {
+                        "date": "26.07.24",
+                        "event": "ATL",
+                        "player1": "Goffin D.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "O'Connell C.",
+                        "player2": "Purcell M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.05.24",
+                        "event": "TAI",
+                        "player1": "Purcell M.",
+                        "player2": "Marchenko I.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "15.05.24",
+                        "event": "TAI",
+                        "player1": "Purcell M.",
+                        "player2": "Bertola R.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "14.05.24",
+                        "event": "TAI",
+                        "player1": "Purcell M.",
+                        "player2": "Trotter J. K.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.61",
+                    "2.27"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.59",
+                    "2.22"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.55",
+                    "2.15"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.60",
+                    "2.22"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.58",
+                    "2.25"
+                ]
+            }
+        ]
+    },
+    "bw1ISgfn": {
+        "date": "27.07.2024 01:00",
+        "players": {
+            "player1": {
+                "name": "Nishioka Y.",
+                "href": "/player/nishioka-yoshihito/neAMoGXa/",
+                "fullname": "nishioka-yoshihito",
+                "id": "neAMoGXa",
+                "image": "https://static.flashscore.com/res/image/data/UsWc3fXg-8n6cRsXc.png"
+            },
+            "player2": {
+                "name": "Tiafoe F.",
+                "href": "/player/tiafoe-frances/AHDLJaph/",
+                "fullname": "tiafoe-frances",
+                "id": "AHDLJaph",
+                "image": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png"
+            }
+        },
+        "tournament": "atlanta",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Nishioka Y.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "McDonald M.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "ATL",
+                        "player1": "Svajda Z.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Mpetshi Perricard G.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Nishioka Y.",
+                        "player2": "Borges N.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "EAS",
+                        "player1": "Vukic A.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Tiafoe F.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Karatsev A.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "05.07.24",
+                        "event": "WIM",
+                        "player1": "Alcaraz C.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Coric B.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Arnaldi M.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "HUR",
+                        "player1": "Zhang Z.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "28.02.23",
+                        "event": "ACA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.08.21",
+                        "event": "TOR",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.05.19",
+                        "event": "EST",
+                        "player1": "Tiafoe F.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "10.07.16",
+                        "event": "WIN",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Nishioka Y.",
+                "data": [
+                    {
+                        "date": "05.06.24",
+                        "event": "PRO",
+                        "player1": "Kym J.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "04.06.24",
+                        "event": "PRO",
+                        "player1": "Soto M.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Nishioka Y.",
+                        "player2": "Auger-Aliassime F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "LYO",
+                        "player1": "Nishioka Y.",
+                        "player2": "Mpetshi Perricard G.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "21.05.24",
+                        "event": "LYO",
+                        "player1": "Fanselow S.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Tiafoe F.",
+                "data": [
+                    {
+                        "date": "30.05.24",
+                        "event": "FO",
+                        "player1": "Shapovalov D.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Bellucci M.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "LYO",
+                        "player1": "Rinderknech A.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "21.05.24",
+                        "event": "LYO",
+                        "player1": "Munar J.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "11.05.24",
+                        "event": "ROM",
+                        "player1": "Koepfer D.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "02.05.19",
+                        "event": "EST",
+                        "player1": "Tiafoe F.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Nishioka Y.",
+                "data": [
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Mpetshi Perricard G.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Nishioka Y.",
+                        "player2": "Borges N.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "EAS",
+                        "player1": "Vukic A.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "EAS",
+                        "player1": "Nishioka Y.",
+                        "player2": "Giron M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "EAS",
+                        "player1": "Broady L.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Tiafoe F.",
+                "data": [
+                    {
+                        "date": "05.07.24",
+                        "event": "WIM",
+                        "player1": "Alcaraz C.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Coric B.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "01.07.24",
+                        "event": "WIM",
+                        "player1": "Arnaldi M.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "HUR",
+                        "player1": "Zhang Z.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "17.06.24",
+                        "event": "LON",
+                        "player1": "Hijikata R.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Nishioka Y.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "McDonald M.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.07.24",
+                        "event": "ATL",
+                        "player1": "Svajda Z.",
+                        "player2": "Nishioka Y.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.03.24",
+                        "event": "MIA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Cobolli F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "19.03.24",
+                        "event": "MIA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Nava E.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Ymer E.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Tiafoe F.",
+                "data": [
+                    {
+                        "date": "25.07.24",
+                        "event": "ATL",
+                        "player1": "Karatsev A.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "23.03.24",
+                        "event": "MIA",
+                        "player1": "O'Connell C.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "10.03.24",
+                        "event": "IND",
+                        "player1": "Tiafoe F.",
+                        "player2": "Tsitsipas S.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "09.03.24",
+                        "event": "IND",
+                        "player1": "Tiafoe F.",
+                        "player2": "Lajovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "29.02.24",
+                        "event": "ACA",
+                        "player1": "Tiafoe F.",
+                        "player2": "Koepfer D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": [
+                    {
+                        "date": "28.02.23",
+                        "event": "ACA",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.08.21",
+                        "event": "TOR",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "10.07.16",
+                        "event": "WIN",
+                        "player1": "Nishioka Y.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    }
+                ]
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.60",
+                    "1.50"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.50",
+                    "1.43"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.40",
+                    "1.45"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.60",
+                    "1.43"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "2.60",
+                    "1.43"
+                ]
+            }
+        ]
+    },
+    "tfjHsQEj": {
+        "date": "27.07.2024 02:30",
+        "players": {
+            "player1": {
+                "name": "Rinderknech A.",
+                "href": "/player/rinderknech-arthur/pIxZZsof/",
+                "fullname": "rinderknech-arthur",
+                "id": "pIxZZsof",
+                "image": "https://static.flashscore.com/res/image/data/G0T01vDa-l8UaSgxB.png"
+            },
+            "player2": {
+                "name": "Bellucci M.",
+                "href": "/player/bellucci-mattia/M9pojLqi/",
+                "fullname": "bellucci-mattia",
+                "id": "M9pojLqi",
+                "image": "https://static.flashscore.com/res/image/data/n1Xyeqhl-6gIp2vmt.png"
+            }
+        },
+        "tournament": "atlanta",
+        "league": "atp-singles",
+        "h2h_overall": [
+            {
+                "title": "Last matches: Rinderknech A.",
+                "data": [
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Walton A.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "ATL",
+                        "player1": "Rinderknech A.",
+                        "player2": "Wolf J.J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "17.07.24",
+                        "event": "NEW",
+                        "player1": "Kovacevic A.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "NEW",
+                        "player1": "Mochizuki S.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Fritz T.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Bellucci M.",
+                "data": [
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Bellucci M.",
+                        "player2": "Mannarino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "ATL",
+                        "player1": "Bellucci M.",
+                        "player2": "Vukic A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "ATL",
+                        "player1": "Walton A.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "ATL",
+                        "player1": "Yevseyev D.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Bellucci M.",
+                        "player2": "Shelton B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_clay": [
+            {
+                "title": "Last matches: Rinderknech A.",
+                "data": [
+                    {
+                        "date": "30.05.24",
+                        "event": "FO",
+                        "player1": "Etcheverry T. M.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "28.05.24",
+                        "event": "FO",
+                        "player1": "Rinderknech A.",
+                        "player2": "Walton A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "23.05.24",
+                        "event": "LYO",
+                        "player1": "Darderi L.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": null,
+                        "resultPlayer2": null
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "LYO",
+                        "player1": "Rinderknech A.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "LYO",
+                        "player1": "Evans D.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Bellucci M.",
+                "data": [
+                    {
+                        "date": "27.05.24",
+                        "event": "FO",
+                        "player1": "Bellucci M.",
+                        "player2": "Tiafoe F.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "23.05.24",
+                        "event": "FO",
+                        "player1": "Moro Canas A.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "22.05.24",
+                        "event": "FO",
+                        "player1": "Bellucci M.",
+                        "player2": "Harris L.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "20.05.24",
+                        "event": "FO",
+                        "player1": "Martineau M.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "16.05.24",
+                        "event": "TUR",
+                        "player1": "Bellucci M.",
+                        "player2": "Maestrelli F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_grass": [
+            {
+                "title": "Last matches: Rinderknech A.",
+                "data": [
+                    {
+                        "date": "17.07.24",
+                        "event": "NEW",
+                        "player1": "Kovacevic A.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "16.07.24",
+                        "event": "NEW",
+                        "player1": "Mochizuki S.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "04.07.24",
+                        "event": "WIM",
+                        "player1": "Fritz T.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "3",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "03.07.24",
+                        "event": "WIM",
+                        "player1": "Nishikori K.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "25.06.24",
+                        "event": "EAS",
+                        "player1": "Rinderknech A.",
+                        "player2": "Cobolli F.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Bellucci M.",
+                "data": [
+                    {
+                        "date": "02.07.24",
+                        "event": "WIM",
+                        "player1": "Bellucci M.",
+                        "player2": "Shelton B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "27.06.24",
+                        "event": "WIM",
+                        "player1": "Goffin D.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "3"
+                    },
+                    {
+                        "date": "26.06.24",
+                        "event": "WIM",
+                        "player1": "Zapata Miralles B.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "24.06.24",
+                        "event": "WIM",
+                        "player1": "Bellucci M.",
+                        "player2": "Ajdukovic D.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "18.06.24",
+                        "event": "ILK",
+                        "player1": "Gasquet R.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "h2h_hard": [
+            {
+                "title": "Last matches: Rinderknech A.",
+                "data": [
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Walton A.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "ATL",
+                        "player1": "Rinderknech A.",
+                        "player2": "Wolf J.J.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "19.03.24",
+                        "event": "MIA",
+                        "player1": "Rinderknech A.",
+                        "player2": "Schwartzman D.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "18.03.24",
+                        "event": "MIA",
+                        "player1": "Rinderknech A.",
+                        "player2": "Bicknell B.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "0"
+                    },
+                    {
+                        "date": "14.03.24",
+                        "event": "PHO",
+                        "player1": "Kokkinakis T.",
+                        "player2": "Rinderknech A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Last matches: Bellucci M.",
+                "data": [
+                    {
+                        "date": "24.07.24",
+                        "event": "ATL",
+                        "player1": "Bellucci M.",
+                        "player2": "Mannarino A.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "23.07.24",
+                        "event": "ATL",
+                        "player1": "Bellucci M.",
+                        "player2": "Vukic A.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "1"
+                    },
+                    {
+                        "date": "21.07.24",
+                        "event": "ATL",
+                        "player1": "Walton A.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "1",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "20.07.24",
+                        "event": "ATL",
+                        "player1": "Yevseyev D.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "0",
+                        "resultPlayer2": "2"
+                    },
+                    {
+                        "date": "07.05.24",
+                        "event": "WUX",
+                        "player1": "Cui J.",
+                        "player2": "Bellucci M.",
+                        "resultPlayer1": "2",
+                        "resultPlayer2": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Head-to-head matches",
+                "data": []
+            }
+        ],
+        "odds": [
+            {
+                "bookmaker": "Betclic.fr",
+                "link": "/bookmaker/141/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.62",
+                    "2.30"
+                ]
+            },
+            {
+                "bookmaker": "Unibet.fr",
+                "link": "/bookmaker/160/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.61",
+                    "2.33"
+                ]
+            },
+            {
+                "bookmaker": "bwin.fr",
+                "link": "/bookmaker/129/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.57",
+                    "2.10"
+                ]
+            },
+            {
+                "bookmaker": "France Pari",
+                "link": "/bookmaker/139/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.58",
+                    "2.25"
+                ]
+            },
+            {
+                "bookmaker": "NetBet.fr",
+                "link": "/bookmaker/398/?from=odds-comparison&sport=2&gicc=FR&gisc=FRIDF",
+                "odds": [
+                    "1.61",
+                    "2.27"
+                ]
+            }
+        ]
+    }
+}

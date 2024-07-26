@@ -133,10 +133,14 @@ past_tournaments = [
                     'past-mallorca-atp-singles',
                     'past-eastbourne-atp-singles',
                     'past-wimbledon-atp-singles',
+                    'past-bastad-atp-singles',
+                    'past-gstaad-atp-singles',
+                    'past-newport-atp-singles',
                     ]
 future_tournaments = [
-                    "bastad-atp-singles",
-                    "gstaad-atp-singles",
+                    'kitzbuhel-atp-singles',
+                    'umag-atp-singles',
+                    'atlanta-atp-singles',
                     ]
 
 

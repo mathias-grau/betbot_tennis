@@ -104,6 +104,10 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'wimbledon': 1,
                     'bastad': 3,
                     'gstaad': 3,
+                    'newport': 3,
+                    'kitzbuhel': 3,
+                    'umag': 3,
+                    'atlanta': 3,
 }
 MAX_SURFACE_TYPE_VALUE = 3
 SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
@@ -221,6 +225,11 @@ TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'wimbledon': 'grass',
                     'bastad': 'clay',
                     'gstaad': 'clay',
+                    'newport': 'grass',
+                    'kitzbuhel': 'clay',
+                    'umag': 'clay',
+                    'atlanta': 'hard',
+
 }
 
 PADDING = 0
