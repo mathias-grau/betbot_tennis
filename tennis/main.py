@@ -141,6 +141,7 @@ future_tournaments = [
                     'kitzbuhel-atp-singles',
                     'umag-atp-singles',
                     'atlanta-atp-singles',
+                    'olympic-games-atp-singles',
                     ]
 
 

@@ -5,9 +5,7 @@ BASE_URL = "https://www.flashscore.com"
 REPO_PATH = "/users/eleves-b/2021/mathias.grau/betbot_tennis"
 
 FUTURE_TOURNAMENTS = [
-'kitzbuhel-atp-singles',
-'umag-atp-singles',
-'atlanta-atp-singles',
+    "cincinnati-atp-singles",
 ]
 
 TOURNAMENTS = [   
@@ -103,4 +101,10 @@ TOURNAMENTS = [
 "bastad-atp-singles",
 "gstaad-atp-singles",
 "newport-atp-singles",
+'kitzbuhel-atp-singles',
+'umag-atp-singles',
+'atlanta-atp-singles',
+'olympic-games-atp-singles',
+'wasington-atp-singles',
+'montreal-atp-singles',
 ]
