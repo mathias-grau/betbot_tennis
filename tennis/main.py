@@ -136,12 +136,16 @@ past_tournaments = [
                     'past-bastad-atp-singles',
                     'past-gstaad-atp-singles',
                     'past-newport-atp-singles',
+                    'past-kitzbuhel-atp-singles',
+                    'past-umag-atp-singles',
+                    'past-atlanta-atp-singles',
+                    'past-olympic-games-atp-singles',
+                    'past-wasington-atp-singles',
+                    'past-montreal-atp-singles',
+                    'past-cincinnati-atp-singles',
                     ]
 future_tournaments = [
-                    'kitzbuhel-atp-singles',
-                    'umag-atp-singles',
-                    'atlanta-atp-singles',
-                    'olympic-games-atp-singles',
+                    'winston-salem-atp-singles',
                     ]
 
 
@@ -285,7 +289,6 @@ tennis_test_dataset = FutureTennisMatchDataset(test_tournaments, verbose = False
 nb_errors = 0
 list_vectors_test = []
 list_matches_ids_test = []
-
 list_vectors_test, list_matches_ids_test, nb_errors = tennis_test_dataset.get_vectors(verbose = False)
 input_shapes = []
 for i in range(len(list_vectors_test[0])):

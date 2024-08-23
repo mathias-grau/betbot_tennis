@@ -109,6 +109,10 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'umag': 3,
                     'atlanta': 3,
                     'olympic-games': 1,
+                    'washington': 3,
+                    'montreal': 2,
+                    'cincinnati': 2,
+                    'winston-salem': 3,
 }
 MAX_SURFACE_TYPE_VALUE = 3
 SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
@@ -231,6 +235,10 @@ TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'umag': 'clay',
                     'atlanta': 'hard',
                     'olympic-games': 'clay',
+                    'washington': 'hard',
+                    'montreal': 'hard',
+                    'cincinnati': 'hard',
+                    'winston-salem': 'hard',
 }
 
 PADDING = 0

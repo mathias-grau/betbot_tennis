@@ -940,7 +940,7 @@ class FutureTennisMatchDataset(Dataset):
                 except Exception as e:
                     num_errors += 1
                     if verbose:
-                        tqdm.write(f"Error {e} for match {match_id} in tournament {tournament}")
+                        tqdm.write(f"""Error (number {num_errors}) : {e} for match {match_id} in tournament {tournament}\n-if error is name of tournament, maybe the tournament is not in the list of tournaments type or tournament surface in file constants.py\n-if error is about player id, maybe the player is not in the list of players in the file players_data.json""")
         return features_vectors, lst_match_id, num_errors
     
     def get_matches_player(self, player_id_fr):
