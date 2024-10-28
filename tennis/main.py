@@ -38,6 +38,8 @@ RESET = '\033[0m'
 YELLOW = '\033[93m'
 BLUE = '\033[94m'
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f'{YELLOW}Device : {device}{RESET}')
 
 past_tournaments = [   
                     'past-french-open-2023-atp-singles',
@@ -143,9 +145,10 @@ past_tournaments = [
                     'past-wasington-atp-singles',
                     'past-montreal-atp-singles',
                     'past-cincinnati-atp-singles',
+                    'past-winston-salem-atp-singles',
                     ]
 future_tournaments = [
-                    'winston-salem-atp-singles',
+                    'us-open-atp-singles',
                     ]
 
 
@@ -401,7 +404,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
     train_dataloader = DataLoader(train_subset, batch_size=64, shuffle=True)
     val_dataloader = DataLoader(val_subset, batch_size=64, shuffle=False)
 
-    model = TennisMatchPredictor(input_shapes)
+    model = TennisMatchPredictor(input_shapes).to(device)
     criterion = nn.MSELoss()
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
     lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
@@ -422,7 +425,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
             (tournament_features, tournament_mask, player1_features, player1_mask,
             player2_features, player2_mask, h2h_overall, h2h_overall_mask, 
             h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, 
-            shape_overall_player2, shape_overall_player2_mask, labels) = data
+            shape_overall_player2, shape_overall_player2_mask, labels) = [x.to(device) for x in data]
             optimizer.zero_grad()
             outputs = model(tournament_features, player1_features, player2_features, 
                             h2h_overall, h2h_surface, shape_overall_player1, shape_overall_player2,
@@ -443,7 +446,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(dataset)):
                 (tournament_features, tournament_mask, player1_features, player1_mask,
                 player2_features, player2_mask, h2h_overall, h2h_overall_mask, 
                 h2h_surface, h2h_surface_mask, shape_overall_player1, shape_overall_player1_mask, 
-                shape_overall_player2, shape_overall_player2_mask, labels) = data
+                shape_overall_player2, shape_overall_player2_mask, labels) = [x.to(device) for x in data]
                 outputs = model(tournament_features, player1_features, player2_features, 
                                 h2h_overall, h2h_surface, shape_overall_player1, shape_overall_player2,
                                 tournament_mask, player1_mask, player2_mask, h2h_overall_mask, 

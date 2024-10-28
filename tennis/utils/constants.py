@@ -113,6 +113,7 @@ TOURNAMENTS_TYPE = {'french-open': 1,
                     'montreal': 2,
                     'cincinnati': 2,
                     'winston-salem': 3,
+                    'us-open': 1,
 }
 MAX_SURFACE_TYPE_VALUE = 3
 SURFACE_TYPE = {'clay': 3, 'hard': 2, 'grass': -3}
@@ -239,6 +240,7 @@ TOURNAMENTS_SURFACE = {'french-open': 'clay',
                     'montreal': 'hard',
                     'cincinnati': 'hard',
                     'winston-salem': 'hard',
+                    'us-open': 'hard',
 }
 
 PADDING = 0
